@@ -17,16 +17,40 @@ Tasks come from §8 of the brief. Update this table when a task lands.
 | 1 | Scaffold (Vite, React, TS, Tailwind, zod, d3 modules; three-region app shell) | ✅ Done — commit `8a1d844` |
 | 2 | zod schemas in `src/schema/`, `scripts/validate-data.ts`, `npm run validate` | ✅ Done |
 | 3 | Seed data `data/nodes.json`, `data/edges.json` (§6), validator passes | ✅ Done — see `docs/seed-verification.md` |
-| 4 | `src/lib/weight.ts` + a few `node:test` assertions | ⏭ Next |
-| 5 | `src/lib/dataSource.ts` + static force graph (drag, zoom) | Not started |
+| 4 | `src/lib/weight.ts` + a few `node:test` assertions | ✅ Done — see `docs/decisions/edge-weight.md` |
+| 5 | `src/lib/dataSource.ts` + static force graph (drag, zoom) | ⏭ Next |
 | 6 | Visual encoding: valence colour, tier stroke, weight width, arrows, radii | Not started |
 | 7 | Grouping-dimension registry + selector | Not started |
 | 8 | Filters: layer, tier (T4 off), valence, min weight, search | Not started |
 | 9 | Detail drawer: node profile, edge evidence list | Not started |
 | 10 | Polish: tokens, responsive, empty states, README schema guide | Not started |
 
-The Task 2 plan and the reasoning behind decisions 5–11 are in
-`docs/plans/task-2.md`.
+### Where we left off (2026-09-30)
+
+Tasks 2–4 landed in one session: schema + validator, seed data (with real
+education records for all six figures), and edge weight (research-anchored,
+with a mock per-type intensity table).
+
+Next session:
+1. Write the Task 5 plan (static force graph) and get it approved. This is the
+   first task with something visible in the browser.
+2. Still open, not blocking:
+   - Verify the draft seed sources (`docs/seed-verification.md`), starting with
+     Hsia's Georgetown degree and Hung's master's.
+   - No seed figure studied at a PRC institution, so the China-education
+     signal can't be seen yet.
+   - Tune the mock intensity numbers once edges are on screen (Task 6).
+   - The npm cache has root-owned files. Run
+     `sudo chown -R 501:20 ~/.npm` once.
+
+Background lives in `docs/`, not here:
+
+| Folder | Holds |
+|---|---|
+| `docs/plans/` | The approved plan for each task |
+| `docs/decisions/` | Why a design works the way it does (start with `edge-weight.md`) |
+| `docs/research/` | Dated research logs: what was searched, found, and taken |
+| `docs/seed-verification.md` | Checklist for turning draft seed edges into reviewed ones |
 
 ## Requirements
 
@@ -50,6 +74,9 @@ npm run dev      # http://localhost:5173
 | `npm run preview` | Serve the built output |
 | `npm run typecheck` | `tsc --noEmit`, strict |
 | `npm run validate` | Check `data/*.json` against the schema and invariants; exits 1 and lists every problem. `-- --data <dir>` checks another folder |
+| `npm test` | Edge-weight checks (`node:test` via `tsx`) |
+
+Edge weight settings (every tunable number) are in `src/settings/weight.ts`.
 
 ## Layout
 
@@ -58,6 +85,7 @@ data/       Hand-edited JSON — the source of truth. No database, by design (§
 scripts/    Build-time tooling. Not shipped to the browser.
 src/schema/ zod schemas; TS types are inferred from them, never hand-written.
 src/lib/    Pure logic: edge weight, data loading, grouping accessors.
+src/settings/  Tunable numbers only (edge weight today), each tagged [R]/[J]/[M].
 src/components/  React components. Presentation only.
 src/styles/ Design tokens as CSS custom properties, then Tailwind.
 ```
