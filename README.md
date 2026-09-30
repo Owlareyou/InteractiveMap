@@ -8,6 +8,35 @@ data, not to ship.
 The authoritative spec is `CLAUDE_CODE_PROMPT.md`. Where this README and the
 brief disagree, the brief wins.
 
+## Progress
+
+Tasks come from §8 of the brief. Update this table when a task lands.
+
+| # | Task | Status |
+|---|---|---|
+| 1 | Scaffold (Vite, React, TS, Tailwind, zod, d3 modules; three-region app shell) | ✅ Done — commit `8a1d844` |
+| 2 | zod schemas in `src/schema/`, `scripts/validate-data.ts`, `npm run validate` | ⏭ Next |
+| 3 | Seed data `data/nodes.json`, `data/edges.json` (§6), validator passes | Not started |
+| 4 | `src/lib/weight.ts` + a few `node:test` assertions | Not started |
+| 5 | `src/lib/dataSource.ts` + static force graph (drag, zoom) | Not started |
+| 6 | Visual encoding: valence colour, tier stroke, weight width, arrows, radii | Not started |
+| 7 | Grouping-dimension registry + selector | Not started |
+| 8 | Filters: layer, tier (T4 off), valence, min weight, search | Not started |
+| 9 | Detail drawer: node profile, edge evidence list | Not started |
+| 10 | Polish: tokens, responsive, empty states, README schema guide | Not started |
+
+What Task 1 left in place: `src/App.tsx` renders the sidebar / graph / drawer
+layout with placeholders; colour tokens live in `src/styles/tokens.css`;
+`src/schema/`, `src/lib/`, `src/components/`, `data/` and `scripts/` are empty
+(`.gitkeep` only).
+
+Before starting Task 2:
+
+- ~~Settle the open items under **Spec decisions**~~ — done, see decisions 5
+  and 6.
+- Per the brief's working agreement, write a file-by-file plan for Task 2 and
+  get it approved before creating files.
+
 ## Requirements
 
 - Node 20 or newer (developed on 23.1.0)
@@ -85,15 +114,13 @@ survive between tasks.
 |---|---|
 | 1 | Vite's entry `index.html` lives at the project root, per Vite's default. This replaced an unrelated demo page; recover it from commit `352e52d` if needed. |
 | 2 | `wikidata_qid` is stored but never fetched (§3). QIDs that cannot be verified offline are written as `null` with a `// TODO: verify QID` comment. As of Task 1, none of the six seed QIDs have been verified, so all six will be `null`. |
-| 3 | `appointed_by` reads **"source was appointed by target."** The §6 seed row is flipped to `lai-ching-te → tsai-ing-wen` accordingly. Full direction semantics for every directed relation type are documented in `RELATION_DIRECTION_SEMANTICS` in `src/schema/`. |
+| 3 | `appointed_by` reads **"source was appointed by target."** The §6 seed row is flipped to `lai-ching-te → tsai-ing-wen` accordingly. Full direction semantics for every directed relation type will be documented in `RELATION_DIRECTION_SEMANTICS` in `src/schema/` (Task 2). |
 | 4 | Party nodes `kmt`, `dpp`, and `ccp` exist as minimal records so `member_of` edges have valid targets: `entity_type: 'party'`, empty `roles[]`, empty `party_affiliations[]`, empty `tags[]`. |
 
-Open items still to be resolved, both raised against §4.3 invariant 6:
+| 5 | `member_of` is **directed** (person → party). It is removed from §4.3 invariant 6's symmetric list, which becomes `spouse`, `relative_of`, `coalition_with`, `business_partner`. |
+| 6 | `EntityType` gains **`institution`** (schools and universities). `educated_at` runs person → institution, one edge per stage of study. Each stage records the school's name and country, the stage and degree, dates, and free-text remarks. Exact field placement (institution node vs. edge) is settled in the Task 2 plan. |
 
-- `member_of` is listed as permitted-undirected, but person→party is asymmetric.
-  Proposed: remove it from the symmetric list.
-- `educated_at` implies an institution, but `EntityType` has no such member.
-  Unused in seed data; unresolved.
+No open items.
 
 ## Phase 1 non-goals
 
