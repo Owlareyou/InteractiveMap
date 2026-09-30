@@ -1,0 +1,58 @@
+/*
+ * Design tokens. The single source of colour for both Tailwind utilities
+ * (mapped in tailwind.config.js) and SVG presentation attributes, which cannot
+ * take utility classes and must reference var(--token) directly.
+ *
+ * Font stacks are system-only on purpose: §3 forbids runtime network calls, so
+ * a webfont request would violate the offline guarantee. PingFang TC and Noto
+ * Sans TC cover 正體中文 without one.
+ */
+
+:root {
+  --font-sans: 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', system-ui,
+    -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'SF Mono', ui-monospace, Menlo, Consolas, monospace;
+
+  --surface-base: #f7f6f3;
+  --surface-raised: #ffffff;
+  --surface-sunken: #edebe6;
+
+  --text-primary: #1c1f26;
+  --text-secondary: #4d525c;
+  --text-muted: #878d99;
+
+  --border-subtle: #e0ddd6;
+  --border-strong: #c4c0b7;
+
+  --accent: #1a6b7a;
+
+  /*
+   * Valence is the only encoding a reader can misread politically, so these are
+   * drawn from the Okabe-Ito colour-blind-safe palette rather than red/green.
+   * Blue vs. vermillion stays separable under protanopia and deuteranopia.
+   */
+  --valence-positive: #0072b2;
+  --valence-neutral: #767676;
+  --valence-negative: #d55e00;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface-base: #14161a;
+    --surface-raised: #1c1f25;
+    --surface-sunken: #0f1114;
+
+    --text-primary: #ebe9e4;
+    --text-secondary: #a7adb8;
+    --text-muted: #6f7681;
+
+    --border-subtle: #2b2f37;
+    --border-strong: #3d434d;
+
+    --accent: #4fb3c4;
+
+    --valence-positive: #56b4e9;
+    --valence-neutral: #9a9a9a;
+    --valence-negative: #f08a4b;
+  }
+}
