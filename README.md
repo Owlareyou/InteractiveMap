@@ -16,8 +16,8 @@ Tasks come from §8 of the brief. Update this table when a task lands.
 |---|---|---|
 | 1 | Scaffold (Vite, React, TS, Tailwind, zod, d3 modules; three-region app shell) | ✅ Done — commit `8a1d844` |
 | 2 | zod schemas in `src/schema/`, `scripts/validate-data.ts`, `npm run validate` | ✅ Done |
-| 3 | Seed data `data/nodes.json`, `data/edges.json` (§6), validator passes | ⏭ Next |
-| 4 | `src/lib/weight.ts` + a few `node:test` assertions | Not started |
+| 3 | Seed data `data/nodes.json`, `data/edges.json` (§6), validator passes | ✅ Done — see `docs/seed-verification.md` |
+| 4 | `src/lib/weight.ts` + a few `node:test` assertions | ⏭ Next |
 | 5 | `src/lib/dataSource.ts` + static force graph (drag, zoom) | Not started |
 | 6 | Visual encoding: valence colour, tier stroke, weight width, arrows, radii | Not started |
 | 7 | Grouping-dimension registry + selector | Not started |

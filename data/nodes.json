@@ -1,0 +1,376 @@
+[
+  {
+    "id": "ma-ying-jeou",
+    "wikidata_qid": null,
+    "name_zh": "馬英九",
+    "name_en": "Ma Ying-jeou",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [],
+    "tags": [
+      "former_president",
+      "party_elder"
+    ],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "hung-hsiu-chu",
+    "wikidata_qid": null,
+    "name_zh": "洪秀柱",
+    "name_en": "Hung Hsiu-chu",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [],
+    "tags": [
+      "former_party_chair"
+    ],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "hsia-li-yan",
+    "wikidata_qid": null,
+    "name_zh": "夏立言",
+    "name_en": "Hsia Li-yan",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [],
+    "tags": [
+      "party_vice_chair",
+      "cross_strait_liaison"
+    ],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "tsai-ing-wen",
+    "wikidata_qid": null,
+    "name_zh": "蔡英文",
+    "name_en": "Tsai Ing-wen",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [],
+    "tags": [
+      "former_president",
+      "former_party_chair"
+    ],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "lai-ching-te",
+    "wikidata_qid": null,
+    "name_zh": "賴清德",
+    "name_en": "Lai Ching-te",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [],
+    "tags": [
+      "president",
+      "former_premier"
+    ],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "xi-jinping",
+    "wikidata_qid": null,
+    "name_zh": "習近平",
+    "name_en": "Xi Jinping",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "CN",
+    "party_affiliations": [
+      {
+        "party_id": "ccp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [],
+    "tags": [
+      "prc_leadership"
+    ],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "kmt",
+    "wikidata_qid": null,
+    "name_zh": "中國國民黨",
+    "name_en": "Kuomintang (KMT)",
+    "aliases": [],
+    "entity_type": "party",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "dpp",
+    "wikidata_qid": null,
+    "name_zh": "民主進步黨",
+    "name_en": "Democratic Progressive Party (DPP)",
+    "aliases": [],
+    "entity_type": "party",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "ccp",
+    "wikidata_qid": null,
+    "name_zh": "中國共產黨",
+    "name_en": "Chinese Communist Party (CCP)",
+    "aliases": [],
+    "entity_type": "party",
+    "country": "CN",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "national-taiwan-university",
+    "wikidata_qid": null,
+    "name_zh": "國立臺灣大學",
+    "name_en": "National Taiwan University",
+    "aliases": [
+      "臺大",
+      "台大",
+      "NTU"
+    ],
+    "entity_type": "institution",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "national-chengchi-university",
+    "wikidata_qid": null,
+    "name_zh": "國立政治大學",
+    "name_en": "National Chengchi University",
+    "aliases": [
+      "政大",
+      "NCCU"
+    ],
+    "entity_type": "institution",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "national-cheng-kung-university",
+    "wikidata_qid": null,
+    "name_zh": "國立成功大學",
+    "name_en": "National Cheng Kung University",
+    "aliases": [
+      "成大",
+      "NCKU"
+    ],
+    "entity_type": "institution",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "chinese-culture-university",
+    "wikidata_qid": null,
+    "name_zh": "中國文化大學",
+    "name_en": "Chinese Culture University",
+    "aliases": [
+      "文化大學",
+      "中國文化學院"
+    ],
+    "entity_type": "institution",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "new-york-university",
+    "wikidata_qid": null,
+    "name_zh": "紐約大學",
+    "name_en": "New York University",
+    "aliases": [
+      "NYU"
+    ],
+    "entity_type": "institution",
+    "country": "US",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "harvard-university",
+    "wikidata_qid": null,
+    "name_zh": "哈佛大學",
+    "name_en": "Harvard University",
+    "aliases": [],
+    "entity_type": "institution",
+    "country": "US",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "cornell-university",
+    "wikidata_qid": null,
+    "name_zh": "康乃爾大學",
+    "name_en": "Cornell University",
+    "aliases": [],
+    "entity_type": "institution",
+    "country": "US",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "london-school-of-economics",
+    "wikidata_qid": null,
+    "name_zh": "倫敦政治經濟學院",
+    "name_en": "London School of Economics and Political Science",
+    "aliases": [
+      "LSE"
+    ],
+    "entity_type": "institution",
+    "country": "GB",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "georgetown-university",
+    "wikidata_qid": null,
+    "name_zh": "喬治城大學",
+    "name_en": "Georgetown University",
+    "aliases": [],
+    "entity_type": "institution",
+    "country": "US",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "truman-state-university",
+    "wikidata_qid": null,
+    "name_zh": "杜魯門州立大學",
+    "name_en": "Truman State University",
+    "aliases": [
+      "東北密蘇里州立大學",
+      "Northeast Missouri State University"
+    ],
+    "entity_type": "institution",
+    "country": "US",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  },
+  {
+    "id": "tsinghua-university-beijing",
+    "wikidata_qid": null,
+    "name_zh": "清華大學（北京）",
+    "name_en": "Tsinghua University (Beijing)",
+    "aliases": [
+      "北京清華大學"
+    ],
+    "entity_type": "institution",
+    "country": "CN",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-09-30"
+  }
+]

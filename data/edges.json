@@ -1,0 +1,684 @@
+[
+  {
+    "id": "ma-xi-2015-singapore",
+    "source_id": "ma-ying-jeou",
+    "target_id": "xi-jinping",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2015-11-07",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": "2015-11-07",
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "新加坡馬習會 Singapore meeting",
+    "education": null
+  },
+  {
+    "id": "ma-xi-2024-beijing",
+    "source_id": "ma-ying-jeou",
+    "target_id": "xi-jinping",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2024-04-10",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": "2024-04-10",
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "北京會面 Beijing meeting",
+    "education": null
+  },
+  {
+    "id": "hung-xi-2016",
+    "source_id": "hung-hsiu-chu",
+    "target_id": "xi-jinping",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2016-11-01",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": "2016-11-01",
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": null,
+        "source_name": "中國國民黨",
+        "source_type": "other",
+        "published_date": "2016-11-01",
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "以國民黨主席身分 as KMT chair",
+    "education": null
+  },
+  {
+    "id": "hsia-prc-visits-2023",
+    "source_id": "hsia-li-yan",
+    "target_id": "xi-jinping",
+    "relation_type": "made_prc_visit",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2023",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中央通訊社",
+        "source_type": "news",
+        "published_date": "2023",
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": null,
+        "source_name": "Reuters",
+        "source_type": "news",
+        "published_date": "2023",
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "率團訪陸 delegation visits",
+    "education": null
+  },
+  {
+    "id": "lai-opposes-xi",
+    "source_id": "lai-ching-te",
+    "target_id": "xi-jinping",
+    "relation_type": "opposes",
+    "temporal_scope": "state",
+    "valence": "negative",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": "2024-05-20",
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "公開立場，無直接接觸 public positions, no direct contact",
+    "education": null
+  },
+  {
+    "id": "lai-appointed-by-tsai-2017",
+    "source_id": "lai-ching-te",
+    "target_id": "tsai-ing-wen",
+    "relation_type": "appointed_by",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2017-09",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": "2017-09",
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "行政院長任命 Premier appointment",
+    "education": null
+  },
+  {
+    "id": "ma-opposes-tsai",
+    "source_id": "ma-ying-jeou",
+    "target_id": "tsai-ing-wen",
+    "relation_type": "opposes",
+    "temporal_scope": "state",
+    "valence": "negative",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "聯合報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": null,
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "前後任執政 successive administrations",
+    "education": null
+  },
+  {
+    "id": "hung-member-of-kmt",
+    "source_id": "hung-hsiu-chu",
+    "target_id": "kmt",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "立法院",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "ma-edu-ntu",
+    "source_id": "ma-ying-jeou",
+    "target_id": "national-taiwan-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": "1972",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "bachelor",
+      "degree": "LL.B.",
+      "field": "法律"
+    }
+  },
+  {
+    "id": "ma-edu-nyu",
+    "source_id": "ma-ying-jeou",
+    "target_id": "new-york-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": "1976",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "master",
+      "degree": "LL.M.",
+      "field": "法律"
+    }
+  },
+  {
+    "id": "ma-edu-harvard",
+    "source_id": "ma-ying-jeou",
+    "target_id": "harvard-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": "1981",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "doctorate",
+      "degree": "S.J.D.",
+      "field": "法律"
+    }
+  },
+  {
+    "id": "tsai-edu-ntu",
+    "source_id": "tsai-ing-wen",
+    "target_id": "national-taiwan-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": "1978",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "bachelor",
+      "degree": "LL.B.",
+      "field": "法律"
+    }
+  },
+  {
+    "id": "tsai-edu-cornell",
+    "source_id": "tsai-ing-wen",
+    "target_id": "cornell-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": "1980",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "master",
+      "degree": "LL.M.",
+      "field": "法律"
+    }
+  },
+  {
+    "id": "tsai-edu-lse",
+    "source_id": "tsai-ing-wen",
+    "target_id": "london-school-of-economics",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": "1984",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "doctorate",
+      "degree": "Ph.D.",
+      "field": "法律"
+    }
+  },
+  {
+    "id": "lai-edu-ntu",
+    "source_id": "lai-ching-te",
+    "target_id": "national-taiwan-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "bachelor",
+      "degree": null,
+      "field": "物理治療"
+    }
+  },
+  {
+    "id": "lai-edu-ncku",
+    "source_id": "lai-ching-te",
+    "target_id": "national-cheng-kung-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "學士後醫學系 post-baccalaureate medicine",
+    "education": {
+      "stage": "bachelor",
+      "degree": "M.D.",
+      "field": "醫學"
+    }
+  },
+  {
+    "id": "lai-edu-harvard",
+    "source_id": "lai-ching-te",
+    "target_id": "harvard-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中華民國總統府",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "master",
+      "degree": "M.P.H.",
+      "field": "公共衛生"
+    }
+  },
+  {
+    "id": "hung-edu-pccu",
+    "source_id": "hung-hsiu-chu",
+    "target_id": "chinese-culture-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "立法院",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "時稱中國文化學院 then Chinese Culture College",
+    "education": {
+      "stage": "bachelor",
+      "degree": null,
+      "field": "法律"
+    }
+  },
+  {
+    "id": "hung-edu-truman",
+    "source_id": "hung-hsiu-chu",
+    "target_id": "truman-state-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "立法院",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "時稱東北密蘇里州立大學 then Northeast Missouri State University",
+    "education": {
+      "stage": "master",
+      "degree": null,
+      "field": "教育"
+    }
+  },
+  {
+    "id": "hsia-edu-nccu",
+    "source_id": "hsia-li-yan",
+    "target_id": "national-chengchi-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "行政院大陸委員會",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "bachelor",
+      "degree": null,
+      "field": "外交"
+    }
+  },
+  {
+    "id": "hsia-edu-georgetown",
+    "source_id": "hsia-li-yan",
+    "target_id": "georgetown-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "行政院大陸委員會",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "master",
+      "degree": null,
+      "field": "外交"
+    }
+  },
+  {
+    "id": "xi-edu-tsinghua-1979",
+    "source_id": "xi-jinping",
+    "target_id": "tsinghua-university-beijing",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "1975",
+    "end": "1979",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "工農兵學員 worker-peasant-soldier student",
+    "education": {
+      "stage": "bachelor",
+      "degree": null,
+      "field": "化學工程"
+    }
+  },
+  {
+    "id": "xi-edu-tsinghua-2002",
+    "source_id": "xi-jinping",
+    "target_id": "tsinghua-university-beijing",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "1998",
+    "end": "2002",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": "在職研究生 part-time, while in office",
+    "education": {
+      "stage": "doctorate",
+      "degree": "法學博士",
+      "field": "馬克思主義理論與思想政治教育"
+    }
+  }
+]
