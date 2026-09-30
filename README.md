@@ -15,8 +15,8 @@ Tasks come from §8 of the brief. Update this table when a task lands.
 | # | Task | Status |
 |---|---|---|
 | 1 | Scaffold (Vite, React, TS, Tailwind, zod, d3 modules; three-region app shell) | ✅ Done — commit `8a1d844` |
-| 2 | zod schemas in `src/schema/`, `scripts/validate-data.ts`, `npm run validate` | ⏭ Next |
-| 3 | Seed data `data/nodes.json`, `data/edges.json` (§6), validator passes | Not started |
+| 2 | zod schemas in `src/schema/`, `scripts/validate-data.ts`, `npm run validate` | ✅ Done |
+| 3 | Seed data `data/nodes.json`, `data/edges.json` (§6), validator passes | ⏭ Next |
 | 4 | `src/lib/weight.ts` + a few `node:test` assertions | Not started |
 | 5 | `src/lib/dataSource.ts` + static force graph (drag, zoom) | Not started |
 | 6 | Visual encoding: valence colour, tier stroke, weight width, arrows, radii | Not started |
@@ -25,17 +25,8 @@ Tasks come from §8 of the brief. Update this table when a task lands.
 | 9 | Detail drawer: node profile, edge evidence list | Not started |
 | 10 | Polish: tokens, responsive, empty states, README schema guide | Not started |
 
-What Task 1 left in place: `src/App.tsx` renders the sidebar / graph / drawer
-layout with placeholders; colour tokens live in `src/styles/tokens.css`;
-`src/schema/`, `src/lib/`, `src/components/`, `data/` and `scripts/` are empty
-(`.gitkeep` only).
-
-Before starting Task 2:
-
-- ~~Settle the open items under **Spec decisions**~~ — done, see decisions 5
-  and 6.
-- Per the brief's working agreement, write a file-by-file plan for Task 2 and
-  get it approved before creating files.
+The Task 2 plan and the reasoning behind decisions 5–11 are in
+`docs/plans/task-2.md`.
 
 ## Requirements
 
@@ -58,8 +49,7 @@ npm run dev      # http://localhost:5173
 | `npm run build` | Type-check, then production build to `dist/` |
 | `npm run preview` | Serve the built output |
 | `npm run typecheck` | `tsc --noEmit`, strict |
-
-`npm run validate` arrives in Task 2 alongside the schema validator.
+| `npm run validate` | Check `data/*.json` against the schema and invariants; exits 1 and lists every problem. `-- --data <dir>` checks another folder |
 
 ## Layout
 
@@ -114,11 +104,16 @@ survive between tasks.
 |---|---|
 | 1 | Vite's entry `index.html` lives at the project root, per Vite's default. This replaced an unrelated demo page; recover it from commit `352e52d` if needed. |
 | 2 | `wikidata_qid` is stored but never fetched (§3). QIDs that cannot be verified offline are written as `null` with a `// TODO: verify QID` comment. As of Task 1, none of the six seed QIDs have been verified, so all six will be `null`. |
-| 3 | `appointed_by` reads **"source was appointed by target."** The §6 seed row is flipped to `lai-ching-te → tsai-ing-wen` accordingly. Full direction semantics for every directed relation type will be documented in `RELATION_DIRECTION_SEMANTICS` in `src/schema/` (Task 2). |
+| 3 | `appointed_by` reads **"source was appointed by target."** The §6 seed row is flipped to `lai-ching-te → tsai-ing-wen` accordingly. Full direction semantics for every directed relation type are documented in `RELATION_DIRECTION_SEMANTICS` in `src/schema/enums.ts`. |
 | 4 | Party nodes `kmt`, `dpp`, and `ccp` exist as minimal records so `member_of` edges have valid targets: `entity_type: 'party'`, empty `roles[]`, empty `party_affiliations[]`, empty `tags[]`. |
 
 | 5 | `member_of` is **directed** (person → party). It is removed from §4.3 invariant 6's symmetric list, which becomes `spouse`, `relative_of`, `coalition_with`, `business_partner`. |
-| 6 | `EntityType` gains **`institution`** (schools and universities). `educated_at` runs person → institution, one edge per stage of study. Each stage records the school's name and country, the stage and degree, dates, and free-text remarks. Exact field placement (institution node vs. edge) is settled in the Task 2 plan. |
+| 6 | `EntityType` gains **`institution`** (schools and universities). `educated_at` runs person → institution, one edge per stage of study. Each stage records the school's name and country, the stage and degree, dates, and free-text remarks. School name and `country` live on the institution node; `stage` / `degree` / `field` in the edge's `education` block; dates and remarks in the edge's `start` / `end` / `notes`. New education details are added as optional fields defaulting to `null`. |
+| 7 | Every node has `country` (ISO two-letter code, or `null` for not applicable). |
+| 8 | Endpoint rules: `member_of` → party; `educated_at` person → institution; `spouse` / `relative_of` / `mentor_of` link two people. Symmetric types must be `directed: false`. |
+| 9 | **China influence is derived, never stored or hand-tagged.** One rule for every party: `cross_strait`-layer edges (weighted by tier) plus `educated_at` edges to institutions in a PRC region. PRC regions are `CN`, `HK`, `MO`, each with a tunable weight (default 1.0). Nodes whose own country is `CN` get a separate `prc` bucket. Shown as the `cross_strait_engagement` colour scale ending in red (Task 7) and a side tab explaining which edges produced it (Task 9). |
+| 10 | Direction readings: `employer` = source is employed by target; `ruled_on` = target (a court) ruled on source. Full list in `RELATION_DIRECTION_SEMANTICS`. |
+| 11 | Seed sources (Task 3): real issuing bodies and outlets only, `source_url` and `quote` null, every edge `review_status: 'draft'`. Education records for the six seed figures are added beyond §6 at Jing's request, under the same rule. |
 
 No open items.
 
