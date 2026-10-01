@@ -33,17 +33,15 @@ Tasks come from §8 of the brief. Update this table when a task lands.
   54 nodes and 75 edges. Every new edge cites the URLs it came from. Receipts
   are in `docs/research/2026-10-01-kmt-ccp-ties.md`.
 
-Next session:
-1. **Decide:** add a relation type for "reported editorial direction from"
-   (the 2019 FT report on 中時 / 中天 and the TAO)? It's not in the closed
-   vocabulary, so it's held back.
-2. **Task 7** (grouping registry + selector), then 8 and 9. Consider pulling
-   Task 9 (the click-to-detail drawer) forward.
-3. Still open, not blocking:
-   - Verify draft sources (`docs/seed-verification.md`).
-   - Look up 旺旺 donations manually on the Control Yuan platform.
-   - Research DPP / TPP cross-strait contacts so coverage isn't KMT-only.
-   - Fix the npm cache once: `sudo chown -R 501:20 ~/.npm`.
+Next session: **run Tasks 7–10 straight through** per
+`docs/plans/task-7-10.md` (approved, decisions included). Commit per task and
+push at the end.
+
+Still open, not blocking:
+- Verify draft sources (`docs/seed-verification.md`).
+- Look up 旺旺 donations manually on the Control Yuan platform.
+- Research DPP / TPP cross-strait contacts so coverage isn't KMT-only.
+- Fix the npm cache once: `sudo chown -R 501:20 ~/.npm`.
 
 Background lives in `docs/`, not here:
 
