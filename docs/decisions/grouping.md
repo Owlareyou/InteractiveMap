@@ -31,10 +31,11 @@ one keyword contains another:
 「主任委員」 was added next to the plan's 「主委」, because titles in the data use
 the full form (行政院大陸委員會主任委員).
 
-**Only current roles count.** Former presidents (馬英九, 蔡英文) and former
-chairs therefore show as "no current role". That's accurate to the data and
-says nothing about their influence. If it reads badly on screen, an
-alternative is to fall back to the most recent role, the way party does.
+**Current roles come first.** If none matches, ended roles are checked
+against a short list of former-role rules. Today that's only **former
+president** (「中華民國總統」), added at Jing's request on 2026-10-02, so
+馬英九 and 蔡英文 get their own group. Other former office-holders (former
+chairs, a former vice president) still show as "no current role".
 
 ## Cross-strait engagement (spec decisions 9, 14, 18)
 
@@ -59,7 +60,7 @@ score = Σ tier confidence of each incident cross_strait-layer edge
 - **Every party is scored by the same rule.** A test checks that the same
   ties give the same score under any affiliation.
 
-### Undated PRC study is counted [J], decided 2026-10-01
+### Undated PRC study is counted [J], decided 2026-10-01, confirmed by Jing 2026-10-02
 
 All three PRC-education edges for Taiwanese figures (陳玉珍 at 北京大學,
 羅明才 at 四川大學, 傅崐萁 at 暨南大學) have no `start` or `end`. The research
@@ -74,6 +75,10 @@ this off. The better fix is adding the years to the data once they're
 sourced.
 
 ## Colour
+
+**Colour-blind checks are no longer required** (Jing, 2026-10-02). The
+palettes below were validated before that decision and are kept as they
+are; new colours don't need to pass the validator.
 
 All palettes were checked with the dataviz skill's validator
 (`validate_palette.js`) against this app's surfaces (`#f7f6f3` light,

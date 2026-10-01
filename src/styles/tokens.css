@@ -66,6 +66,7 @@
   --entity-institution: #a39a86;
 
   --role-head-of-state: #1f5596;
+  --role-former-president: #7d9fd4;
   --role-official: #09672e;
   --role-legislator: #2ca2a2;
   --role-local-executive: #cd9130;
@@ -126,6 +127,7 @@
     --entity-institution: #8f887a;
 
     --role-head-of-state: #2863ab;
+    --role-former-president: #8fb0e6;
     --role-official: #2b7440;
     --role-legislator: #2ca2a2;
     --role-local-executive: #b68028;

@@ -8,6 +8,7 @@
 
 export type RoleKey =
   | 'head_of_state'
+  | 'former_president'
   | 'official'
   | 'party_leadership'
   | 'legislator'
@@ -30,6 +31,15 @@ export const ROLE_RULES: ReadonlyArray<{ key: RoleKey; keywords: readonly string
   { key: 'party_leadership', keywords: ['主席', '副主席'] },
   { key: 'local_executive', keywords: ['市長', '縣長'] },
   { key: 'business_media', keywords: ['董事長'] },
+]
+
+/**
+ * [J] Tried only when no current role matched, against roles that have
+ * ended. 「中華民國總統」 doesn't match 「中華民國副總統」, so a former vice
+ * president isn't counted as a former president.
+ */
+export const FORMER_ROLE_RULES: ReadonlyArray<{ key: RoleKey; keywords: readonly string[] }> = [
+  { key: 'former_president', keywords: ['中華民國總統'] },
 ]
 
 export const ENGAGEMENT_SETTINGS = {

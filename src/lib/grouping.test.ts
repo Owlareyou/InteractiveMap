@@ -122,7 +122,9 @@ test('role rules: the more specific title wins', () => {
   assert.equal(roleTypeOf(node('a', { roles: [role('立法院長')] })), 'legislator')
   assert.equal(roleTypeOf(node('a', { roles: [role('國家主席')] })), 'prc_leadership')
   assert.equal(roleTypeOf(node('a', { roles: [role('中國國民黨主席')] })), 'party_leadership')
-  assert.equal(roleTypeOf(node('a', { roles: [role('中華民國總統', '2016')] })), 'none') // former role only
+  assert.equal(roleTypeOf(node('a', { roles: [role('中華民國總統', '2016')] })), 'former_president')
+  assert.equal(roleTypeOf(node('a', { roles: [role('中華民國副總統', '2000')] })), 'none') // former VP isn't
+  assert.equal(roleTypeOf(node('a', { roles: [role('中華民國總統', '2016'), role('立法委員')] })), 'legislator') // current wins
   assert.equal(roleTypeOf(node('a', { entity_type: 'institution' })), 'n_a')
 })
 

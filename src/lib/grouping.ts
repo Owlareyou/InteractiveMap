@@ -1,6 +1,6 @@
 import { EntityType, RELATION_LAYER_MAP, type Edge, type Node } from '../schema/index'
 import { PRC_REGION_WEIGHT, PRC_REGIONS } from '../settings/china'
-import { ENGAGEMENT_SETTINGS, ROLE_RULES, type RoleKey } from '../settings/grouping'
+import { ENGAGEMENT_SETTINGS, FORMER_ROLE_RULES, ROLE_RULES, type RoleKey } from '../settings/grouping'
 import { DEFAULT_WEIGHT_SETTINGS } from '../settings/weight'
 import { ENTITY_TYPE_LABEL, type Label } from './labels'
 
@@ -93,6 +93,7 @@ const entityType: GroupingDimension = {
 
 const ROLE_GROUPS: ReadonlyArray<Label & { key: RoleKey }> = [
   { key: 'head_of_state', zh: '元首', en: 'Head of state' },
+  { key: 'former_president', zh: '前總統', en: 'Former president' },
   { key: 'official', zh: '政務官', en: 'Official' },
   { key: 'party_leadership', zh: '黨務領導', en: 'Party leadership' },
   { key: 'legislator', zh: '立法委員', en: 'Legislator' },
@@ -103,9 +104,11 @@ const ROLE_GROUPS: ReadonlyArray<Label & { key: RoleKey }> = [
 
 export function roleTypeOf(node: Node): string {
   if (node.entity_type !== 'person') return NA
-  const titles = node.roles.filter((r) => r.end === null).map((r) => r.title_zh)
-  const rule = ROLE_RULES.find((r) => titles.some((t) => r.keywords.some((k) => t.includes(k))))
-  return rule?.key ?? NONE
+  const match = (rules: typeof ROLE_RULES, ended: boolean) => {
+    const titles = node.roles.filter((r) => (r.end !== null) === ended).map((r) => r.title_zh)
+    return rules.find((r) => titles.some((t) => r.keywords.some((k) => t.includes(k))))?.key
+  }
+  return match(ROLE_RULES, false) ?? match(FORMER_ROLE_RULES, true) ?? NONE
 }
 
 const roleType: GroupingDimension = {
@@ -118,7 +121,7 @@ const roleType: GroupingDimension = {
     { ...NONE_GROUP, zh: '無現任職務', en: 'No current role' },
     NA_GROUP,
   ],
-  note: { zh: '依現任職稱關鍵字判定', en: 'From keywords in current role titles' },
+  note: { zh: '依現任職稱關鍵字判定；卸任總統另列', en: 'From keywords in current role titles; former presidents shown apart' },
 }
 
 // ── cross-strait engagement (spec decisions 9, 14, 18) ───────────────────
