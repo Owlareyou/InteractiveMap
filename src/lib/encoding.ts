@@ -1,4 +1,4 @@
-import type { Edge, EntityType, EvidenceTier, Node, Valence } from '../schema/index'
+import type { Edge, EvidenceTier, Node, Valence } from '../schema/index'
 import { PRC_REGIONS } from '../settings/china'
 import { GRAPH_SETTINGS } from '../settings/graph'
 
@@ -12,17 +12,6 @@ export const VALENCE_COLOR: Record<Valence, string> = {
   positive: 'var(--valence-positive)',
   neutral: 'var(--valence-neutral)',
   negative: 'var(--valence-negative)',
-}
-
-// Temporary until the grouping registry (Task 7) takes over node colour.
-export const ENTITY_COLOR: Record<EntityType, string> = {
-  person: 'var(--node-person)',
-  party: 'var(--node-party)',
-  institution: 'var(--node-institution)',
-  government_body: 'var(--node-other)',
-  company: 'var(--node-other)',
-  media_org: 'var(--node-other)',
-  association: 'var(--node-other)',
 }
 
 /**

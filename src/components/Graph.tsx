@@ -4,7 +4,6 @@ import { select } from 'd3-selection'
 import { zoom, zoomIdentity, type ZoomTransform } from 'd3-zoom'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
-  ENTITY_COLOR,
   VALENCE_COLOR,
   edgeGeometry,
   edgeWidth,
@@ -16,6 +15,7 @@ import {
   tierOpacity,
   weightedDegrees,
 } from '@/lib/encoding'
+import type { Group } from '@/lib/grouping'
 import { createSimulation, endpoint, type SimLink, type SimNode } from '@/lib/simulation'
 import { useElementSize } from '@/lib/useElementSize'
 import type { Edge, Node } from '@/schema/index'
@@ -25,11 +25,14 @@ type Props = {
   nodes: Node[]
   edges: Edge[]
   weights: ReadonlyMap<string, number>
+  // Read only while rendering, so a new grouping recolours nodes without
+  // rebuilding or reheating the simulation (§10).
+  groupOf: ReadonlyMap<string, Group>
 }
 
 type DrawnLink = SimLink & { width: number; offset: number }
 
-export function Graph({ nodes, edges, weights }: Props) {
+export function Graph({ nodes, edges, weights, groupOf }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
   const svgRef = useRef<SVGSVGElement>(null)
   const nodeEls = useRef(new Map<string, SVGGElement>())
@@ -178,6 +181,7 @@ export function Graph({ nodes, edges, weights }: Props) {
             <g>
               {graph.nodes.map((n) => {
                 const institution = n.data.entity_type === 'institution'
+                const group = groupOf.get(n.id)
                 return (
                   <g
                     key={n.id}
@@ -191,10 +195,10 @@ export function Graph({ nodes, edges, weights }: Props) {
                     onPointerLeave={() => setHovered(null)}
                     className="cursor-pointer"
                   >
-                    <title>{n.data.name_en}</title>
+                    <title>{`${n.data.name_en}${group ? ` · ${group.zh} ${group.en}` : ''}`}</title>
                     <circle
                       r={n.radius}
-                      fill={ENTITY_COLOR[n.data.entity_type]}
+                      fill={group?.colour ?? 'var(--group-none)'}
                       stroke={isPrcControlled(n.data) ? 'var(--prc-outline)' : 'var(--surface-base)'}
                       strokeWidth={isPrcControlled(n.data) ? 3 : 1.5}
                     />

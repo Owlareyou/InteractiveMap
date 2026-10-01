@@ -2332,5 +2332,105 @@
     "review_status": "draft",
     "notes": null,
     "education": null
+  },
+  {
+    "id": "china-times-reported-tao-direction",
+    "source_id": "china-times",
+    "target_id": "taiwan-affairs-office",
+    "relation_type": "reported_editorial_direction",
+    "temporal_scope": "state",
+    "valence": "positive",
+    "evidence_tier": "T4",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "disputed",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "Financial Times",
+        "source_type": "news",
+        "published_date": "2019-07",
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": "https://www.taiwannews.com.tw/en/news/3746341",
+        "source_name": "Taiwan News",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.taipeitimes.com/News/front/archives/2021/03/12/2003753690",
+        "source_name": "Taipei Times",
+        "source_type": "news",
+        "published_date": "2021-03-12",
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://en.wikipedia.org/wiki/China_Times",
+        "source_name": "Wikipedia: China Times",
+        "source_type": "other",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "FT 2019年7月報導中時、中天編輯接獲國台辦來電，指示報導角度與頭版安排；旺旺否認並對FT提告，2021-03-11撤告。此為指控，非確立之關係 FT (Jul 2019) reported that editors received calls from the TAO on coverage angle and front-page placement; Want Want denied it and sued the FT, then dropped the suit on 2021-03-11. An allegation, not an established tie",
+    "education": null
+  },
+  {
+    "id": "ctitv-reported-tao-direction",
+    "source_id": "ctitv",
+    "target_id": "taiwan-affairs-office",
+    "relation_type": "reported_editorial_direction",
+    "temporal_scope": "state",
+    "valence": "positive",
+    "evidence_tier": "T4",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "disputed",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "Financial Times",
+        "source_type": "news",
+        "published_date": "2019-07",
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": "https://www.taiwannews.com.tw/en/news/3746341",
+        "source_name": "Taiwan News",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.taipeitimes.com/News/front/archives/2021/03/12/2003753690",
+        "source_name": "Taipei Times",
+        "source_type": "news",
+        "published_date": "2021-03-12",
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://en.wikipedia.org/wiki/China_Times",
+        "source_name": "Wikipedia: China Times",
+        "source_type": "other",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "FT 2019年7月報導中時、中天編輯接獲國台辦來電，指示報導角度與頭版安排；旺旺否認並對FT提告，2021-03-11撤告。此為指控，非確立之關係 FT (Jul 2019) reported that editors received calls from the TAO on coverage angle and front-page placement; Want Want denied it and sued the FT, then dropped the suit on 2021-03-11. An allegation, not an established tie",
+    "education": null
   }
 ]

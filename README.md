@@ -20,8 +20,8 @@ Tasks come from §8 of the brief. Update this table when a task lands.
 | 4 | `src/lib/weight.ts` + a few `node:test` assertions | ✅ Done — see `docs/decisions/edge-weight.md` |
 | 5 | `src/lib/dataSource.ts` + static force graph (drag, zoom) | ✅ Done |
 | 6 | Visual encoding: valence colour, tier stroke, weight width, arrows, radii | ✅ Done |
-| 7 | Grouping-dimension registry + selector | ⏭ Next |
-| 8 | Filters: layer, tier (T4 off), valence, min weight, search | Not started |
+| 7 | Grouping-dimension registry + selector | ✅ Done — see `docs/decisions/grouping.md` |
+| 8 | Filters: layer, tier (T4 off), valence, min weight, search | ⏭ Next |
 | 9 | Detail drawer: node profile, edge evidence list | Not started |
 | 10 | Polish: tokens, responsive, empty states, README schema guide | Not started |
 
@@ -48,7 +48,7 @@ Background lives in `docs/`, not here:
 | Folder | Holds |
 |---|---|
 | `docs/plans/` | The approved plan for each task |
-| `docs/decisions/` | Why a design works the way it does (start with `edge-weight.md`) |
+| `docs/decisions/` | Why a design works the way it does (`edge-weight.md`, `grouping.md`) |
 | `docs/research/` | Dated research logs: what was searched, found, and taken |
 | `docs/seed-verification.md` | Checklist for turning draft seed edges into reviewed ones |
 
@@ -74,9 +74,11 @@ npm run dev      # http://localhost:5173
 | `npm run preview` | Serve the built output |
 | `npm run typecheck` | `tsc --noEmit`, strict |
 | `npm run validate` | Check `data/*.json` against the schema and invariants; exits 1 and lists every problem. `-- --data <dir>` checks another folder |
-| `npm test` | Edge-weight checks (`node:test` via `tsx`) |
+| `npm test` | Edge-weight and grouping checks (`node:test` via `tsx`) |
 
-Edge weight settings (every tunable number) are in `src/settings/weight.ts`.
+Every tunable number lives in `src/settings/`: edge weight (`weight.ts`),
+grouping rules and engagement thresholds (`grouping.ts`), PRC regions
+(`china.ts`), and layout (`graph.ts`).
 
 ## Layout
 
@@ -85,7 +87,7 @@ data/       Hand-edited JSON — the source of truth. No database, by design (§
 scripts/    Build-time tooling. Not shipped to the browser.
 src/schema/ zod schemas; TS types are inferred from them, never hand-written.
 src/lib/    Pure logic: edge weight, data loading, grouping accessors.
-src/settings/  Tunable numbers only (edge weight today), each tagged [R]/[J]/[M].
+src/settings/  Tunable numbers and rules only, each tagged [R]/[J]/[M].
 src/components/  React components. Presentation only.
 src/styles/ Design tokens as CSS custom properties, then Tailwind.
 ```
@@ -148,9 +150,8 @@ survive between tasks.
 | 16 | Evidence added from research carries the real URL and `retrieved_date`. It stays `draft` until someone reads the source and adds a verbatim `quote`. |
 | 17 | **Coverage is not yet balanced.** The 2026-10-01 round researched KMT–CCP ties only, at Jing's request. The recording rules are identical for every party, but DPP / TPP / independent cross-strait contacts haven't been researched yet. See the research log's coverage note. |
 | 18 | **Red outline** on any non-person node whose `country` is a PRC region (`CN`, `HK`, `MO`): the CCP, PRC state bodies, PRC schools, the Straits Forum. Derived from `country`, never hand-tagged. People are excluded. Regions are set in `src/settings/china.ts`. |
-
-Open:
-- Should a relation type be added for reported editorial direction from a PRC body? This is needed to record the 2019 FT allegation about 中時 / 中天, which would be T4. It's held back until approved (brief §4.1).
+| 19 | `RelationType` gains **`reported_editorial_direction`** (cross-strait layer): "SOURCE (a media outlet) was reported to take editorial direction from TARGET." It exists to record the 2019 FT report about 中時 / 中天 and the TAO, as two **T4** edges with status `disputed`. Approved by Jing on 2026-10-01. |
+| 20 | Grouping (Task 7): role type uses **current** roles only; "none recorded" and "not applicable" are separate groups; **undated** PRC-region study counts toward engagement and is flagged as undated. Reasoning: `docs/decisions/grouping.md`. |
 
 ## Phase 1 non-goals
 

@@ -46,6 +46,7 @@ export const RelationType = z.enum([
   'holds_prc_position',
   'prc_entity_business_tie',
   'made_prc_visit',
+  'reported_editorial_direction', // spec decision 19: for reported allegations, so in practice T4
   // personal
   'spouse',
   'relative_of',
@@ -101,6 +102,7 @@ export const RELATION_LAYER_MAP: Record<RelationType, RelationLayer> = {
   holds_prc_position: 'cross_strait',
   prc_entity_business_tie: 'cross_strait',
   made_prc_visit: 'cross_strait',
+  reported_editorial_direction: 'cross_strait',
   spouse: 'personal',
   relative_of: 'personal',
   mentor_of: 'personal',
@@ -144,6 +146,8 @@ export const RELATION_DIRECTION_SEMANTICS: Record<RelationType, string> = {
   holds_prc_position: 'SOURCE holds a position in TARGET (a PRC body).',
   prc_entity_business_tie: 'SOURCE has a business tie to TARGET (a PRC entity).',
   made_prc_visit: 'SOURCE visited the PRC, hosted by or meeting TARGET.',
+  reported_editorial_direction:
+    'SOURCE (a media outlet) was reported to take editorial direction from TARGET. Records the report, not a finding.',
   spouse: 'SOURCE and TARGET are spouses (symmetric).',
   relative_of: 'SOURCE and TARGET are relatives (symmetric).',
   mentor_of: 'SOURCE mentored TARGET.',
@@ -164,4 +168,5 @@ export const RELATION_ENDPOINT_RULES: Partial<
   spouse: { source: 'person', target: 'person' },
   relative_of: { source: 'person', target: 'person' },
   mentor_of: { source: 'person', target: 'person' },
+  reported_editorial_direction: { source: 'media_org' },
 }

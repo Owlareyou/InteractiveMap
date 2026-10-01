@@ -116,11 +116,13 @@ The MAC calls it a CCP united-front platform (統戰平台).
 - Sources: [Wikipedia: China Times](https://en.wikipedia.org/wiki/China_Times),
   [Taiwan News 3746341](https://www.taiwannews.com.tw/en/news/3746341),
   [Taipei Times 2021-03-12](https://www.taipeitimes.com/News/front/archives/2021/03/12/2003753690)
-- **Not added to the data.** No relation type in the closed vocabulary means
-  "takes editorial direction from". The nearest, `prc_entity_business_tie`,
-  would misdescribe it. Adding a type needs Jing's sign-off (brief §4.1). If
-  approved, this would be recorded as **T4** (a reported allegation, denied
-  by the subject).
+- ~~Not added to the data.~~ **Added 2026-10-01** after Jing approved a new
+  relation type, `reported_editorial_direction` (spec decision 19). There are
+  two edges, `china-times-reported-tao-direction` and
+  `ctitv-reported-tao-direction`. Both are **T4** (a reported allegation,
+  denied by the subject), with status `disputed`, and hidden on first load.
+  The FT article's own URL wasn't captured, so its evidence entry has
+  `source_url: null`.
 
 **Paid placements (Reuters, August 2019):**
 - Reuters found the TAO paid at least five Taiwan media groups for coverage,

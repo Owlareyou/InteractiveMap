@@ -36,14 +36,48 @@
   --valence-negative: #d55e00;
 
   /*
-   * Node fills by entity type, a stand-in until the grouping selector (Task 7)
-   * owns node colour. Kept clear of the valence blue/orange, and of red, which
-   * is reserved for the cross-strait engagement scale.
+   * Node fills, one set per grouping dimension (src/lib/grouping.ts).
+   * Each categorical set passes the dataviz palette validator with every pair
+   * compared, since any two nodes can sit side by side. Results, and why the
+   * party set bends the conventional hues: docs/decisions/grouping.md.
+   * Some fills fall below 3:1 against the surface; every node carries a text
+   * label, which is the required relief.
    */
-  --node-person: #2a7f62;
-  --node-party: #7b5ea7;
-  --node-institution: #a39a86;
-  --node-other: #6b7280;
+  --group-none: #9b968c;
+  --group-na: #cdc8be;
+
+  /* Conventional party hues (Jing's choice), lightness-separated so DPP green
+     and CCP red stay apart under red-green colour blindness. */
+  --party-kmt: #2747a8;
+  --party-dpp: #3fa34d;
+  --party-ccp: #a3201f;
+  --party-tpp: #1aa3c0;
+  --party-other: #7b5ea7;
+
+  --entity-person: #3aac83;
+  --entity-party: #9046e7;
+  --entity-government-body: #a37734;
+  --entity-company: #f960cf;
+  --entity-media-org: #1870a1;
+  --entity-association: #4e5d0e;
+  /* Schools are many and secondary, so they stay a recessive neutral. */
+  --entity-institution: #a39a86;
+
+  --role-head-of-state: #1f5596;
+  --role-official: #09672e;
+  --role-legislator: #2ca2a2;
+  --role-local-executive: #cd9130;
+  --role-business-media: #7c3a68;
+  --role-party-leadership: #9046e7;
+  --role-prc-leadership: #bb061e;
+
+  /* One-hue ordinal ramp, light to dark. `prc` is a neutral off the ramp,
+     so a PRC body is never read as "very engaged". */
+  --engagement-none: #cdc8be;
+  --engagement-low: #e8907f;
+  --engagement-medium: #cc4436;
+  --engagement-high: #8a1612;
+  --engagement-prc: #34373d;
 
   /* Outline for organisations based in a PRC region (spec decision 18). */
   --prc-outline: #c8102e;
@@ -68,10 +102,38 @@
     --valence-neutral: #9a9a9a;
     --valence-negative: #f08a4b;
 
-    --node-person: #4fbf98;
-    --node-party: #b39ddb;
-    --node-institution: #8f887a;
-    --node-other: #8b93a0;
+    --group-none: #6b717b;
+    --group-na: #3f444c;
+
+    --party-kmt: #3265f3;
+    --party-dpp: #017c1f;
+    --party-ccp: #e31029;
+    --party-tpp: #1d97a3;
+    --party-other: #9a7fd0;
+
+    --entity-person: #067f5c;
+    --entity-party: #8c51d9;
+    --entity-government-body: #8d5e00;
+    --entity-company: #a90e88;
+    --entity-media-org: #3788bb;
+    --entity-association: #849b11;
+    --entity-institution: #8f887a;
+
+    --role-head-of-state: #2863ab;
+    --role-official: #2b7440;
+    --role-legislator: #2ca2a2;
+    --role-local-executive: #b68028;
+    --role-business-media: #953d7c;
+    --role-party-leadership: #9051e1;
+    --role-prc-leadership: #d00021;
+
+    /* Dark mode flips the ramp (more engaged = brighter) but keeps it
+       saturated, so "high" never fades toward the pale `prc` neutral. */
+    --engagement-none: #3f444c;
+    --engagement-low: #83302a;
+    --engagement-medium: #cf3d30;
+    --engagement-high: #ff6150;
+    --engagement-prc: #d9d4ca;
 
     --prc-outline: #ff4d5e;
   }

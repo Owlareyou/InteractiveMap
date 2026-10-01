@@ -75,6 +75,9 @@ Principles behind the mock values:
   meeting, holding a PRC position (1.0), appointments and indictments (0.9).
 - **Diffuse ties score lowest:** forums, exchanges, education, criticism
   (0.6).
+- **`reported_editorial_direction` (0.8, added 2026-10-01):** as strong as a
+  board seat, if true. It's only ever recorded at T4, so the T4 confidence cap
+  holds the drawn weight to about 0.2.
 
 These are the numbers most likely to change. Judge them on screen, not on
 paper.

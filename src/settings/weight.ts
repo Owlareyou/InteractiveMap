@@ -61,6 +61,9 @@ export const DEFAULT_WEIGHT_SETTINGS: WeightSettings = {
     holds_prc_position: 1.0,
     prc_entity_business_tie: 0.8,
     made_prc_visit: 0.7,
+    // As strong as a board seat if true. These edges are T4, so the T4 cap
+    // keeps the weight low however strong the tie would be.
+    reported_editorial_direction: 0.8,
     spouse: 1.0,
     relative_of: 0.8,
     mentor_of: 0.8,

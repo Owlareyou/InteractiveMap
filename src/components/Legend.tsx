@@ -1,5 +1,6 @@
-import { ENTITY_COLOR, VALENCE_COLOR, tierDash, tierOpacity } from '@/lib/encoding'
-import type { EntityType, EvidenceTier, Valence } from '@/schema/index'
+import { VALENCE_COLOR, tierDash, tierOpacity } from '@/lib/encoding'
+import type { Group, GroupingDimension } from '@/lib/grouping'
+import type { EvidenceTier, Valence } from '@/schema/index'
 
 // Describes the tie, not a verdict on it: "positive" in the data means
 // cooperative, which 正向 / Positive would read as approval.
@@ -16,13 +17,13 @@ const TIER_LABELS: Array<[EvidenceTier, string, string]> = [
   ['T4', '指控（非確立關係）', 'Allegation, not established'],
 ]
 
-const NODE_LABELS: Array<[EntityType, string, string]> = [
-  ['person', '人物', 'Person'],
-  ['party', '政黨', 'Party'],
-  ['institution', '學校', 'School'],
-]
+type Props = {
+  dimension: GroupingDimension
+  groups: Group[]
+  counts: ReadonlyMap<string, number> // nodes per group key
+}
 
-export function Legend() {
+export function Legend({ dimension, groups, counts }: Props) {
   return (
     <section className="flex flex-col gap-4 text-xs">
       <h2 className="text-sm font-medium">
@@ -45,17 +46,29 @@ export function Legend() {
         ))}
       </Group>
 
-      <Group title="節點" sub="Nodes">
-        {NODE_LABELS.map(([type, zh, en]) => (
-          <Row key={type} zh={zh} en={en}>
-            <svg width="28" height="12" aria-hidden>
-              <circle cx="14" cy="6" r="5" fill={ENTITY_COLOR[type]} />
-            </svg>
-          </Row>
-        ))}
+      <Group title={`節點顏色 = ${dimension.label_zh}`} sub={`Node colour = ${dimension.label_en}`}>
+        {groups.map((g) => {
+          const count = counts.get(g.key) ?? 0
+          return (
+            <div key={g.key} className={count === 0 ? 'opacity-40' : undefined}>
+              <Row zh={g.zh} en={g.en} count={count}>
+                <svg width="28" height="12" aria-hidden>
+                  <circle cx="14" cy="6" r="5" fill={g.colour} />
+                </svg>
+              </Row>
+            </div>
+          )
+        })}
+        {dimension.note && (
+          <p className="text-content-muted leading-snug">
+            {dimension.note.zh}
+            <br />
+            {dimension.note.en}
+          </p>
+        )}
         <Row zh="紅框：中國（含港澳）機構" en="Red outline: PRC-based organisation">
           <svg width="28" height="12" aria-hidden>
-            <circle cx="14" cy="6" r="4.5" fill="var(--node-institution)" stroke="var(--prc-outline)" strokeWidth="2" />
+            <circle cx="14" cy="6" r="4.5" fill="var(--group-na)" stroke="var(--prc-outline)" strokeWidth="2" />
           </svg>
         </Row>
       </Group>
@@ -82,12 +95,13 @@ function Group({ title, sub, children }: { title: string; sub: string; children:
   )
 }
 
-function Row({ zh, en, children }: { zh: string; en: string; children: React.ReactNode }) {
+function Row({ zh, en, count, children }: { zh: string; en: string; count?: number; children: React.ReactNode }) {
   return (
     <div className="flex items-center gap-2">
       {children}
       <span>{zh}</span>
       <span className="text-content-muted">{en}</span>
+      {count !== undefined && <span className="text-content-muted ml-auto tabular-nums">{count}</span>}
     </div>
   )
 }

@@ -1,7 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Graph } from '@/components/Graph'
+import { GroupingSelector } from '@/components/GroupingSelector'
 import { Legend } from '@/components/Legend'
 import { loadGraph, type GraphData } from '@/lib/dataSource'
+import { buildContext, DEFAULT_GROUPING, dimensionById, type Group, type GroupingId } from '@/lib/grouping'
 import { computeEdgeWeight } from '@/lib/weight'
 
 type LoadState = { status: 'loading' } | { status: 'error'; message: string } | { status: 'ready'; data: GraphData }
@@ -10,11 +12,14 @@ type LoadState = { status: 'loading' } | { status: 'error'; message: string } | 
 // edge is scored against the same day.
 const REFERENCE_DATE = new Date().toISOString().slice(0, 10)
 
+const EMPTY: GraphData = { nodes: [], edges: [] }
+
 /**
- * Controls land in Tasks 7–8, the drawer in Task 9.
+ * Filters land in Task 8, the drawer in Task 9.
  */
 export default function App() {
   const [state, setState] = useState<LoadState>({ status: 'loading' })
+  const [groupingId, setGroupingId] = useState<GroupingId>(DEFAULT_GROUPING)
 
   useEffect(() => {
     loadGraph()
@@ -24,12 +29,28 @@ export default function App() {
       )
   }, [])
 
-  const weights = useMemo(() => {
-    if (state.status !== 'ready') return new Map<string, number>()
-    return new Map(
-      state.data.edges.map((e) => [e.id, computeEdgeWeight(e, { referenceDate: REFERENCE_DATE })]),
-    )
-  }, [state])
+  const data = state.status === 'ready' ? state.data : EMPTY
+
+  const weights = useMemo(
+    () => new Map(data.edges.map((e) => [e.id, computeEdgeWeight(e, { referenceDate: REFERENCE_DATE })])),
+    [data],
+  )
+
+  const ctx = useMemo(() => buildContext(data.nodes, data.edges), [data])
+  const dimension = dimensionById(groupingId)
+  const grouping = useMemo(() => {
+    const groups = dimension.groups(ctx)
+    const byKey = new Map(groups.map((g) => [g.key, g]))
+    const groupOf = new Map<string, Group>()
+    const counts = new Map<string, number>()
+    for (const n of data.nodes) {
+      const key = dimension.accessor(n, ctx)
+      const group = byKey.get(key)
+      if (group) groupOf.set(n.id, group)
+      counts.set(key, (counts.get(key) ?? 0) + 1)
+    }
+    return { groups, groupOf, counts }
+  }, [dimension, ctx, data])
 
   return (
     <div className="grid h-full grid-cols-[18rem_1fr_20rem] max-lg:grid-cols-1 max-lg:grid-rows-[auto_minmax(24rem,1fr)_auto]">
@@ -40,13 +61,14 @@ export default function App() {
             Taiwan Political Relationship Map
           </p>
         </header>
-        <Legend />
-        <Placeholder zh="控制項" en="Controls" note="Tasks 7–8" />
+        <GroupingSelector value={groupingId} onChange={setGroupingId} />
+        <Placeholder zh="篩選" en="Filters" note="Task 8" />
+        <Legend dimension={dimension} groups={grouping.groups} counts={grouping.counts} />
       </aside>
 
       <main className="bg-surface-base relative min-h-0">
         {state.status === 'ready' && (
-          <Graph nodes={state.data.nodes} edges={state.data.edges} weights={weights} />
+          <Graph nodes={data.nodes} edges={data.edges} weights={weights} groupOf={grouping.groupOf} />
         )}
         {state.status === 'loading' && <Notice zh="載入中…" en="Loading…" />}
         {state.status === 'error' && (
