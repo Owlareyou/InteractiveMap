@@ -36,10 +36,12 @@ Tasks come from §8 of the brief. Update this table when a task lands.
   labels that stay readable when zoomed out, a tighter force layout for 54
   nodes, a two-column layout from 768 px, an empty state when no ties match
   the filters, and muted text raised to ≥ 4.5:1 contrast.
-- **The last edits weren't checked.** Jing stopped the run before checks:
-  the two-pass label allowance in `src/lib/view.ts` and `fit.labelRoom` in
-  `src/settings/graph.ts`. Run `npm run typecheck && npm test && npm run build`
-  first.
+- Those edits were later checked: type-check, tests (19) and build pass
+  (commit `baa8a78`).
+- 2026-10-02, at Jing's request: a **前總統 / Former president** role group
+  (ended 「中華民國總統」 roles, used when no current role matches); undated PRC
+  study keeps counting toward engagement; **colour-blind palette checks are
+  no longer required** for new colours.
 
 Next session, the rest of Task 10 per `docs/plans/task-7-10.md`:
 - `scripts/check-zh.ts` + `npm run check:zh` (store the simplified-character
