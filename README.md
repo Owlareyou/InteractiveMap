@@ -18,8 +18,8 @@ Tasks come from §8 of the brief. Update this table when a task lands.
 | 2 | zod schemas in `src/schema/`, `scripts/validate-data.ts`, `npm run validate` | ✅ Done |
 | 3 | Seed data `data/nodes.json`, `data/edges.json` (§6), validator passes | ✅ Done — see `docs/seed-verification.md` |
 | 4 | `src/lib/weight.ts` + a few `node:test` assertions | ✅ Done — see `docs/decisions/edge-weight.md` |
-| 5 | `src/lib/dataSource.ts` + static force graph (drag, zoom) | ⏭ Next |
-| 6 | Visual encoding: valence colour, tier stroke, weight width, arrows, radii | Not started |
+| 5 | `src/lib/dataSource.ts` + static force graph (drag, zoom) | ✅ Done |
+| 6 | Visual encoding: valence colour, tier stroke, weight width, arrows, radii | ⏭ Next |
 | 7 | Grouping-dimension registry + selector | Not started |
 | 8 | Filters: layer, tier (T4 off), valence, min weight, search | Not started |
 | 9 | Detail drawer: node profile, edge evidence list | Not started |
@@ -90,8 +90,7 @@ src/components/  React components. Presentation only.
 src/styles/ Design tokens as CSS custom properties, then Tailwind.
 ```
 
-All graph data loads through a single module, `src/lib/dataSource.ts`
-(arriving in Task 5). Nothing else imports from `data/` directly, so Phase 2
+All graph data loads through a single module, `src/lib/dataSource.ts`. Nothing else imports from `data/` directly, so Phase 2
 can swap JSON for an API by editing one file.
 
 ## Editorial stance
