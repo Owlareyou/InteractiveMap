@@ -16,6 +16,8 @@ import {
   weightedDegrees,
 } from '@/lib/encoding'
 import type { Group } from '@/lib/grouping'
+import { RELATION_LABEL } from '@/lib/labels'
+import type { Selection } from '@/lib/selection'
 import { createSimulation, endpoint, type SimLink, type SimNode } from '@/lib/simulation'
 import { useElementSize } from '@/lib/useElementSize'
 import type { Edge, Node } from '@/schema/index'
@@ -31,12 +33,13 @@ type Props = {
   groupOf: ReadonlyMap<string, Group>
   visibleEdges: ReadonlySet<string>
   matchedNodes: ReadonlySet<string> // search hits
-  selectedNodeId: string | null
+  selection: Selection
+  onSelect: (s: Selection) => void
 }
 
 type DrawnLink = SimLink & { width: number; offset: number }
 
-export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNodes, selectedNodeId }: Props) {
+export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNodes, selection, onSelect }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
   const svgRef = useRef<SVGSVGElement>(null)
   const nodeEls = useRef(new Map<string, SVGGElement>())
@@ -151,7 +154,15 @@ export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNod
 
   return (
     <div ref={containerRef} className="h-full w-full overflow-hidden">
-      <svg ref={svgRef} width={width} height={height} className="block cursor-grab active:cursor-grabbing">
+      <svg
+        ref={svgRef}
+        width={width}
+        height={height}
+        className="block cursor-grab active:cursor-grabbing"
+        // Only a click on empty canvas clears; d3-zoom swallows the click
+        // that ends a pan, so panning never loses the selection.
+        onClick={(ev) => ev.target === svgRef.current && onSelect(null)}
+      >
         <g transform={transform.toString()}>
           <g transform={`translate(${width / 2},${height / 2})`}>
             <g>
@@ -171,9 +182,19 @@ export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNod
                 )
                 const lit = hovered === null || s.id === hovered || t.id === hovered
                 const colour = VALENCE_COLOR[e.valence]
+                const selected = selection?.kind === 'edge' && selection.id === l.id
+                const relation = RELATION_LABEL[e.relation_type]
                 return (
-                  <g key={l.id} opacity={tierOpacity(e.evidence_tier) * (lit ? 1 : dim)}>
-                    <title>{`${e.relation_type} · ${e.evidence_tier} · ${e.valence} · weight ${l.weight.toFixed(2)}`}</title>
+                  <g
+                    key={l.id}
+                    opacity={selected ? 1 : tierOpacity(e.evidence_tier) * (lit ? 1 : dim)}
+                    onClick={() => onSelect({ kind: 'edge', id: l.id })}
+                    className="cursor-pointer"
+                  >
+                    <title>{`${s.data.name_zh} ${e.directed ? '→' : '—'} ${t.data.name_zh}：${relation.zh} ${relation.en} · ${e.evidence_tier} · 點選查看證據 click for sources`}</title>
+                    {selected && (
+                      <path d={d} fill="none" stroke="var(--highlight)" strokeOpacity={0.3} strokeWidth={l.width + 7} strokeLinecap="round" />
+                    )}
                     <path
                       d={d}
                       fill="none"
@@ -182,6 +203,8 @@ export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNod
                       strokeDasharray={tierDash(e.evidence_tier)}
                     />
                     {arrow && <polygon points={arrow} fill={colour} />}
+                    {/* Thin lines are hard to hit, so each gets a wide invisible twin. */}
+                    <path d={d} fill="none" stroke="transparent" strokeWidth={Math.max(GRAPH_SETTINGS.visual.edgeHitPx, l.width)} />
                   </g>
                 )
               })}
@@ -190,7 +213,7 @@ export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNod
               {graph.nodes.map((n) => {
                 const institution = n.data.entity_type === 'institution'
                 const group = groupOf.get(n.id)
-                const selected = n.id === selectedNodeId
+                const selected = selection?.kind === 'node' && selection.id === n.id
                 const marked = selected || matchedNodes.has(n.id)
                 // Nodes whose every edge is filtered out fade rather than
                 // vanish, so the layout doesn't change under the reader.
@@ -207,6 +230,8 @@ export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNod
                     opacity={opacity}
                     onPointerEnter={() => setHovered(n.id)}
                     onPointerLeave={() => setHovered(null)}
+                    // d3-drag suppresses the click that ends a drag, so this fires only on a real click.
+                    onClick={() => onSelect({ kind: 'node', id: n.id })}
                     className="cursor-pointer"
                   >
                     <title>{`${n.data.name_en}${group ? ` · ${group.zh} ${group.en}` : ''}`}</title>

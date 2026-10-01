@@ -22,8 +22,8 @@ Tasks come from §8 of the brief. Update this table when a task lands.
 | 6 | Visual encoding: valence colour, tier stroke, weight width, arrows, radii | ✅ Done |
 | 7 | Grouping-dimension registry + selector | ✅ Done — see `docs/decisions/grouping.md` |
 | 8 | Filters: layer, tier (T4 off), valence, min weight, search | ✅ Done |
-| 9 | Detail drawer: node profile, edge evidence list | ⏭ Next |
-| 10 | Polish: tokens, responsive, empty states, README schema guide | Not started |
+| 9 | Detail drawer: node profile, edge evidence list | ✅ Done |
+| 10 | Polish: tokens, responsive, empty states, README schema guide | ⏭ Next |
 
 ### Where we left off (2026-10-01)
 

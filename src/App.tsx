@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Drawer } from '@/components/Drawer'
+import type { DrawerEnv } from '@/components/DrawerParts'
 import { Filters } from '@/components/Filters'
 import { Graph } from '@/components/Graph'
 import { GroupingSelector } from '@/components/GroupingSelector'
@@ -6,6 +8,7 @@ import { Legend } from '@/components/Legend'
 import { loadGraph, type GraphData } from '@/lib/dataSource'
 import { DEFAULT_FILTERS, searchNodes, visibleEdgeIds, type FilterState } from '@/lib/filters'
 import { buildContext, DEFAULT_GROUPING, dimensionById, type Group, type GroupingId } from '@/lib/grouping'
+import type { Selection } from '@/lib/selection'
 import { computeEdgeWeight } from '@/lib/weight'
 
 type LoadState = { status: 'loading' } | { status: 'error'; message: string } | { status: 'ready'; data: GraphData }
@@ -16,11 +19,6 @@ const REFERENCE_DATE = new Date().toISOString().slice(0, 10)
 
 const EMPTY: GraphData = { nodes: [], edges: [] }
 
-export type Selection = { kind: 'node'; id: string } | { kind: 'edge'; id: string } | null
-
-/**
- * The drawer lands in Task 9.
- */
 export default function App() {
   const [state, setState] = useState<LoadState>({ status: 'loading' })
   const [groupingId, setGroupingId] = useState<GroupingId>(DEFAULT_GROUPING)
@@ -63,6 +61,18 @@ export default function App() {
   const matchedNodes = useMemo(() => new Set(matches.map((n) => n.id)), [matches])
   const selectedNodeId = selection?.kind === 'node' ? selection.id : null
 
+  const drawerEnv = useMemo<DrawerEnv>(
+    () => ({
+      ctx,
+      edgesById: new Map(data.edges.map((e) => [e.id, e])),
+      weights,
+      visibleEdges,
+      referenceDate: REFERENCE_DATE,
+      onSelect: setSelection,
+    }),
+    [ctx, data, weights, visibleEdges],
+  )
+
   return (
     <div className="grid h-full grid-cols-[18rem_1fr_20rem] max-lg:grid-cols-1 max-lg:grid-rows-[auto_minmax(24rem,1fr)_auto]">
       <aside className="border-edge-subtle bg-surface-raised flex flex-col gap-6 overflow-y-auto border-r p-5 max-lg:border-r-0 max-lg:border-b">
@@ -94,7 +104,8 @@ export default function App() {
             groupOf={grouping.groupOf}
             visibleEdges={visibleEdges}
             matchedNodes={matchedNodes}
-            selectedNodeId={selectedNodeId}
+            selection={selection}
+            onSelect={setSelection}
           />
         )}
         {state.status === 'loading' && <Notice zh="載入中…" en="Loading…" />}
@@ -104,7 +115,7 @@ export default function App() {
       </main>
 
       <aside className="border-edge-subtle bg-surface-raised overflow-y-auto border-l p-5 max-lg:border-l-0 max-lg:border-t">
-        <Placeholder zh="詳細資料" en="Details" note="Task 9" />
+        {state.status === 'ready' && <Drawer selection={selection} env={drawerEnv} />}
       </aside>
     </div>
   )
@@ -123,17 +134,5 @@ function Notice({ zh, en, detail }: { zh: string; en: string; detail?: string })
         )}
       </div>
     </div>
-  )
-}
-
-function Placeholder({ zh, en, note }: { zh: string; en: string; note: string }) {
-  return (
-    <section className="border-edge-subtle rounded-md border border-dashed p-4">
-      <h2 className="text-sm font-medium">{zh}</h2>
-      <p className="text-content-secondary text-xs">{en}</p>
-      <p className="text-content-muted mt-2 font-mono text-[0.6875rem] uppercase tracking-wider">
-        {note}
-      </p>
-    </section>
   )
 }

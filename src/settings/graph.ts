@@ -30,5 +30,7 @@ export const GRAPH_SETTINGS = {
     strandedOpacity: 0.3,
     // Gap between parallel edges joining the same two nodes.
     parallelSpacingPx: 22,
+    // Width of the invisible stroke that catches clicks on an edge.
+    edgeHitPx: 12,
   },
 }
