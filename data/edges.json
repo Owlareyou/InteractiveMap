@@ -680,5 +680,143 @@
       "degree": "法學博士",
       "field": "馬克思主義理論與思想政治教育"
     }
+  },
+  {
+    "id": "ma-member-of-kmt",
+    "source_id": "ma-ying-jeou",
+    "target_id": "kmt",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中央選舉委員會",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "hsia-member-of-kmt",
+    "source_id": "hsia-li-yan",
+    "target_id": "kmt",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中央通訊社",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": null,
+        "source_name": "中國國民黨",
+        "source_type": "other",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "tsai-member-of-dpp",
+    "source_id": "tsai-ing-wen",
+    "target_id": "dpp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中央選舉委員會",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "lai-member-of-dpp",
+    "source_id": "lai-ching-te",
+    "target_id": "dpp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中央選舉委員會",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "xi-member-of-ccp",
+    "source_id": "xi-jinping",
+    "target_id": "ccp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
   }
 ]

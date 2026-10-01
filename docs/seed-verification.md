@@ -36,6 +36,23 @@ Confidence is how sure the author was of the fact itself when entering it.
 | `xi-edu-tsinghua-1979` | 清華 chemical engineering, 1975–79 | High |
 | `xi-edu-tsinghua-2002` | 清華 法學博士, 1998–2002, part-time | High |
 
+## Party membership edges (added 2026-10-01, beyond §6)
+
+Added at Jing's request so DPP and CCP aren't left without edges. The facts are
+already stated in each person's `party_affiliations`, so these edges only make
+them visible on the graph.
+
+The sources were named from background knowledge, not from a search. Same rule
+as before: real issuing bodies, URL and quote left null, draft status.
+
+| Edge id | Source(s) to find | Tier | Confidence |
+|---|---|---|---|
+| `ma-member-of-kmt` | 中央選舉委員會 candidate registration (2008, 2012 presidential) | T1 | High |
+| `hsia-member-of-kmt` | 中央社 report of his appointment as KMT vice chair, plus the 國民黨 announcement | T2 | High. Not T1, because a party's own announcement isn't a government record |
+| `tsai-member-of-dpp` | 中央選舉委員會 candidate registration (2012, 2016, 2020 presidential) | T1 | High |
+| `lai-member-of-dpp` | 中央選舉委員會 candidate registration (2024 presidential) | T1 | High |
+| `xi-member-of-ccp` | 新華社 official biography (CCP General Secretary) | T1 | High |
+
 ## Not filled in (deliberately)
 
 - `wikidata_qid` is `null` on every node (spec decision 2).

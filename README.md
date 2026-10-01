@@ -141,7 +141,7 @@ survive between tasks.
 | 8 | Endpoint rules: `member_of` → party; `educated_at` person → institution; `spouse` / `relative_of` / `mentor_of` link two people. Symmetric types must be `directed: false`. |
 | 9 | **China influence is derived, never stored or hand-tagged.** One rule for every party: `cross_strait`-layer edges (weighted by tier) plus `educated_at` edges to institutions in a PRC region. PRC regions are `CN`, `HK`, `MO`, each with a tunable weight (default 1.0). Nodes whose own country is `CN` get a separate `prc` bucket. Shown as the `cross_strait_engagement` colour scale ending in red (Task 7) and a side tab explaining which edges produced it (Task 9). |
 | 10 | Direction readings: `employer` = source is employed by target; `ruled_on` = target (a court) ruled on source. Full list in `RELATION_DIRECTION_SEMANTICS`. |
-| 11 | Seed sources (Task 3): real issuing bodies and outlets only, `source_url` and `quote` null, every edge `review_status: 'draft'`. Education records for the six seed figures are added beyond §6 at Jing's request, under the same rule. |
+| 11 | Seed sources (Task 3): real issuing bodies and outlets only, `source_url` and `quote` null, every edge `review_status: 'draft'`. Education records for the six seed figures are added beyond §6 at Jing's request, under the same rule. On 2026-10-01, `member_of` edges were added for the other five figures (Hung's already existed) under the same rule, so every party node has an edge. |
 
 No open items.
 
