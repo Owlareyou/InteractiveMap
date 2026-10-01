@@ -14,7 +14,15 @@
         "end": null
       }
     ],
-    "roles": [],
+    "roles": [
+      {
+        "title_zh": "中華民國總統",
+        "title_en": "President of the ROC",
+        "org_id": null,
+        "start": "2008-05-20",
+        "end": "2016-05-20"
+      }
+    ],
     "tags": [
       "former_president",
       "party_elder"
@@ -38,7 +46,15 @@
         "end": null
       }
     ],
-    "roles": [],
+    "roles": [
+      {
+        "title_zh": "中國國民黨主席",
+        "title_en": "KMT Chair",
+        "org_id": "kmt",
+        "start": "2016-03-30",
+        "end": "2017-08-20"
+      }
+    ],
     "tags": [
       "former_party_chair"
     ],
@@ -61,7 +77,15 @@
         "end": null
       }
     ],
-    "roles": [],
+    "roles": [
+      {
+        "title_zh": "行政院大陸委員會主任委員",
+        "title_en": "Minister, Mainland Affairs Council",
+        "org_id": "mainland-affairs-council",
+        "start": "2015-02",
+        "end": "2016-05"
+      }
+    ],
     "tags": [
       "party_vice_chair",
       "cross_strait_liaison"
@@ -85,7 +109,15 @@
         "end": null
       }
     ],
-    "roles": [],
+    "roles": [
+      {
+        "title_zh": "中華民國總統",
+        "title_en": "President of the ROC",
+        "org_id": null,
+        "start": "2016-05-20",
+        "end": "2024-05-20"
+      }
+    ],
     "tags": [
       "former_president",
       "former_party_chair"
@@ -109,7 +141,22 @@
         "end": null
       }
     ],
-    "roles": [],
+    "roles": [
+      {
+        "title_zh": "中華民國總統",
+        "title_en": "President of the ROC",
+        "org_id": null,
+        "start": "2024-05-20",
+        "end": null
+      },
+      {
+        "title_zh": "行政院長",
+        "title_en": "Premier",
+        "org_id": null,
+        "start": "2017-09-08",
+        "end": "2019-01-14"
+      }
+    ],
     "tags": [
       "president",
       "former_premier"
@@ -133,7 +180,22 @@
         "end": null
       }
     ],
-    "roles": [],
+    "roles": [
+      {
+        "title_zh": "中共中央總書記",
+        "title_en": "General Secretary of the CCP",
+        "org_id": "ccp",
+        "start": "2012-11-15",
+        "end": null
+      },
+      {
+        "title_zh": "國家主席",
+        "title_en": "President of the PRC",
+        "org_id": null,
+        "start": "2013-03-14",
+        "end": null
+      }
+    ],
     "tags": [
       "prc_leadership"
     ],
@@ -372,5 +434,789 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-09-30"
+  },
+  {
+    "id": "cheng-li-wun",
+    "wikidata_qid": null,
+    "name_zh": "鄭麗文",
+    "name_en": "Cheng Li-wun",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "中國國民黨主席",
+        "title_en": "KMT Chair",
+        "org_id": "kmt",
+        "start": "2025-11",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "eric-chu",
+    "wikidata_qid": null,
+    "name_zh": "朱立倫",
+    "name_en": "Eric Chu",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "中國國民黨主席",
+        "title_en": "KMT Chair",
+        "org_id": "kmt",
+        "start": "2015-01",
+        "end": "2016-01"
+      },
+      {
+        "title_zh": "中國國民黨主席",
+        "title_en": "KMT Chair",
+        "org_id": "kmt",
+        "start": "2021-10",
+        "end": "2025-10"
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "lien-chan",
+    "wikidata_qid": null,
+    "name_zh": "連戰",
+    "name_en": "Lien Chan",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "中華民國副總統",
+        "title_en": "Vice President of the ROC",
+        "org_id": null,
+        "start": "1996-05-20",
+        "end": "2000-05-20"
+      },
+      {
+        "title_zh": "中國國民黨主席",
+        "title_en": "KMT Chair",
+        "org_id": "kmt",
+        "start": "2000",
+        "end": "2005"
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "wu-poh-hsiung",
+    "wikidata_qid": null,
+    "name_zh": "吳伯雄",
+    "name_en": "Wu Poh-hsiung",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "中國國民黨主席",
+        "title_en": "KMT Chair",
+        "org_id": "kmt",
+        "start": "2007",
+        "end": "2009"
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "han-kuo-yu",
+    "wikidata_qid": null,
+    "name_zh": "韓國瑜",
+    "name_en": "Han Kuo-yu",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "立法院長",
+        "title_en": "Speaker of the Legislative Yuan",
+        "org_id": "legislative-yuan",
+        "start": "2024-02-01",
+        "end": null
+      },
+      {
+        "title_zh": "高雄市長",
+        "title_en": "Mayor of Kaohsiung",
+        "org_id": null,
+        "start": "2018-12-25",
+        "end": "2020-06-12"
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "fu-kun-chi",
+    "wikidata_qid": null,
+    "name_zh": "傅崐萁",
+    "name_en": "Fu Kun-chi",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "立法院國民黨黨團總召集人",
+        "title_en": "KMT caucus whip, Legislative Yuan",
+        "org_id": "legislative-yuan",
+        "start": "2024-02",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "chen-yu-jen",
+    "wikidata_qid": null,
+    "name_zh": "陳玉珍",
+    "name_en": "Chen Yu-jen",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "立法委員（金門縣）",
+        "title_en": "Legislator (Kinmen)",
+        "org_id": "legislative-yuan",
+        "start": "2016-02",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "lo-ming-tsai",
+    "wikidata_qid": null,
+    "name_zh": "羅明才",
+    "name_en": "Lo Ming-tsai",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "立法委員（新北市）",
+        "title_en": "Legislator (New Taipei)",
+        "org_id": "legislative-yuan",
+        "start": "1999-02",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "sean-lien",
+    "wikidata_qid": null,
+    "name_zh": "連勝文",
+    "name_en": "Sean Lien",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "中國國民黨副主席",
+        "title_en": "KMT Vice Chair",
+        "org_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "chang-jung-kung",
+    "wikidata_qid": null,
+    "name_zh": "張榮恭",
+    "name_en": "Chang Jung-kung",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "中國國民黨副主席",
+        "title_en": "KMT Vice Chair",
+        "org_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "rao-ching-ling",
+    "wikidata_qid": null,
+    "name_zh": "饒慶鈴",
+    "name_en": "Rao Ching-ling",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "臺東縣長",
+        "title_en": "Taitung County Magistrate",
+        "org_id": null,
+        "start": "2018-12-25",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "lu-shiow-yen",
+    "wikidata_qid": null,
+    "name_zh": "盧秀燕",
+    "name_en": "Lu Shiow-yen",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "臺中市長",
+        "title_en": "Mayor of Taichung",
+        "org_id": "taichung-city-government",
+        "start": "2018-12-25",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "lu-hsiu-fang",
+    "wikidata_qid": null,
+    "name_zh": "盧秀芳",
+    "name_en": "Lu Hsiu-fang",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [
+      {
+        "title_zh": "中視董事長兼總經理",
+        "title_en": "Chair and President, CTV",
+        "org_id": "ctv",
+        "start": "2024-12-26",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "tsai-eng-meng",
+    "wikidata_qid": null,
+    "name_zh": "蔡衍明",
+    "name_en": "Tsai Eng-meng",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [
+      {
+        "title_zh": "旺旺集團董事長",
+        "title_en": "Chairman, Want Want Group",
+        "org_id": "want-want-group",
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "wang-huning",
+    "wikidata_qid": null,
+    "name_zh": "王滬寧",
+    "name_en": "Wang Huning",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "CN",
+    "party_affiliations": [
+      {
+        "party_id": "ccp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "全國政協主席",
+        "title_en": "Chairman, CPPCC",
+        "org_id": null,
+        "start": "2023-03",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "song-tao",
+    "wikidata_qid": null,
+    "name_zh": "宋濤",
+    "name_en": "Song Tao",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "CN",
+    "party_affiliations": [
+      {
+        "party_id": "ccp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "國台辦主任",
+        "title_en": "Director, Taiwan Affairs Office",
+        "org_id": "taiwan-affairs-office",
+        "start": "2022-12",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "wang-yi",
+    "wikidata_qid": null,
+    "name_zh": "王毅",
+    "name_en": "Wang Yi",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "CN",
+    "party_affiliations": [
+      {
+        "party_id": "ccp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "國台辦主任",
+        "title_en": "Director, Taiwan Affairs Office",
+        "org_id": "taiwan-affairs-office",
+        "start": "2008-06",
+        "end": "2013-03"
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "taiwan-affairs-office",
+    "wikidata_qid": null,
+    "name_zh": "國務院台灣事務辦公室（國台辦）",
+    "name_en": "Taiwan Affairs Office (PRC)",
+    "aliases": [
+      "國台辦",
+      "中台辦",
+      "TAO"
+    ],
+    "entity_type": "government_body",
+    "country": "CN",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "straits-forum",
+    "wikidata_qid": null,
+    "name_zh": "海峽論壇",
+    "name_en": "Straits Forum (Xiamen)",
+    "aliases": [],
+    "entity_type": "association",
+    "country": "CN",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "hk-liaison-office",
+    "wikidata_qid": null,
+    "name_zh": "香港中聯辦",
+    "name_en": "Liaison Office of the Central People's Government in Hong Kong",
+    "aliases": [
+      "中央人民政府駐香港特別行政區聯絡辦公室"
+    ],
+    "entity_type": "government_body",
+    "country": "HK",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "macao-liaison-office",
+    "wikidata_qid": null,
+    "name_zh": "澳門中聯辦",
+    "name_en": "Liaison Office of the Central People's Government in Macao",
+    "aliases": [
+      "中央人民政府駐澳門特別行政區聯絡辦公室"
+    ],
+    "entity_type": "government_body",
+    "country": "MO",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "prc-government",
+    "wikidata_qid": null,
+    "name_zh": "中華人民共和國政府（含地方政府）",
+    "name_en": "PRC government (incl. local governments)",
+    "aliases": [],
+    "entity_type": "government_body",
+    "country": "CN",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "mainland-affairs-council",
+    "wikidata_qid": null,
+    "name_zh": "行政院大陸委員會（陸委會）",
+    "name_en": "Mainland Affairs Council",
+    "aliases": [
+      "陸委會",
+      "MAC"
+    ],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "ncc",
+    "wikidata_qid": null,
+    "name_zh": "國家通訊傳播委員會（NCC）",
+    "name_en": "National Communications Commission",
+    "aliases": [
+      "NCC"
+    ],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "taipei-high-administrative-court",
+    "wikidata_qid": null,
+    "name_zh": "臺北高等行政法院",
+    "name_en": "Taipei High Administrative Court",
+    "aliases": [],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "taichung-city-government",
+    "wikidata_qid": null,
+    "name_zh": "臺中市政府",
+    "name_en": "Taichung City Government",
+    "aliases": [],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "legislative-yuan",
+    "wikidata_qid": null,
+    "name_zh": "立法院",
+    "name_en": "Legislative Yuan",
+    "aliases": [],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "want-want-group",
+    "wikidata_qid": null,
+    "name_zh": "旺旺集團",
+    "name_en": "Want Want Group",
+    "aliases": [
+      "旺旺中時媒體集團",
+      "中國旺旺控股"
+    ],
+    "entity_type": "company",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "ctitv",
+    "wikidata_qid": null,
+    "name_zh": "中天電視",
+    "name_en": "CTi TV",
+    "aliases": [
+      "中天新聞台",
+      "中天"
+    ],
+    "entity_type": "media_org",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "china-times",
+    "wikidata_qid": null,
+    "name_zh": "中國時報",
+    "name_en": "China Times",
+    "aliases": [
+      "中時"
+    ],
+    "entity_type": "media_org",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "ctv",
+    "wikidata_qid": null,
+    "name_zh": "中國電視公司（中視）",
+    "name_en": "China Television (CTV)",
+    "aliases": [
+      "中視"
+    ],
+    "entity_type": "media_org",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "peking-university",
+    "wikidata_qid": null,
+    "name_zh": "北京大學",
+    "name_en": "Peking University",
+    "aliases": [
+      "北大"
+    ],
+    "entity_type": "institution",
+    "country": "CN",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "sichuan-university",
+    "wikidata_qid": null,
+    "name_zh": "四川大學",
+    "name_en": "Sichuan University",
+    "aliases": [],
+    "entity_type": "institution",
+    "country": "CN",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
+  },
+  {
+    "id": "jinan-university-guangzhou",
+    "wikidata_qid": null,
+    "name_zh": "暨南大學（廣州）",
+    "name_en": "Jinan University (Guangzhou)",
+    "aliases": [
+      "暨大（廣州）"
+    ],
+    "entity_type": "institution",
+    "country": "CN",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-01"
   }
 ]

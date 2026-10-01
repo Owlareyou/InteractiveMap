@@ -7,10 +7,11 @@ import type { EvidenceTier } from '../schema/index'
 export const GRAPH_SETTINGS = {
   forces: {
     linkDistance: 140, // px between linked nodes at rest
-    chargeStrength: -800, // negative = nodes push apart
+    chargeStrength: -650, // negative = nodes push apart
     collidePadding: 22, // px kept clear around each node; leaves room for its label
-    // Weak pull toward the middle so unconnected nodes don't drift off-canvas.
-    centerPull: 0.04,
+    // Pull toward the middle so loosely connected nodes don't drift off-canvas.
+    // Raised from 0.04 when the data grew from 20 to 54 nodes.
+    centerPull: 0.08,
   },
   zoom: { min: 0.3, max: 4 },
   visual: {

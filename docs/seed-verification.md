@@ -53,12 +53,35 @@ as before: real issuing bodies, URL and quote left null, draft status.
 | `lai-member-of-dpp` | 中央選舉委員會 candidate registration (2024 presidential) | T1 | High |
 | `xi-member-of-ccp` | 新華社 official biography (CCP General Secretary) | T1 | High |
 
+## KMT–CCP enrichment (added 2026-10-01)
+
+**34 nodes and 47 edges** were added from
+`docs/research/2026-10-01-kmt-ccp-ties.md`. That log is the checklist for
+these: each row there names the claim, the URLs and a verdict.
+
+Unlike the earlier seed edges, most of these already carry a `source_url`.
+They're still `draft`. To promote one, open its URL, paste a verbatim `quote`,
+and set `review_status: 'reviewed'`.
+
+Check these first:
+- **`rao-song-tao-2025`:** rests on the MAC chair's characterisation.
+- **`fu-kun-chi-edu-jnu`:** the degree is disputed.
+- **`want-want-owns-ctv`:** confirm the 51.20% on TWSE's 公開資訊觀測站.
+- **`tsai-eng-meng-wang-yi-2008`:** the account comes from 旺旺's own magazine.
+  The 天下 link returned 403.
+- **`ctv-taichung-tender-2025`:** single outlet. Confirm on the government
+  e-procurement site.
+- **`hsia-straits-forum-2023`:** cites a Taiwan News topic page. Find the
+  specific article.
+
 ## Not filled in (deliberately)
 
 - `wikidata_qid` is `null` on every node (spec decision 2).
-- `roles[]`, `bio_short_*` and party membership dates are empty, because §6
-  doesn't give them. The `role_type` grouping in Task 7 will show "unknown"
-  until roles are added.
-- None of the six figures studied at a PRC institution (Xi's own country is
-  `CN`, so he is bucketed separately). The "studied in the PRC" signal
-  therefore can't be seen yet. Adding a real, sourced example would exercise it.
+- `bio_short_*` and party membership dates are empty.
+- `roles[]`: added on 2026-10-01 for the six original figures and most new
+  people. These are well-known offices and dates from background knowledge,
+  not researched for this round. Verify them alongside the edges. A few vice
+  chair roles have unknown dates (`null`).
+- PRC education now exists in the data: 陳玉珍 at 北京大學 and 羅明才 at
+  四川大學 (both official CEC records), and 傅崐萁 at 暨南大學 (disputed).
+  None of the six original figures studied at a PRC institution.

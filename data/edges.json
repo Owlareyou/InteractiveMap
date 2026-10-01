@@ -88,7 +88,7 @@
   {
     "id": "hsia-prc-visits-2023",
     "source_id": "hsia-li-yan",
-    "target_id": "xi-jinping",
+    "target_id": "taiwan-affairs-office",
     "relation_type": "made_prc_visit",
     "temporal_scope": "event",
     "valence": "positive",
@@ -116,7 +116,7 @@
       }
     ],
     "review_status": "draft",
-    "notes": "率團訪陸 delegation visits",
+    "notes": "率團訪陸 delegation visits；§6 原列對象為習近平，經查實際會見宋濤、王滬寧，改指國台辦（規格決定 13）",
     "education": null
   },
   {
@@ -809,6 +809,1520 @@
       {
         "source_url": null,
         "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "lien-xi-2013",
+    "source_id": "lien-chan",
+    "target_id": "xi-jinping",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2013-02-25",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/3169301",
+        "source_name": "TVBS",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "lien-xi-2014",
+    "source_id": "lien-chan",
+    "target_id": "xi-jinping",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2014-02-18",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/3169301",
+        "source_name": "TVBS",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "lien-xi-2015",
+    "source_id": "lien-chan",
+    "target_id": "xi-jinping",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2015-09-01",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/3169301",
+        "source_name": "TVBS",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.setn.com/project/851",
+        "source_name": "三立新聞網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "出席抗戰勝利70週年紀念活動（九三閱兵） attended the 2015 commemoration and parade",
+    "education": null
+  },
+  {
+    "id": "wu-xi-2013",
+    "source_id": "wu-poh-hsiung",
+    "target_id": "xi-jinping",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2013-06-13",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://interpret.csis.org/translations/xi-jinping-general-secretary-of-the-ccp-central-committee-meets-with-wu-poh-hsiung-honorary-chairman-of-the-kuomintang/",
+        "source_name": "新華社（CSIS Interpret 英譯）",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/3169301",
+        "source_name": "TVBS",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "吳習會；代表時任黨主席馬英九 on behalf of then-chair Ma",
+    "education": null
+  },
+  {
+    "id": "chu-xi-2015",
+    "source_id": "eric-chu",
+    "target_id": "xi-jinping",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2015-05-04",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": "https://www.rfa.org/cantonese/news/TW-talk-05042015090327.html",
+        "source_name": "自由亞洲電台",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "朱習會，國共論壇期間 during the KMT–CPC forum",
+    "education": null
+  },
+  {
+    "id": "cheng-xi-2026",
+    "source_id": "cheng-li-wun",
+    "target_id": "xi-jinping",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2026-04-10",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": "https://www.cna.com.tw/news/acn/202604100213.aspx",
+        "source_name": "中央通訊社",
+        "source_type": "news",
+        "published_date": "2026-04-10",
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/803081",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "鄭習會；兩黨領導人相隔十年首度會面 first party-leader meeting in ten years",
+    "education": null
+  },
+  {
+    "id": "chang-xi-2026",
+    "source_id": "chang-jung-kung",
+    "target_id": "xi-jinping",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2026-04-10",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://udn.com/news/story/124802/9433430",
+        "source_name": "聯合報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.cw.com.tw/article/5140574",
+        "source_name": "天下雜誌",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "鄭習會國民黨代表團成員（五對五） member of the five-person KMT delegation",
+    "education": null
+  },
+  {
+    "id": "hsia-song-tao-2023",
+    "source_id": "hsia-li-yan",
+    "target_id": "song-tao",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2023-02-09",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2036580",
+        "source_name": "TVBS",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.cna.com.tw/news/aipl/202302080221.aspx",
+        "source_name": "中央通訊社",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "hsia-wang-huning-2023",
+    "source_id": "hsia-li-yan",
+    "target_id": "wang-huning",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2023-02-10",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://cna.com.tw/news/aipl/202302180002.aspx",
+        "source_name": "中央通訊社",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2039524",
+        "source_name": "TVBS",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "fu-wang-huning-2024",
+    "source_id": "fu-kun-chi",
+    "target_id": "wang-huning",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2024-04-27",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2469109",
+        "source_name": "TVBS",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.rfa.org/cantonese/news/taiwan-05012024054853.html",
+        "source_name": "自由亞洲電台",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "率16位國民黨立委訪北京 led 16 KMT legislators",
+    "education": null
+  },
+  {
+    "id": "chen-yu-jen-wang-huning-2024",
+    "source_id": "chen-yu-jen",
+    "target_id": "wang-huning",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2024-04-27",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20240430inv001",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.nownews.com/news/6420611",
+        "source_name": "NOWnews",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "傅崐萁率團成員 member of Fu Kun-chi's delegation",
+    "education": null
+  },
+  {
+    "id": "lo-ming-tsai-wang-huning-2024",
+    "source_id": "lo-ming-tsai",
+    "target_id": "wang-huning",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2024-04-27",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20240430inv001",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.nownews.com/news/6420611",
+        "source_name": "NOWnews",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "傅崐萁率團成員 member of Fu Kun-chi's delegation",
+    "education": null
+  },
+  {
+    "id": "sean-lien-wang-huning-2024",
+    "source_id": "sean-lien",
+    "target_id": "wang-huning",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T3",
+    "directed": true,
+    "start": "2024-06-15",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.nownews.com/news/6449876",
+        "source_name": "NOWnews",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第16屆海峽論壇期間 at the 16th Straits Forum",
+    "education": null
+  },
+  {
+    "id": "ma-wang-huning-2025",
+    "source_id": "ma-ying-jeou",
+    "target_id": "wang-huning",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2025-06-15",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.worldjournal.com/wj/amp/story/121475/8809163",
+        "source_name": "世界日報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.ctee.com.tw/news/20250616700122-430802",
+        "source_name": "工商時報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第17屆海峽論壇，廈門 at the 17th Straits Forum",
+    "education": null
+  },
+  {
+    "id": "chang-wang-huning-2026",
+    "source_id": "chang-jung-kung",
+    "target_id": "wang-huning",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2026-06-13",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://udn.com/news/story/7331/9563972",
+        "source_name": "聯合報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.hk01.com/%E5%8F%B0%E7%81%A3%E6%96%B0%E8%81%9E/60359884/%E6%B5%B7%E5%B3%BD%E8%AB%96%E5%A3%87%E9%96%8B%E5%B9%95-%E7%8E%8B%E6%BB%AC%E5%AF%A7%E6%99%A4%E5%9C%8B%E6%B0%91%E9%BB%A8%E5%89%AF%E4%B8%BB%E5%B8%AD%E5%BC%B5%E6%A6%AE%E6%81%AD-%E5%A0%85%E5%AE%9A%E7%82%BA%E5%85%A9%E5%B2%B8%E8%AC%80%E5%92%8C%E5%B9%B3",
+        "source_name": "香港01",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第18屆海峽論壇開幕前 before the 18th Straits Forum opened",
+    "education": null
+  },
+  {
+    "id": "rao-song-tao-2025",
+    "source_id": "rao-ching-ling",
+    "target_id": "song-tao",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2025-01",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.pts.org.tw/article/813402",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.nownews.com/news/6848296",
+        "source_name": "NOWnews",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "依陸委會主委邱垂正說法 per the MAC chair's statement",
+    "education": null
+  },
+  {
+    "id": "han-hk-liaison-2019",
+    "source_id": "han-kuo-yu",
+    "target_id": "hk-liaison-office",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2019-03-22",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://newtalk.tw/news/view/2019-03-23/223842",
+        "source_name": "新頭殼",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.thenewslens.com/article/115983",
+        "source_name": "關鍵評論網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "時任高雄市長；中聯辦主任王志民會見 received by director Wang Zhimin",
+    "education": null
+  },
+  {
+    "id": "han-macao-liaison-2019",
+    "source_id": "han-kuo-yu",
+    "target_id": "macao-liaison-office",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2019-03",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://newtalk.tw/news/view/2019-03-24/224119",
+        "source_name": "新頭殼",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.thenewslens.com/article/116014",
+        "source_name": "關鍵評論網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "會晤澳門中聯辦主任傅自應 met director Fu Ziying",
+    "education": null
+  },
+  {
+    "id": "tsai-eng-meng-wang-yi-2008",
+    "source_id": "tsai-eng-meng",
+    "target_id": "wang-yi",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2008-12-05",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "旺旺月刊",
+        "source_type": "other",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": "https://crossing.cw.com.tw/article/11525",
+        "source_name": "天下雜誌",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "收購中時集團後向時任國台辦主任報告；記述出自旺旺自家刊物 account from Want Want's own magazine",
+    "education": null
+  },
+  {
+    "id": "song-tao-tao",
+    "source_id": "song-tao",
+    "target_id": "taiwan-affairs-office",
+    "relation_type": "position_held",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2022-12",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "wang-yi-tao",
+    "source_id": "wang-yi",
+    "target_id": "taiwan-affairs-office",
+    "relation_type": "position_held",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2008-06",
+    "end": "2013-03",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "新華社",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "hsia-mac",
+    "source_id": "hsia-li-yan",
+    "target_id": "mainland-affairs-council",
+    "relation_type": "position_held",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2015-02",
+    "end": "2016-05",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "行政院大陸委員會",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "hsia-straits-forum-2023",
+    "source_id": "hsia-li-yan",
+    "target_id": "straits-forum",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T3",
+    "directed": true,
+    "start": "2023-06",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.taiwannews.com.tw/zh/topic/%E5%A4%8F%E7%AB%8B%E8%A8%80",
+        "source_name": "台灣英文新聞",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第15屆 15th forum",
+    "education": null
+  },
+  {
+    "id": "sean-lien-straits-forum-2024",
+    "source_id": "sean-lien",
+    "target_id": "straits-forum",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T3",
+    "directed": true,
+    "start": "2024-06-15",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.nownews.com/news/6449765",
+        "source_name": "NOWnews",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第16屆；受朱立倫指派 sent by chair Eric Chu",
+    "education": null
+  },
+  {
+    "id": "ma-straits-forum-2025",
+    "source_id": "ma-ying-jeou",
+    "target_id": "straits-forum",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2025-06-15",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.worldjournal.com/wj/amp/story/121475/8809163",
+        "source_name": "世界日報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.ctee.com.tw/news/20250616700122-430802",
+        "source_name": "工商時報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第17屆；首位出席的卸任元首 first former ROC president to attend",
+    "education": null
+  },
+  {
+    "id": "chang-straits-forum-2026",
+    "source_id": "chang-jung-kung",
+    "target_id": "straits-forum",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2026-06-13",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://udn.com/news/story/7331/9563972",
+        "source_name": "聯合報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.worldjournal.com/wj/amp/story/121220/9544374",
+        "source_name": "世界日報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第18屆，率團 led the KMT delegation",
+    "education": null
+  },
+  {
+    "id": "rao-straits-forum-2026",
+    "source_id": "rao-ching-ling",
+    "target_id": "straits-forum",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2026-06",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.pts.org.tw/article/813402",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.taiwannews.com.tw/zh/topic/%E6%B5%B7%E5%B3%BD%E8%AB%96%E5%A3%87",
+        "source_name": "台灣英文新聞",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "以預錄影片參加 took part by pre-recorded video",
+    "education": null
+  },
+  {
+    "id": "rao-investigated-by-mac-2026",
+    "source_id": "rao-ching-ling",
+    "target_id": "mainland-affairs-council",
+    "relation_type": "investigated_by",
+    "temporal_scope": "event",
+    "valence": "negative",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2026-06",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.pts.org.tw/article/813402",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.taiwannews.com.tw/zh/topic/%E6%B5%B7%E5%B3%BD%E8%AB%96%E5%A3%87",
+        "source_name": "台灣英文新聞",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "陸委會稱將依兩岸條例第33條之1查處 MAC said it would act under Cross-Strait Act §33-1",
+    "education": null
+  },
+  {
+    "id": "tsai-eng-meng-chairs-want-want",
+    "source_id": "tsai-eng-meng",
+    "target_id": "want-want-group",
+    "relation_type": "board_member",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://news.pts.org.tw/article/429749",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.cw.com.tw/article/5001838",
+        "source_name": "天下雜誌",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "董事長 chairman",
+    "education": null
+  },
+  {
+    "id": "want-want-owns-china-times",
+    "source_id": "want-want-group",
+    "target_id": "china-times",
+    "relation_type": "shareholder",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2008-11",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.cw.com.tw/article/5001838",
+        "source_name": "天下雜誌",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://lingua-sinica.org/dispatch/want-want-china-times-media-group/",
+        "source_name": "Lingua Sinica",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2008年收購中時集團 acquired the China Times group",
+    "education": null
+  },
+  {
+    "id": "want-want-owns-ctitv",
+    "source_id": "want-want-group",
+    "target_id": "ctitv",
+    "relation_type": "shareholder",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2008-11",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.cw.com.tw/article/5001838",
+        "source_name": "天下雜誌",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://lingua-sinica.org/dispatch/want-want-china-times-media-group/",
+        "source_name": "Lingua Sinica",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "want-want-owns-ctv",
+    "source_id": "want-want-group",
+    "target_id": "ctv",
+    "relation_type": "shareholder",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2008-11",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.cw.com.tw/article/5001838",
+        "source_name": "天下雜誌",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://ww2.money-link.com.tw/TWStock/StockBasic.aspx?SymId=9928",
+        "source_name": "Money-Link 個股基本資料",
+        "source_type": "other",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "董監持股51.20% (directors' and supervisors' holdings); 原始紀錄應查公開資訊觀測站",
+    "education": null
+  },
+  {
+    "id": "want-want-prc-subsidies",
+    "source_id": "want-want-group",
+    "target_id": "prc-government",
+    "relation_type": "prc_entity_business_tie",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中國旺旺控股有限公司年報",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/429749",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "年報所載中國政府補助：2016年3.68億、2017–2018年度4.77億人民幣；旺旺稱為地方招商引資獎勵 subsidies per annual reports; Want Want calls them local investment incentives",
+    "education": null
+  },
+  {
+    "id": "ctitv-licence-denied-2020",
+    "source_id": "ctitv",
+    "target_id": "ncc",
+    "relation_type": "ruled_on",
+    "temporal_scope": "event",
+    "valence": "negative",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2020-11-18",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "國家通訊傳播委員會委員會議決議",
+        "source_type": "official_record",
+        "published_date": "2020-11-18",
+        "quote": null,
+        "retrieved_date": null
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/636160",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "7比0駁回中天新聞台換照 licence renewal refused 7–0",
+    "education": null
+  },
+  {
+    "id": "ctitv-court-2023",
+    "source_id": "ctitv",
+    "target_id": "taipei-high-administrative-court",
+    "relation_type": "ruled_on",
+    "temporal_scope": "event",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2023-05-10",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2120066",
+        "source_name": "TVBS",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.nownews.com/news/6135882",
+        "source_name": "NOWnews",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "一審撤銷NCC不予換照處分、發回重審；NCC表示上訴，結果未查 NCC refusal overturned at first instance; appeal outcome not researched",
+    "education": null
+  },
+  {
+    "id": "lu-sisters",
+    "source_id": "lu-shiow-yen",
+    "target_id": "lu-hsiu-fang",
+    "relation_type": "relative_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": false,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20241226edi026",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://news.ltn.com.tw/news/politics/breakingnews/5547622",
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "姊妹 sisters",
+    "education": null
+  },
+  {
+    "id": "lu-hsiu-fang-ctitv",
+    "source_id": "lu-hsiu-fang",
+    "target_id": "ctitv",
+    "relation_type": "employer",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": "2024-12-25",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20241226edi026",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://www.setn.com/klist/303807",
+        "source_name": "三立新聞網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "中天新聞《辣晚報》主持人 anchor",
+    "education": null
+  },
+  {
+    "id": "lu-hsiu-fang-chairs-ctv",
+    "source_id": "lu-hsiu-fang",
+    "target_id": "ctv",
+    "relation_type": "board_member",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2024-12-26",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20241226edi026",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://news.ltn.com.tw/news/politics/breakingnews/5547622",
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "董事長兼總經理 chair and president",
+    "education": null
+  },
+  {
+    "id": "ctv-taichung-tender-2025",
+    "source_id": "ctv",
+    "target_id": "taichung-city-government",
+    "relation_type": "contract_with",
+    "temporal_scope": "event",
+    "valence": "neutral",
+    "evidence_tier": "T3",
+    "directed": true,
+    "start": "2025",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.ltn.com.tw/news/politics/breakingnews/5547622",
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": "2026-08-21",
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "臺中國際會展中心開幕活動標案新臺幣400萬元 NT$4m exhibition-centre opening tender",
+    "education": null
+  },
+  {
+    "id": "lu-shiow-yen-mayor",
+    "source_id": "lu-shiow-yen",
+    "target_id": "taichung-city-government",
+    "relation_type": "position_held",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2018-12-25",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "中央選舉委員會",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "chen-yu-jen-edu-pku",
+    "source_id": "chen-yu-jen",
+    "target_id": "peking-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://eebulletin.cec.gov.tw/113/02%E7%AC%AC11%E5%B1%86%E5%8D%80%E5%9F%9F%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%E9%81%B8%E8%88%89/19%E9%87%91%E9%96%80%E7%B8%A3/%E9%87%91%E9%96%80%E7%B8%A3%E9%81%B8%E8%88%89%E5%8D%80.pdf",
+        "source_name": "中央選舉委員會 選舉公報（2024）",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "master",
+      "degree": "法學碩士",
+      "field": "國際經濟法"
+    }
+  },
+  {
+    "id": "lo-ming-tsai-edu-scu",
+    "source_id": "lo-ming-tsai",
+    "target_id": "sichuan-university",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://bulletin.cec.gov.tw/01%E9%81%B8%E8%88%89%E5%85%AC%E5%A0%B1/02%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1/113%E5%B9%B4%E7%AC%AC11%E5%B1%86/06%E7%BD%B7%E5%85%8D%E6%A1%88/03%E6%96%B0%E5%8C%97%E5%B8%82/01%E7%B4%99%E6%9C%AC%E5%85%AC%E5%A0%B1/%E7%AC%AC11%E5%B1%86%E7%AB%8B%E6%B3%95%E5%A7%94%E5%93%A1%EF%BC%88%E6%96%B0%E5%8C%97%E5%B8%82%E7%AC%AC11%E9%81%B8%E8%88%89%E5%8D%80%EF%BC%89%E7%BE%85%E6%98%8E%E6%89%8D%E7%BD%B7%E5%85%8D%E6%A1%88%E5%85%AC%E5%91%8A%E5%85%A7%E5%AE%B9(%E6%96%B0%E5%BA%97%E5%8D%80%E3%80%81%E6%B7%B1%E5%9D%91%E5%8D%80%E3%80%81%E7%9F%B3%E7%A2%87%E5%8D%80%E3%80%81%E5%9D%AA%E6%9E%97%E5%8D%80%E3%80%81%E7%83%8F%E4%BE%86%E5%8D%80).pdf",
+        "source_name": "中央選舉委員會 罷免案公告",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": {
+      "stage": "doctorate",
+      "degree": "經濟博士",
+      "field": "經濟"
+    }
+  },
+  {
+    "id": "fu-kun-chi-edu-jnu",
+    "source_id": "fu-kun-chi",
+    "target_id": "jinan-university-guangzhou",
+    "relation_type": "educated_at",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.cna.com.tw/news/aipl/202503140137.aspx",
+        "source_name": "中央通訊社",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://newtalk.tw/news/view/2024-12-16/949161",
+        "source_name": "新頭殼",
+        "source_type": "news",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-01"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2008年立委簡歷列「法學博士班」後移除；2024年自稱法學博士；是否取得學位未查證 degree status disputed",
+    "education": {
+      "stage": "doctorate",
+      "degree": null,
+      "field": "法學"
+    }
+  },
+  {
+    "id": "han-speaker",
+    "source_id": "han-kuo-yu",
+    "target_id": "legislative-yuan",
+    "relation_type": "position_held",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2024-02-01",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "立法院",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "fu-legislator",
+    "source_id": "fu-kun-chi",
+    "target_id": "legislative-yuan",
+    "relation_type": "position_held",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "立法院",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "chen-yu-jen-legislator",
+    "source_id": "chen-yu-jen",
+    "target_id": "legislative-yuan",
+    "relation_type": "position_held",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "2016-02",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "立法院",
+        "source_type": "official_record",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": null
+      }
+    ],
+    "review_status": "draft",
+    "notes": null,
+    "education": null
+  },
+  {
+    "id": "lo-ming-tsai-legislator",
+    "source_id": "lo-ming-tsai",
+    "target_id": "legislative-yuan",
+    "relation_type": "position_held",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T1",
+    "directed": true,
+    "start": "1999-02",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": null,
+        "source_name": "立法院",
         "source_type": "official_record",
         "published_date": null,
         "quote": null,

@@ -25,23 +25,25 @@ Tasks come from §8 of the brief. Update this table when a task lands.
 | 9 | Detail drawer: node profile, edge evidence list | Not started |
 | 10 | Polish: tokens, responsive, empty states, README schema guide | Not started |
 
-### Where we left off (2026-09-30)
+### Where we left off (2026-10-01)
 
-Tasks 2–4 landed in one session: schema + validator, seed data (with real
-education records for all six figures), and edge weight (research-anchored,
-with a mock per-type intensity table).
+- Tasks 5–6 landed: the graph is on screen with visual encoding, hover and a
+  legend.
+- A data-enrichment round followed, focused on KMT–CCP ties. The data now has
+  54 nodes and 75 edges. Every new edge cites the URLs it came from. Receipts
+  are in `docs/research/2026-10-01-kmt-ccp-ties.md`.
 
 Next session:
-1. Write the Task 5 plan (static force graph) and get it approved. This is the
-   first task with something visible in the browser.
-2. Still open, not blocking:
-   - Verify the draft seed sources (`docs/seed-verification.md`), starting with
-     Hsia's Georgetown degree and Hung's master's.
-   - No seed figure studied at a PRC institution, so the China-education
-     signal can't be seen yet.
-   - Tune the mock intensity numbers once edges are on screen (Task 6).
-   - The npm cache has root-owned files. Run
-     `sudo chown -R 501:20 ~/.npm` once.
+1. **Decide:** add a relation type for "reported editorial direction from"
+   (the 2019 FT report on 中時 / 中天 and the TAO)? It's not in the closed
+   vocabulary, so it's held back.
+2. **Task 7** (grouping registry + selector), then 8 and 9. Consider pulling
+   Task 9 (the click-to-detail drawer) forward.
+3. Still open, not blocking:
+   - Verify draft sources (`docs/seed-verification.md`).
+   - Look up 旺旺 donations manually on the Control Yuan platform.
+   - Research DPP / TPP cross-strait contacts so coverage isn't KMT-only.
+   - Fix the npm cache once: `sudo chown -R 501:20 ~/.npm`.
 
 Background lives in `docs/`, not here:
 
@@ -141,8 +143,15 @@ survive between tasks.
 | 9 | **China influence is derived, never stored or hand-tagged.** One rule for every party: `cross_strait`-layer edges (weighted by tier) plus `educated_at` edges to institutions in a PRC region. PRC regions are `CN`, `HK`, `MO`, each with a tunable weight (default 1.0). Nodes whose own country is `CN` get a separate `prc` bucket. Shown as the `cross_strait_engagement` colour scale ending in red (Task 7) and a side tab explaining which edges produced it (Task 9). |
 | 10 | Direction readings: `employer` = source is employed by target; `ruled_on` = target (a court) ruled on source. Full list in `RELATION_DIRECTION_SEMANTICS`. |
 | 11 | Seed sources (Task 3): real issuing bodies and outlets only, `source_url` and `quote` null, every edge `review_status: 'draft'`. Education records for the six seed figures are added beyond §6 at Jing's request, under the same rule. On 2026-10-01, `member_of` edges were added for the other five figures (Hung's already existed) under the same rule, so every party node has an edge. |
+| 12 | `ruled_on` targets may be a **court or a regulator** (e.g. the NCC). The reading in `RELATION_DIRECTION_SEMANTICS` was widened accordingly. |
+| 13 | **§6 correction:** `hsia-prc-visits-2023` now targets the Taiwan Affairs Office, not `xi-jinping`. The 2023 reporting shows Hsia met 宋濤 and 王滬寧, not Xi. Those meetings are separate edges. |
+| 14 | The China-education signal (decision 9) counts only study at PRC-region institutions **after 1949-10-01**. Earlier mainland study (for example 黃埔) was under the ROC. Implemented in Task 7. |
+| 15 | `member_of` edges exist only for the original six figures. People added later carry party membership in `party_affiliations` only, which Task 7's party grouping will show. This keeps the graph about ties rather than membership. |
+| 16 | Evidence added from research carries the real URL and `retrieved_date`. It stays `draft` until someone reads the source and adds a verbatim `quote`. |
+| 17 | **Coverage is not yet balanced.** The 2026-10-01 round researched KMT–CCP ties only, at Jing's request. The recording rules are identical for every party, but DPP / TPP / independent cross-strait contacts haven't been researched yet. See the research log's coverage note. |
 
-No open items.
+Open:
+- Should a relation type be added for reported editorial direction from a PRC body? This is needed to record the 2019 FT allegation about 中時 / 中天, which would be T4. It's held back until approved (brief §4.1).
 
 ## Phase 1 non-goals
 

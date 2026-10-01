@@ -150,7 +150,8 @@ export const RELATION_DIRECTION_SEMANTICS: Record<RelationType, string> = {
   educated_at: 'SOURCE studied at TARGET (an institution).',
   investigated_by: 'SOURCE was investigated by TARGET.',
   indicted_by: 'SOURCE was indicted by TARGET.',
-  ruled_on: 'SOURCE was the subject of a ruling by TARGET (a court). (TARGET did the ruling.)',
+  ruled_on:
+    'SOURCE was the subject of a ruling by TARGET (a court or regulator, e.g. the NCC). (TARGET did the ruling.)',
 }
 
 // Which entity types each end of an edge must be. Types not listed are
