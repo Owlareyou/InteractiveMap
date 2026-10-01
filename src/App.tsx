@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Filters } from '@/components/Filters'
 import { Graph } from '@/components/Graph'
 import { GroupingSelector } from '@/components/GroupingSelector'
 import { Legend } from '@/components/Legend'
 import { loadGraph, type GraphData } from '@/lib/dataSource'
+import { DEFAULT_FILTERS, searchNodes, visibleEdgeIds, type FilterState } from '@/lib/filters'
 import { buildContext, DEFAULT_GROUPING, dimensionById, type Group, type GroupingId } from '@/lib/grouping'
 import { computeEdgeWeight } from '@/lib/weight'
 
@@ -14,12 +16,16 @@ const REFERENCE_DATE = new Date().toISOString().slice(0, 10)
 
 const EMPTY: GraphData = { nodes: [], edges: [] }
 
+export type Selection = { kind: 'node'; id: string } | { kind: 'edge'; id: string } | null
+
 /**
- * Filters land in Task 8, the drawer in Task 9.
+ * The drawer lands in Task 9.
  */
 export default function App() {
   const [state, setState] = useState<LoadState>({ status: 'loading' })
   const [groupingId, setGroupingId] = useState<GroupingId>(DEFAULT_GROUPING)
+  const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS)
+  const [selection, setSelection] = useState<Selection>(null)
 
   useEffect(() => {
     loadGraph()
@@ -52,6 +58,11 @@ export default function App() {
     return { groups, groupOf, counts }
   }, [dimension, ctx, data])
 
+  const visibleEdges = useMemo(() => visibleEdgeIds(data.edges, weights, filters), [data, weights, filters])
+  const matches = useMemo(() => searchNodes(data.nodes, filters.query), [data, filters.query])
+  const matchedNodes = useMemo(() => new Set(matches.map((n) => n.id)), [matches])
+  const selectedNodeId = selection?.kind === 'node' ? selection.id : null
+
   return (
     <div className="grid h-full grid-cols-[18rem_1fr_20rem] max-lg:grid-cols-1 max-lg:grid-rows-[auto_minmax(24rem,1fr)_auto]">
       <aside className="border-edge-subtle bg-surface-raised flex flex-col gap-6 overflow-y-auto border-r p-5 max-lg:border-r-0 max-lg:border-b">
@@ -62,13 +73,29 @@ export default function App() {
           </p>
         </header>
         <GroupingSelector value={groupingId} onChange={setGroupingId} />
-        <Placeholder zh="篩選" en="Filters" note="Task 8" />
+        <Filters
+          value={filters}
+          onChange={setFilters}
+          shownEdges={visibleEdges.size}
+          totalEdges={data.edges.length}
+          matches={matches}
+          selectedNodeId={selectedNodeId}
+          onSelectNode={(id) => setSelection({ kind: 'node', id })}
+        />
         <Legend dimension={dimension} groups={grouping.groups} counts={grouping.counts} />
       </aside>
 
       <main className="bg-surface-base relative min-h-0">
         {state.status === 'ready' && (
-          <Graph nodes={data.nodes} edges={data.edges} weights={weights} groupOf={grouping.groupOf} />
+          <Graph
+            nodes={data.nodes}
+            edges={data.edges}
+            weights={weights}
+            groupOf={grouping.groupOf}
+            visibleEdges={visibleEdges}
+            matchedNodes={matchedNodes}
+            selectedNodeId={selectedNodeId}
+          />
         )}
         {state.status === 'loading' && <Notice zh="載入中…" en="Loading…" />}
         {state.status === 'error' && (

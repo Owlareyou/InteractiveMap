@@ -25,14 +25,18 @@ type Props = {
   nodes: Node[]
   edges: Edge[]
   weights: ReadonlyMap<string, number>
-  // Read only while rendering, so a new grouping recolours nodes without
-  // rebuilding or reheating the simulation (§10).
+  // The props below are read only while rendering, so changing grouping or
+  // filters restyles the graph without rebuilding or reheating the
+  // simulation (§10). Positions stay put.
   groupOf: ReadonlyMap<string, Group>
+  visibleEdges: ReadonlySet<string>
+  matchedNodes: ReadonlySet<string> // search hits
+  selectedNodeId: string | null
 }
 
 type DrawnLink = SimLink & { width: number; offset: number }
 
-export function Graph({ nodes, edges, weights, groupOf }: Props) {
+export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNodes, selectedNodeId }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
   const svgRef = useRef<SVGSVGElement>(null)
   const nodeEls = useRef(new Map<string, SVGGElement>())
@@ -69,17 +73,20 @@ export function Graph({ nodes, edges, weights, groupOf }: Props) {
     return { nodes: simNodes, links: simLinks }
   }, [nodes, edges, weights])
 
+  // Hover follows only the edges on screen; a filtered-out tie shouldn't
+  // light up a neighbour.
   const neighbours = useMemo(() => {
     const map = new Map<string, Set<string>>()
     for (const e of edges) {
+      if (!visibleEdges.has(e.id)) continue
       map.set(e.source_id, (map.get(e.source_id) ?? new Set()).add(e.target_id))
       map.set(e.target_id, (map.get(e.target_id) ?? new Set()).add(e.source_id))
     }
     return map
-  }, [edges])
+  }, [edges, visibleEdges])
 
   const isLit = (id: string) => hovered === null || id === hovered || (neighbours.get(hovered)?.has(id) ?? false)
-  const dim = GRAPH_SETTINGS.visual.dimOpacity
+  const { dimOpacity: dim, strandedOpacity } = GRAPH_SETTINGS.visual
 
   const simRef = useRef<Simulation<SimNode, SimLink> | null>(null)
 
@@ -149,6 +156,7 @@ export function Graph({ nodes, edges, weights, groupOf }: Props) {
           <g transform={`translate(${width / 2},${height / 2})`}>
             <g>
               {graph.links.map((l) => {
+                if (!visibleEdges.has(l.id)) return null
                 const s = endpoint(l.source)
                 const t = endpoint(l.target)
                 if (!s || !t || s.x === undefined || s.y === undefined || t.x === undefined || t.y === undefined)
@@ -182,6 +190,12 @@ export function Graph({ nodes, edges, weights, groupOf }: Props) {
               {graph.nodes.map((n) => {
                 const institution = n.data.entity_type === 'institution'
                 const group = groupOf.get(n.id)
+                const selected = n.id === selectedNodeId
+                const marked = selected || matchedNodes.has(n.id)
+                // Nodes whose every edge is filtered out fade rather than
+                // vanish, so the layout doesn't change under the reader.
+                const stranded = !neighbours.has(n.id) && !marked
+                const opacity = (isLit(n.id) ? 1 : dim) * (stranded ? strandedOpacity : 1)
                 return (
                   <g
                     key={n.id}
@@ -190,12 +204,21 @@ export function Graph({ nodes, edges, weights, groupOf }: Props) {
                       else nodeEls.current.delete(n.id)
                     }}
                     transform={`translate(${n.x ?? 0},${n.y ?? 0})`}
-                    opacity={isLit(n.id) ? 1 : dim}
+                    opacity={opacity}
                     onPointerEnter={() => setHovered(n.id)}
                     onPointerLeave={() => setHovered(null)}
                     className="cursor-pointer"
                   >
                     <title>{`${n.data.name_en}${group ? ` · ${group.zh} ${group.en}` : ''}`}</title>
+                    {marked && (
+                      <circle
+                        r={n.radius + (selected ? 6 : 5)}
+                        fill="none"
+                        stroke="var(--highlight)"
+                        strokeWidth={selected ? 3 : 2}
+                        strokeDasharray={selected ? undefined : '3 2'}
+                      />
+                    )}
                     <circle
                       r={n.radius}
                       fill={group?.colour ?? 'var(--group-none)'}

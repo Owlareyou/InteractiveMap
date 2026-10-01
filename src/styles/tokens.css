@@ -81,6 +81,10 @@
 
   /* Outline for organisations based in a PRC region (spec decision 18). */
   --prc-outline: #c8102e;
+
+  /* Ring around search hits and the selected node. Ink-coloured so it never
+     reads as one of the categorical fills. */
+  --highlight: var(--text-primary);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -26,6 +26,8 @@ export const GRAPH_SETTINGS = {
     t4Opacity: 0.45,
     // Hovering a node fades everything outside its 1-hop neighbourhood to this.
     dimOpacity: 0.12,
+    // A node whose edges are all filtered out fades to this instead of vanishing.
+    strandedOpacity: 0.3,
     // Gap between parallel edges joining the same two nodes.
     parallelSpacingPx: 22,
   },

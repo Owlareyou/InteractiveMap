@@ -21,8 +21,8 @@ Tasks come from §8 of the brief. Update this table when a task lands.
 | 5 | `src/lib/dataSource.ts` + static force graph (drag, zoom) | ✅ Done |
 | 6 | Visual encoding: valence colour, tier stroke, weight width, arrows, radii | ✅ Done |
 | 7 | Grouping-dimension registry + selector | ✅ Done — see `docs/decisions/grouping.md` |
-| 8 | Filters: layer, tier (T4 off), valence, min weight, search | ⏭ Next |
-| 9 | Detail drawer: node profile, edge evidence list | Not started |
+| 8 | Filters: layer, tier (T4 off), valence, min weight, search | ✅ Done |
+| 9 | Detail drawer: node profile, edge evidence list | ⏭ Next |
 | 10 | Polish: tokens, responsive, empty states, README schema guide | Not started |
 
 ### Where we left off (2026-10-01)
@@ -74,7 +74,7 @@ npm run dev      # http://localhost:5173
 | `npm run preview` | Serve the built output |
 | `npm run typecheck` | `tsc --noEmit`, strict |
 | `npm run validate` | Check `data/*.json` against the schema and invariants; exits 1 and lists every problem. `-- --data <dir>` checks another folder |
-| `npm test` | Edge-weight and grouping checks (`node:test` via `tsx`) |
+| `npm test` | Edge-weight, grouping and filter checks (`node:test` via `tsx`) |
 
 Every tunable number lives in `src/settings/`: edge weight (`weight.ts`),
 grouping rules and engagement thresholds (`grouping.ts`), PRC regions
