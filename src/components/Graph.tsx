@@ -8,6 +8,7 @@ import {
   VALENCE_COLOR,
   edgeGeometry,
   edgeWidth,
+  isPrcControlled,
   nodeRadius,
   parallelOffsets,
   rangeOf,
@@ -194,8 +195,8 @@ export function Graph({ nodes, edges, weights }: Props) {
                     <circle
                       r={n.radius}
                       fill={ENTITY_COLOR[n.data.entity_type]}
-                      stroke="var(--surface-base)"
-                      strokeWidth={1.5}
+                      stroke={isPrcControlled(n.data) ? 'var(--prc-outline)' : 'var(--surface-base)'}
+                      strokeWidth={isPrcControlled(n.data) ? 3 : 1.5}
                     />
                     <text
                       y={n.radius + 12}

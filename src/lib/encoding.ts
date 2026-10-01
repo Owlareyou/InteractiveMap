@@ -1,4 +1,5 @@
-import type { Edge, EntityType, EvidenceTier, Valence } from '../schema/index'
+import type { Edge, EntityType, EvidenceTier, Node, Valence } from '../schema/index'
+import { PRC_REGIONS } from '../settings/china'
 import { GRAPH_SETTINGS } from '../settings/graph'
 
 type Range = { min: number; max: number }
@@ -22,6 +23,15 @@ export const ENTITY_COLOR: Record<EntityType, string> = {
   company: 'var(--node-other)',
   media_org: 'var(--node-other)',
   association: 'var(--node-other)',
+}
+
+/**
+ * Organisations based in a PRC region (party, state bodies, schools, forums)
+ * get a red outline. Derived from `country`, never hand-tagged. People are
+ * excluded: a person isn't "controlled" in the way an institution is.
+ */
+export function isPrcControlled(node: Node): boolean {
+  return node.entity_type !== 'person' && node.country !== null && PRC_REGIONS.has(node.country)
 }
 
 export function scaleLinear(value: number, domain: Range, range: Range): number {

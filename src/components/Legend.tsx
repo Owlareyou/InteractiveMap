@@ -53,6 +53,11 @@ export function Legend() {
             </svg>
           </Row>
         ))}
+        <Row zh="紅框：中國（含港澳）機構" en="Red outline: PRC-based organisation">
+          <svg width="28" height="12" aria-hidden>
+            <circle cx="14" cy="6" r="4.5" fill="var(--node-institution)" stroke="var(--prc-outline)" strokeWidth="2" />
+          </svg>
+        </Row>
       </Group>
 
       <p className="text-content-secondary leading-relaxed">

@@ -44,6 +44,9 @@
   --node-party: #7b5ea7;
   --node-institution: #a39a86;
   --node-other: #6b7280;
+
+  /* Outline for organisations based in a PRC region (spec decision 18). */
+  --prc-outline: #c8102e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -69,5 +72,7 @@
     --node-party: #b39ddb;
     --node-institution: #8f887a;
     --node-other: #8b93a0;
+
+    --prc-outline: #ff4d5e;
   }
 }

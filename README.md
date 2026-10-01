@@ -149,6 +149,7 @@ survive between tasks.
 | 15 | `member_of` edges exist only for the original six figures. People added later carry party membership in `party_affiliations` only, which Task 7's party grouping will show. This keeps the graph about ties rather than membership. |
 | 16 | Evidence added from research carries the real URL and `retrieved_date`. It stays `draft` until someone reads the source and adds a verbatim `quote`. |
 | 17 | **Coverage is not yet balanced.** The 2026-10-01 round researched KMT–CCP ties only, at Jing's request. The recording rules are identical for every party, but DPP / TPP / independent cross-strait contacts haven't been researched yet. See the research log's coverage note. |
+| 18 | **Red outline** on any non-person node whose `country` is a PRC region (`CN`, `HK`, `MO`): the CCP, PRC state bodies, PRC schools, the Straits Forum. Derived from `country`, never hand-tagged. People are excluded. Regions are set in `src/settings/china.ts`. |
 
 Open:
 - Should a relation type be added for reported editorial direction from a PRC body? This is needed to record the 2019 FT allegation about 中時 / 中天, which would be T4. It's held back until approved (brief §4.1).
