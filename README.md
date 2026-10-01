@@ -23,19 +23,29 @@ Tasks come from §8 of the brief. Update this table when a task lands.
 | 7 | Grouping-dimension registry + selector | ✅ Done — see `docs/decisions/grouping.md` |
 | 8 | Filters: layer, tier (T4 off), valence, min weight, search | ✅ Done |
 | 9 | Detail drawer: node profile, edge evidence list | ✅ Done |
-| 10 | Polish: tokens, responsive, empty states, README schema guide | ⏭ Next |
+| 10 | Polish: tokens, responsive, empty states, README schema guide | 🚧 Partial — see below |
 
-### Where we left off (2026-10-01)
+### Where we left off (2026-10-02)
 
-- Tasks 5–6 landed: the graph is on screen with visual encoding, hover and a
-  legend.
-- A data-enrichment round followed, focused on KMT–CCP ties. The data now has
-  54 nodes and 75 edges. Every new edge cites the URLs it came from. Receipts
-  are in `docs/research/2026-10-01-kmt-ccp-ties.md`.
+- Tasks 7–9 landed and were checked in the browser: grouping selector,
+  filters (T4 off on load), and the detail drawer (one click from any line to
+  its evidence). Data: 54 nodes, 77 edges, including the two T4 FT edges
+  (spec decision 19).
+- Task 10 is **partly done**. Built: fit-to-view once the layout settles, a
+  「重設視圖 / Reset view」 button, panning to a node chosen from search,
+  labels that stay readable when zoomed out, a tighter force layout for 54
+  nodes, a two-column layout from 768 px, an empty state when no ties match
+  the filters, and muted text raised to ≥ 4.5:1 contrast.
+- **The last edits weren't checked.** Jing stopped the run before checks:
+  the two-pass label allowance in `src/lib/view.ts` and `fit.labelRoom` in
+  `src/settings/graph.ts`. Run `npm run typecheck && npm test && npm run build`
+  first.
 
-Next session: **run Tasks 7–10 straight through** per
-`docs/plans/task-7-10.md` (approved, decisions included). Commit per task and
-push at the end.
+Next session, the rest of Task 10 per `docs/plans/task-7-10.md`:
+- `scripts/check-zh.ts` + `npm run check:zh` (store the simplified-character
+  list as `\u` escapes, or the script flags itself)
+- README schema guide and "how to add a record by hand"
+- Acceptance run against brief §10, with the checklist ticked here
 
 Still open, not blocking:
 - Verify draft sources (`docs/seed-verification.md`).

@@ -19,7 +19,9 @@
 
   --text-primary: #1c1f26;
   --text-secondary: #4d525c;
-  --text-muted: #878d99;
+  /* ≥ 4.5:1 on base and raised surfaces: muted text is small (English
+     glosses, school labels on the graph), so it needs the full AA ratio. */
+  --text-muted: #6b717c;
 
   --border-subtle: #e0ddd6;
   --border-strong: #c4c0b7;
@@ -95,7 +97,7 @@
 
     --text-primary: #ebe9e4;
     --text-secondary: #a7adb8;
-    --text-muted: #6f7681;
+    --text-muted: #8a919c;
 
     --border-subtle: #2b2f37;
     --border-strong: #3d434d;

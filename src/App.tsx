@@ -74,8 +74,10 @@ export default function App() {
   )
 
   return (
-    <div className="grid h-full grid-cols-[18rem_1fr_20rem] max-lg:grid-cols-1 max-lg:grid-rows-[auto_minmax(24rem,1fr)_auto]">
-      <aside className="border-edge-subtle bg-surface-raised flex flex-col gap-6 overflow-y-auto border-r p-5 max-lg:border-r-0 max-lg:border-b">
+    // ≥ 1024 px: controls | graph | drawer. 768–1023 px: controls beside the
+    // graph, drawer under it. Narrower: everything stacked, page scrolls.
+    <div className="grid min-h-full grid-cols-1 md:h-full md:grid-cols-[16rem_minmax(0,1fr)] md:grid-rows-[minmax(0,1fr)_minmax(0,40%)] lg:grid-cols-[18rem_minmax(0,1fr)_20rem] lg:grid-rows-1">
+      <aside className="border-edge-subtle bg-surface-raised flex flex-col gap-6 border-b p-5 md:row-span-2 md:overflow-y-auto md:border-b-0 md:border-r lg:row-span-1">
         <header>
           <h1 className="text-base font-semibold leading-tight">臺灣政治關係圖</h1>
           <p className="text-content-secondary text-xs">
@@ -95,7 +97,7 @@ export default function App() {
         <Legend dimension={dimension} groups={grouping.groups} counts={grouping.counts} />
       </aside>
 
-      <main className="bg-surface-base relative min-h-0">
+      <main className="bg-surface-base relative h-[65vh] min-h-[22rem] md:h-auto md:min-h-0">
         {state.status === 'ready' && (
           <Graph
             nodes={data.nodes}
@@ -108,13 +110,18 @@ export default function App() {
             onSelect={setSelection}
           />
         )}
+        {state.status === 'ready' && visibleEdges.size === 0 && (
+          <p className="bg-surface-raised border-edge-strong pointer-events-none absolute bottom-4 left-1/2 -translate-x-1/2 rounded border px-3 py-1.5 text-center text-xs shadow-sm">
+            目前的篩選條件下沒有任何關係 <span className="text-content-muted">No ties match the current filters</span>
+          </p>
+        )}
         {state.status === 'loading' && <Notice zh="載入中…" en="Loading…" />}
         {state.status === 'error' && (
           <Notice zh="資料載入失敗" en="Data failed to load" detail={state.message} />
         )}
       </main>
 
-      <aside className="border-edge-subtle bg-surface-raised overflow-y-auto border-l p-5 max-lg:border-l-0 max-lg:border-t">
+      <aside className="border-edge-subtle bg-surface-raised border-t p-5 md:overflow-y-auto lg:border-l lg:border-t-0">
         {state.status === 'ready' && <Drawer selection={selection} env={drawerEnv} />}
       </aside>
     </div>

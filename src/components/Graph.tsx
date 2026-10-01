@@ -1,7 +1,7 @@
 import { drag } from 'd3-drag'
 import type { Simulation } from 'd3-force'
 import { select } from 'd3-selection'
-import { zoom, zoomIdentity, type ZoomTransform } from 'd3-zoom'
+import { zoom, zoomIdentity, type ZoomBehavior, type ZoomTransform } from 'd3-zoom'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   VALENCE_COLOR,
@@ -20,6 +20,7 @@ import { RELATION_LABEL } from '@/lib/labels'
 import type { Selection } from '@/lib/selection'
 import { createSimulation, endpoint, type SimLink, type SimNode } from '@/lib/simulation'
 import { useElementSize } from '@/lib/useElementSize'
+import { fitTransform } from '@/lib/view'
 import type { Edge, Node } from '@/schema/index'
 import { GRAPH_SETTINGS } from '@/settings/graph'
 
@@ -92,15 +93,40 @@ export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNod
   const { dimOpacity: dim, strandedOpacity } = GRAPH_SETTINGS.visual
 
   const simRef = useRef<Simulation<SimNode, SimLink> | null>(null)
+  const zoomRef = useRef<ZoomBehavior<SVGSVGElement, unknown> | null>(null)
+  const userMoved = useRef(false) // once the reader pans or zooms, stop auto-fitting
+
+  const fitView = () => {
+    const svg = svgRef.current
+    const behaviour = zoomRef.current
+    if (!svg || !behaviour) return
+    const { padding, labelRoom } = GRAPH_SETTINGS.fit
+    const { min, max } = GRAPH_SETTINGS.zoom
+    select(svg).call(behaviour.transform, fitTransform(graph.nodes, width, height, { padding, labelRoom, minScale: min, maxScale: max }))
+  }
+  // The simulation's tick handler outlives renders, so it reads the latest
+  // fitView (current size) through a ref.
+  const fitRef = useRef(fitView)
+  fitRef.current = fitView
 
   useEffect(() => {
     const sim = createSimulation(graph.nodes, graph.links)
     simRef.current = sim
+    userMoved.current = false
+    let fitted = false
     // Re-render at most once per animation frame, however often d3 ticks.
     let raf = 0
     sim.on('tick', () => {
       cancelAnimationFrame(raf)
-      raf = requestAnimationFrame(() => setFrame((f) => f + 1))
+      raf = requestAnimationFrame(() => {
+        setFrame((f) => f + 1)
+        // Fit once, when the layout has mostly settled, unless the reader
+        // has already taken over the view.
+        if (!fitted && sim.alpha() < GRAPH_SETTINGS.fit.atAlpha) {
+          fitted = true
+          if (!userMoved.current) fitRef.current()
+        }
+      })
     })
     return () => {
       sim.stop()
@@ -113,12 +139,32 @@ export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNod
     if (!svg) return
     const behaviour = zoom<SVGSVGElement, unknown>()
       .scaleExtent([GRAPH_SETTINGS.zoom.min, GRAPH_SETTINGS.zoom.max])
-      .on('zoom', (event: { transform: ZoomTransform }) => setTransform(event.transform))
+      .on('zoom', (event: { transform: ZoomTransform; sourceEvent: unknown }) => {
+        if (event.sourceEvent) userMoved.current = true // wheel or drag, not fitView
+        setTransform(event.transform)
+      })
+    zoomRef.current = behaviour
     select(svg).call(behaviour)
     return () => {
       select(svg).on('.zoom', null)
     }
   }, [])
+
+  // A node chosen from search or the drawer may be off-screen: bring it to
+  // the centre, keeping the zoom level. A node clicked on the graph is
+  // already visible, so this leaves it alone.
+  const selectedNodeId = selection?.kind === 'node' ? selection.id : null
+  useEffect(() => {
+    const svg = svgRef.current
+    const behaviour = zoomRef.current
+    const n = graph.nodes.find((d) => d.id === selectedNodeId)
+    if (!svg || !behaviour || !n || n.x === undefined || n.y === undefined) return
+    const [sx, sy] = transform.apply([n.x + width / 2, n.y + height / 2])
+    const margin = GRAPH_SETTINGS.fit.padding
+    if (sx >= margin && sx <= width - margin && sy >= margin && sy <= height - margin) return
+    select(svg).call(behaviour.translateTo, n.x + width / 2, n.y + height / 2)
+    // Deliberately keyed on the selection alone, not on every pan or tick.
+  }, [selectedNodeId])
 
   // Drag pins a node while held (fx/fy) and releases it on drop (§7).
   useEffect(() => {
@@ -153,7 +199,17 @@ export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNod
   }, [graph])
 
   return (
-    <div ref={containerRef} className="h-full w-full overflow-hidden">
+    <div ref={containerRef} className="relative h-full w-full overflow-hidden">
+      <button
+        type="button"
+        onClick={() => {
+          userMoved.current = false
+          fitView()
+        }}
+        className="border-edge-strong bg-surface-raised text-content-secondary hover:text-content-primary absolute right-3 top-3 rounded border px-2 py-1 text-xs shadow-sm"
+      >
+        重設視圖 <span className="text-content-muted">Reset view</span>
+      </button>
       <svg
         ref={svgRef}
         width={width}
@@ -212,6 +268,8 @@ export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNod
             <g>
               {graph.nodes.map((n) => {
                 const institution = n.data.entity_type === 'institution'
+                const label = GRAPH_SETTINGS.visual.label[institution ? 'institution' : 'person']
+                const fontSize = Math.max(label.fontPx, label.minScreenPx / transform.k)
                 const group = groupOf.get(n.id)
                 const selected = selection?.kind === 'node' && selection.id === n.id
                 const marked = selected || matchedNodes.has(n.id)
@@ -251,14 +309,14 @@ export function Graph({ nodes, edges, weights, groupOf, visibleEdges, matchedNod
                       strokeWidth={isPrcControlled(n.data) ? 3 : 1.5}
                     />
                     <text
-                      y={n.radius + 12}
+                      y={n.radius + fontSize * 1.05}
                       textAnchor="middle"
-                      fontSize={institution ? 10 : 11.5}
+                      fontSize={fontSize}
                       fontWeight={institution ? 400 : 600}
                       fill={institution ? 'var(--text-muted)' : 'var(--text-primary)'}
                       // A halo in the background colour keeps labels legible where lines cross.
                       stroke="var(--surface-base)"
-                      strokeWidth={3.5}
+                      strokeWidth={fontSize * 0.3}
                       strokeLinejoin="round"
                       paintOrder="stroke"
                       className="pointer-events-none select-none"
