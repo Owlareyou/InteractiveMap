@@ -1,10 +1,12 @@
 import { ENTITY_COLOR, VALENCE_COLOR, tierDash, tierOpacity } from '@/lib/encoding'
 import type { EntityType, EvidenceTier, Valence } from '@/schema/index'
 
+// Describes the tie, not a verdict on it: "positive" in the data means
+// cooperative, which 正向 / Positive would read as approval.
 const VALENCE_LABELS: Array<[Valence, string, string]> = [
-  ['positive', '正向', 'Positive'],
+  ['positive', '合作', 'Cooperative'],
   ['neutral', '中性', 'Neutral'],
-  ['negative', '負向', 'Negative'],
+  ['negative', '對立', 'Adversarial'],
 ]
 
 const TIER_LABELS: Array<[EvidenceTier, string, string]> = [
