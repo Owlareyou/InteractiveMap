@@ -3,6 +3,18 @@ import type { Simulation } from 'd3-force'
 import { select } from 'd3-selection'
 import { zoom, zoomIdentity, type ZoomTransform } from 'd3-zoom'
 import { useEffect, useMemo, useRef, useState } from 'react'
+import {
+  ENTITY_COLOR,
+  VALENCE_COLOR,
+  edgeGeometry,
+  edgeWidth,
+  nodeRadius,
+  parallelOffsets,
+  rangeOf,
+  tierDash,
+  tierOpacity,
+  weightedDegrees,
+} from '@/lib/encoding'
 import { createSimulation, endpoint, type SimLink, type SimNode } from '@/lib/simulation'
 import { useElementSize } from '@/lib/useElementSize'
 import type { Edge, Node } from '@/schema/index'
@@ -14,31 +26,56 @@ type Props = {
   weights: ReadonlyMap<string, number>
 }
 
+type DrawnLink = SimLink & { width: number; offset: number }
+
 export function Graph({ nodes, edges, weights }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
   const svgRef = useRef<SVGSVGElement>(null)
   const nodeEls = useRef(new Map<string, SVGGElement>())
   const { width, height } = useElementSize(containerRef)
   const [transform, setTransform] = useState<ZoomTransform>(zoomIdentity)
+  const [hovered, setHovered] = useState<string | null>(null)
   const [, setFrame] = useState(0)
 
   // d3 mutates these objects in place (x, y, vx, vy), so they are built once
   // per data change and kept stable across renders.
   const graph = useMemo(() => {
+    const degree = weightedDegrees(edges, weights)
+    const maxDegree = rangeOf(degree.values()).max
+    const weightRange = rangeOf(weights.values())
+    const offsets = parallelOffsets(edges)
+
     const simNodes: SimNode[] = nodes.map((n) => ({
       id: n.id,
       data: n,
-      radius: GRAPH_SETTINGS.nodeRadiusPx,
+      radius: nodeRadius(degree.get(n.id) ?? 0, maxDegree),
     }))
-    const simLinks: SimLink[] = edges.map((e) => ({
-      id: e.id,
-      source: e.source_id,
-      target: e.target_id,
-      data: e,
-      weight: weights.get(e.id) ?? 0,
-    }))
+    const simLinks: DrawnLink[] = edges.map((e) => {
+      const weight = weights.get(e.id) ?? 0
+      return {
+        id: e.id,
+        source: e.source_id,
+        target: e.target_id,
+        data: e,
+        weight,
+        width: edgeWidth(weight, weightRange),
+        offset: offsets.get(e.id) ?? 0,
+      }
+    })
     return { nodes: simNodes, links: simLinks }
   }, [nodes, edges, weights])
+
+  const neighbours = useMemo(() => {
+    const map = new Map<string, Set<string>>()
+    for (const e of edges) {
+      map.set(e.source_id, (map.get(e.source_id) ?? new Set()).add(e.target_id))
+      map.set(e.target_id, (map.get(e.target_id) ?? new Set()).add(e.source_id))
+    }
+    return map
+  }, [edges])
+
+  const isLit = (id: string) => hovered === null || id === hovered || (neighbours.get(hovered)?.has(id) ?? false)
+  const dim = GRAPH_SETTINGS.visual.dimOpacity
 
   const simRef = useRef<Simulation<SimNode, SimLink> | null>(null)
 
@@ -110,44 +147,74 @@ export function Graph({ nodes, edges, weights }: Props) {
               {graph.links.map((l) => {
                 const s = endpoint(l.source)
                 const t = endpoint(l.target)
-                if (!s || !t) return null
+                if (!s || !t || s.x === undefined || s.y === undefined || t.x === undefined || t.y === undefined)
+                  return null
+                const e = l.data
+                const { d, arrow } = edgeGeometry(
+                  { x: s.x, y: s.y, r: s.radius },
+                  { x: t.x, y: t.y, r: t.radius },
+                  l.offset,
+                  l.width,
+                  e.directed,
+                )
+                const lit = hovered === null || s.id === hovered || t.id === hovered
+                const colour = VALENCE_COLOR[e.valence]
                 return (
-                  <line
-                    key={l.id}
-                    x1={s.x}
-                    y1={s.y}
-                    x2={t.x}
-                    y2={t.y}
-                    stroke="var(--border-strong)"
-                    strokeWidth={1.5}
-                  />
+                  <g key={l.id} opacity={tierOpacity(e.evidence_tier) * (lit ? 1 : dim)}>
+                    <title>{`${e.relation_type} · ${e.evidence_tier} · ${e.valence} · weight ${l.weight.toFixed(2)}`}</title>
+                    <path
+                      d={d}
+                      fill="none"
+                      stroke={colour}
+                      strokeWidth={l.width}
+                      strokeDasharray={tierDash(e.evidence_tier)}
+                    />
+                    {arrow && <polygon points={arrow} fill={colour} />}
+                  </g>
                 )
               })}
             </g>
             <g>
-              {graph.nodes.map((n) => (
-                <g
-                  key={n.id}
-                  ref={(el) => {
-                    if (el) nodeEls.current.set(n.id, el)
-                    else nodeEls.current.delete(n.id)
-                  }}
-                  transform={`translate(${n.x ?? 0},${n.y ?? 0})`}
-                  className="cursor-pointer"
-                >
-                  <title>{n.data.name_en}</title>
-                  <circle r={n.radius} fill="var(--accent)" stroke="var(--surface-raised)" strokeWidth={1.5} />
-                  <text
-                    y={n.radius + 12}
-                    textAnchor="middle"
-                    fontSize={11}
-                    fill="var(--text-secondary)"
-                    className="pointer-events-none select-none"
+              {graph.nodes.map((n) => {
+                const institution = n.data.entity_type === 'institution'
+                return (
+                  <g
+                    key={n.id}
+                    ref={(el) => {
+                      if (el) nodeEls.current.set(n.id, el)
+                      else nodeEls.current.delete(n.id)
+                    }}
+                    transform={`translate(${n.x ?? 0},${n.y ?? 0})`}
+                    opacity={isLit(n.id) ? 1 : dim}
+                    onPointerEnter={() => setHovered(n.id)}
+                    onPointerLeave={() => setHovered(null)}
+                    className="cursor-pointer"
                   >
-                    {n.data.name_zh}
-                  </text>
-                </g>
-              ))}
+                    <title>{n.data.name_en}</title>
+                    <circle
+                      r={n.radius}
+                      fill={ENTITY_COLOR[n.data.entity_type]}
+                      stroke="var(--surface-base)"
+                      strokeWidth={1.5}
+                    />
+                    <text
+                      y={n.radius + 12}
+                      textAnchor="middle"
+                      fontSize={institution ? 10 : 11.5}
+                      fontWeight={institution ? 400 : 600}
+                      fill={institution ? 'var(--text-muted)' : 'var(--text-primary)'}
+                      // A halo in the background colour keeps labels legible where lines cross.
+                      stroke="var(--surface-base)"
+                      strokeWidth={3.5}
+                      strokeLinejoin="round"
+                      paintOrder="stroke"
+                      className="pointer-events-none select-none"
+                    >
+                      {n.data.name_zh}
+                    </text>
+                  </g>
+                )
+              })}
             </g>
           </g>
         </g>

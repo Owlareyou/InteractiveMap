@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Graph } from '@/components/Graph'
+import { Legend } from '@/components/Legend'
 import { loadGraph, type GraphData } from '@/lib/dataSource'
 import { computeEdgeWeight } from '@/lib/weight'
 
@@ -39,6 +40,7 @@ export default function App() {
             Taiwan Political Relationship Map
           </p>
         </header>
+        <Legend />
         <Placeholder zh="控制項" en="Controls" note="Tasks 7–8" />
       </aside>
 

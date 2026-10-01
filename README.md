@@ -19,8 +19,8 @@ Tasks come from §8 of the brief. Update this table when a task lands.
 | 3 | Seed data `data/nodes.json`, `data/edges.json` (§6), validator passes | ✅ Done — see `docs/seed-verification.md` |
 | 4 | `src/lib/weight.ts` + a few `node:test` assertions | ✅ Done — see `docs/decisions/edge-weight.md` |
 | 5 | `src/lib/dataSource.ts` + static force graph (drag, zoom) | ✅ Done |
-| 6 | Visual encoding: valence colour, tier stroke, weight width, arrows, radii | ⏭ Next |
-| 7 | Grouping-dimension registry + selector | Not started |
+| 6 | Visual encoding: valence colour, tier stroke, weight width, arrows, radii | ✅ Done |
+| 7 | Grouping-dimension registry + selector | ⏭ Next |
 | 8 | Filters: layer, tier (T4 off), valence, min weight, search | Not started |
 | 9 | Detail drawer: node profile, edge evidence list | Not started |
 | 10 | Polish: tokens, responsive, empty states, README schema guide | Not started |

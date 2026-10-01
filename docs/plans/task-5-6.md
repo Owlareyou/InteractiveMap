@@ -1,6 +1,6 @@
 # Tasks 5 + 6 plan — the graph, then what it means
 
-Status: **awaiting approval**. The two tasks get separate commits, so each can
+Status: **built** (2026-10-01). Jing chose option (a): five `member_of` edges were added, with receipts in `docs/seed-verification.md`. Labels are approved as proposed. The two tasks get separate commits, so each can
 be reviewed on its own.
 
 ## Task 5: graph on screen

@@ -34,6 +34,16 @@
   --valence-positive: #0072b2;
   --valence-neutral: #767676;
   --valence-negative: #d55e00;
+
+  /*
+   * Node fills by entity type, a stand-in until the grouping selector (Task 7)
+   * owns node colour. Kept clear of the valence blue/orange, and of red, which
+   * is reserved for the cross-strait engagement scale.
+   */
+  --node-person: #2a7f62;
+  --node-party: #7b5ea7;
+  --node-institution: #a39a86;
+  --node-other: #6b7280;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,5 +64,10 @@
     --valence-positive: #56b4e9;
     --valence-neutral: #9a9a9a;
     --valence-negative: #f08a4b;
+
+    --node-person: #4fbf98;
+    --node-party: #b39ddb;
+    --node-institution: #8f887a;
+    --node-other: #8b93a0;
   }
 }
