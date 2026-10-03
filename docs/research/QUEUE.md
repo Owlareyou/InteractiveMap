@@ -76,12 +76,6 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Make existing data trustworthy
 
-- [ ] **X7 · Fill in thin nodes** (promoted from Next at the #5 re-rank).
-  鄭麗文, 朱立倫, 吳伯雄 and 謝長廷 each have ≤1 edge. Add party roles,
-  education and `member_of` from official records. Also add `member_of`
-  edges for 陳菊, 謝長廷, 蔣萬安, 卓榮泰, 鄭文燦 and 蘇嘉全, who have
-  `party_affiliations` but no sourced membership edge.
-
 ### Empty layers and relation types
 
 - [ ] **E1 · Enforcement, for every party.** Court judgments (司法院裁判書
@@ -185,6 +179,11 @@ They're re-ranked every 5 iterations.
   fetchable T2 naming the KMT lead. Try www.chinadaily.com.cn (not the
   covid-19 mirror), 新華網, or the 國民黨 news archive.
   `2026-10-03-kmt-ccp-forum.md` Part 2.
+- 蔣萬安's KMT membership: get his 立法院 9th or 10th-term profile (party
+  field). Neither of the 2022 election reports names his party in a
+  quotable sentence. `2026-10-03-x7-thin-nodes.md`.
+- Nine people with ≤1 edge (the media and SEF figures from N3 and N4) need
+  a breadth pass. Same log.
 - 王令麟: KMT member and former three-term legislator (鏡週刊 2017, one
   source), and 東森's founder. Needs a second source to qualify as a node.
   His 力霸/東森 conviction fits E1. `2026-10-03-media-political-ties.md`.
@@ -303,4 +302,8 @@ their log.)
   master's; no source for Georgetown). [Log](2026-10-03-v3-education.md)
 - [~] **V4 · Evidence with no URL, batches 1–3** (2026-10-03, #14–16). 50 →
   27. The remainder (blocked sources) moved to Next as V4b.
+- [x] **X7 · Thin nodes and unsourced party affiliations** (2026-10-03,
+  #17). `member_of` (T2) for 陳菊, 謝長廷, 卓榮泰, 鄭文燦 and 蘇嘉全, and
+  鄭麗文's KMT membership and chair. 蔣萬安 is still pending (Inbox).
+  [Log](2026-10-03-x7-thin-nodes.md)
   [Logs](2026-10-03-v4-batch3.md)

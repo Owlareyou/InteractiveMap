@@ -244,3 +244,13 @@ Ready to promote: none new.
 Schema gaps: none.
 Decision: V4 → Next as V4b, with all 27 remaining entries listed in the log with a route for each. Most need blocked sites or a decision from Jing. Continuing with X7.
 Next: X7 (thin nodes and unsourced party affiliations).
+
+### 2026-10-03 · #17 · X7 Thin nodes and unsourced party affiliations
+Coverage: edges 123 → 130; people with ≤1 edge 13 → 9 (remaining are the media and SEF figures); evidence without URL 27 → 27
+Log: docs/research/2026-10-03-x7-thin-nodes.md
+Added: 0 nodes, 7 edges (chen-chu-member-of-dpp, hsieh-member-of-dpp, cho-member-of-dpp, cheng-wen-tsan-member-of-dpp, su-jia-chyuan-member-of-dpp, cheng-li-wun-member-of-kmt, cheng-li-wun-kmt-chair). Changed: none
+Found: party roles for every DPP figure added in N1 and N3 (acting chair, chair, secretary-general), and 鄭麗文's 2025-10-18 KMT chair election (50.15%).
+Not found: a quotable source naming 蔣萬安's party (the 2022 win is confirmed; party not stated in quotes); join dates.
+Ready to promote: all 7 new edges.
+Schema gaps: none.
+Next: E1 (enforcement, for every party).

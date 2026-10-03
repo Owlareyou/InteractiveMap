@@ -4068,5 +4068,243 @@
     "review_status": "draft",
     "notes": "國共兩黨智庫論壇，名為「兩岸交流合作前瞻論壇」，北京；停辦約 9–10 年後恢復（2016 後首次）。原訂 1-27～29，延至 2-2～4（Newtalk 2026-01-26）。是否屬同一論壇系列係依媒體稱「國共論壇」歸併，見 log。",
     "education": null
+  },
+  {
+    "id": "chen-chu-member-of-dpp",
+    "source_id": "chen-chu",
+    "target_id": "dpp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.dpp.org.tw/media/contents/4882",
+        "source_name": "民主進步黨（新聞稿）",
+        "source_type": "other",
+        "published_date": "2012-02-29",
+        "quote": "民進黨高雄市長暨中常委陳菊今（29）日從蔡英文主席手中接下印信，接任第十三屆代理黨主席職務。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://newtalk.tw/news/view/2018-11-27/172675",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2018-11-27",
+        "quote": "陳菊並未於當場允諾接受推選為代理主席，而是事後發出新聞稿表達接受之意。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2012 年任民進黨中常委、代理黨主席（第十三屆）。入黨日期未查。",
+    "education": null
+  },
+  {
+    "id": "hsieh-member-of-dpp",
+    "source_id": "hsieh-chang-ting",
+    "target_id": "dpp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.dpp.org.tw/media/contents/2062",
+        "source_name": "民主進步黨（新聞稿）",
+        "source_type": "other",
+        "published_date": "2008-03-26",
+        "quote": "民主進步黨謝長廷主席今（26）日辭去黨主席職務",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.businesstoday.com.tw/article/category/183027/post/200705100001/",
+        "source_name": "今周刊",
+        "source_type": "news",
+        "published_date": "2007-05-10",
+        "quote": "這次謝長廷終於成為民進黨二○○八年總統候選人，就像他○六年一月卸任行政院長時所出的書名《日出南方》，準備開創屬於他的時代。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "曾任民進黨主席（2008-03-26 辭）、2008 年民進黨總統候選人。入黨日期未查。",
+    "education": null
+  },
+  {
+    "id": "cho-member-of-dpp",
+    "source_id": "cho-jung-tai",
+    "target_id": "dpp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://newtalk.tw/news/view/2019-01-06/190644",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2019-01-06",
+        "quote": "前行政院長卓榮泰以24,699票數勝出72.6%，領先對手台灣民意基金會董事長游盈隆的9,323票",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/689614",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2024-04-10",
+        "quote": "由前民進黨主席卓榮泰接任行政院長，前文化部長鄭麗君擔任行政副院長",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2019-01-06 民進黨主席補選當選。入黨日期未查。",
+    "education": null
+  },
+  {
+    "id": "cheng-wen-tsan-member-of-dpp",
+    "source_id": "cheng-wen-tsan",
+    "target_id": "dpp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/amp/20181124edi007",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2018-11-24",
+        "quote": "尋求連任的現任市長民進黨籍候選人鄭文燦從選戰初期就「穩紮穩打」",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://newtalk.tw/news/view/2024-07-06/926865",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2024-07-06",
+        "quote": "接著他在黨職歷練，也當過民進黨組織部主任、中國事務委員會發言人、桃園縣黨部主委。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "民進黨籍桃園市長（2014、2018 當選）；曾任多項黨職。鏡週刊引文取自刪節號前之句段。入黨日期未查。",
+    "education": null
+  },
+  {
+    "id": "su-jia-chyuan-member-of-dpp",
+    "source_id": "su-jia-chyuan",
+    "target_id": "dpp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://newtalk.tw/news/view/2011-09-09/17685",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2011-09-09",
+        "quote": "民進黨總統候選人蔡英文今天下午偕同秘書長蘇嘉全在民進黨中央黨部召開「承擔：贏回台灣」記者會，宣布選擇蘇嘉全為搭檔副手。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.dpp.org.tw/media/contents/4229",
+        "source_name": "民主進步黨（新聞稿）",
+        "source_type": "other",
+        "published_date": "2011-09-09",
+        "quote": "我已經邀請中央黨部秘書長蘇嘉全先生搭檔參選2012年的總統大選",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2011 年任民進黨中央黨部秘書長、2012 年副總統候選人。入黨日期未查。",
+    "education": null
+  },
+  {
+    "id": "cheng-li-wun-member-of-kmt",
+    "source_id": "cheng-li-wun",
+    "target_id": "kmt",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.taiwannews.com.tw/zh/news/6222871",
+        "source_name": "台灣英文新聞",
+        "source_type": "news",
+        "published_date": "2025-10-18",
+        "quote": "鄭麗文獲得 6 萬 5,122 票，以 50.15% 的得票率當選國民黨主席。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/3020039",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2025-10-18",
+        "quote": "恭喜鄭麗文當選新任黨主席，剛剛已經跟鄭通過電話，向她致賀",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2025-10-18 當選國民黨主席。入黨日期未查（曾屬民進黨之經歷未查證，未建）。",
+    "education": null
+  },
+  {
+    "id": "cheng-li-wun-kmt-chair",
+    "source_id": "cheng-li-wun",
+    "target_id": "kmt",
+    "relation_type": "position_held",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2025-11",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.taiwannews.com.tw/zh/news/6222871",
+        "source_name": "台灣英文新聞",
+        "source_type": "news",
+        "published_date": "2025-10-18",
+        "quote": "鄭麗文獲得 6 萬 5,122 票，以 50.15% 的得票率當選國民黨主席。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/3020039",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2025-10-18",
+        "quote": "恭喜鄭麗文當選新任黨主席，剛剛已經跟鄭通過電話，向她致賀",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2025-10-18 當選（得票率 50.15%），2025-11-01 就任（台灣英文新聞，未作引文）。",
+    "education": null
   }
 ]
