@@ -2432,5 +2432,183 @@
     "review_status": "draft",
     "notes": "FT 2019年7月報導中時、中天編輯接獲國台辦來電，指示報導角度與頭版安排；旺旺否認並對FT提告，2021-03-11撤告。此為指控，非確立之關係 FT (Jul 2019) reported that editors received calls from the TAO on coverage angle and front-page placement; Want Want denied it and sued the FT, then dropped the suit on 2021-03-11. An allegation, not an established tie",
     "education": null
+  },
+  {
+    "id": "hsieh-wang-yi-2012",
+    "source_id": "hsieh-chang-ting",
+    "target_id": "wang-yi",
+    "relation_type": "made_prc_visit",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2012-10-06",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://paper.people.com.cn/hqrw/html/2012-10/16/content_1135595.htm",
+        "source_name": "環球人物（人民日報社）",
+        "source_type": "news",
+        "published_date": "2012-10-16",
+        "quote": "雖然他是以個人身份前往，卻與國務委員戴秉國、國台辦主任王毅、海協會會長陳雲林等大陸負責對台事務高官會面。",
+        "retrieved_date": "2026-10-02"
+      },
+      {
+        "source_url": "https://newtalk.tw/news/view/2019-12-28/346764",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2019-12-28",
+        "quote": "2012.10.07前往北京，拜會了王毅(國台辦主任)、戴秉國(中共中央對台工作領導小組秘書長)、陳雲林(海協會會長)等人",
+        "retrieved_date": "2026-10-02"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "以個人身份（台灣維新基金會董事長）訪陸，2012-10-04 起先赴廈門；會見王毅日期新華社報導為 10-06，Newtalk 記為 10-07 赴京。亦會見戴秉國、陳雲林（未建節點）。引文原為簡體，已轉正體",
+    "education": null
+  },
+  {
+    "id": "chen-chu-beijing-2009",
+    "source_id": "chen-chu",
+    "target_id": "beijing-municipal-government",
+    "relation_type": "made_prc_visit",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2009-05-21",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.ifeng.com/taiwan/special/chenjufangwendalu/",
+        "source_name": "鳳凰網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": "與北京市長郭金龍會面，會後推介高雄世運會",
+        "retrieved_date": "2026-10-02"
+      },
+      {
+        "source_url": "https://newtalk.tw/news/view/2009-09-21/399",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2009-09-21",
+        "quote": "陳菊5月21日為宣傳高雄世運前往中國北京、上海，她稱此行為「破冰之旅」，卻有不少黨內人士反彈。",
+        "retrieved_date": "2026-10-02"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "以高雄市長身分宣傳 2009 世運；會見北京市長郭金龍，5-22 會見國家體育總局局長劉鵬。鳳凰網引文引文原為簡體，已轉正體",
+    "education": null
+  },
+  {
+    "id": "chen-chu-shanghai-2009",
+    "source_id": "chen-chu",
+    "target_id": "shanghai-municipal-government",
+    "relation_type": "made_prc_visit",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2009-05-23",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.ifeng.com/taiwan/special/chenjufangwendalu/",
+        "source_name": "鳳凰網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": "會見上海市長韓正",
+        "retrieved_date": "2026-10-02"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/117530",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": "高雄市長陳菊，前往中國行銷高雄世運會，在拜會過北京市、及中國奧會主席之後，今天已經飛到上海,和上海市長韓正會面",
+        "retrieved_date": "2026-10-02"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "會見上海市長韓正。公視頁面標示日期 2011-08-02，與 2009 年 5 月行程不符，published_date 留空。鳳凰網引文引文原為簡體，已轉正體",
+    "education": null
+  },
+  {
+    "id": "chen-chu-zhang-zhijun-2014",
+    "source_id": "chen-chu",
+    "target_id": "taiwan-affairs-office",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2014-06-27",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.storm.mg/article/32805",
+        "source_name": "風傳媒",
+        "source_type": "news",
+        "published_date": "2014-06-27",
+        "quote": "高雄市長陳菊27日上午9點10分，在高雄巨蛋與來訪的中國國台辦主任張志軍一行會晤，並舉行閉門晤談。",
+        "retrieved_date": "2026-10-02"
+      },
+      {
+        "source_url": "https://www.rmzxw.com.cn/c/2014-06-30/345367.shtml",
+        "source_name": "人民政協網（中新社稿）",
+        "source_type": "news",
+        "published_date": "2014-06-30",
+        "quote": "張志軍會見高雄市長陳菊時",
+        "retrieved_date": "2026-10-02"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "國台辦主任張志軍 2014-06-25～28 訪台期間於高雄會晤（張志軍未建節點，依規格決定 13 指向國台辦）。人民政協網引文引文原為簡體，已轉正體",
+    "education": null
+  },
+  {
+    "id": "lai-shanghai-2014",
+    "source_id": "lai-ching-te",
+    "target_id": "shanghai-municipal-government",
+    "relation_type": "made_prc_visit",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2014-06",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.ettoday.net/news/20140607/365382.htm",
+        "source_name": "ETtoday新聞雲",
+        "source_type": "news",
+        "published_date": "2014-06-07",
+        "quote": "正在上海訪問的台南市長賴清德，7日上午借用大陸國家主席習近平最近說中美關係「不要對抗、不要衝突，要相互尊重、合作雙贏」的談話，表示中國不只和美國該如此，和台灣的關係也應該如此。",
+        "retrieved_date": "2026-10-02"
+      },
+      {
+        "source_url": "https://www.storm.mg/article/32021",
+        "source_name": "風傳媒",
+        "source_type": "news",
+        "published_date": "2014-06-08",
+        "quote": "賴市長昨日在上海的談話，也表達了民進黨成長的歷史軌跡，這將有助於雙方進一步相互理解。",
+        "retrieved_date": "2026-10-02"
+      },
+      {
+        "source_url": "https://newtalk.tw/news/view/2019-12-23/344444",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2019-12-23",
+        "quote": "他見到的除了上海市長楊雄之外，都是市府層級的人；『談陳澄波的事情，藝術的交流、城市的交流』。",
+        "retrieved_date": "2026-10-02"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "以台南市長身分主持陳澄波百二誕辰巡迴展上海站開幕，並於復旦大學座談。會見上海市長楊雄係依賴清德本人 2019 年說法。",
+    "education": null
   }
 ]

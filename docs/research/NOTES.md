@@ -45,3 +45,17 @@ Queue seeded with neutrality items first (N1–N4), then verification
 Ready to promote: none.
 Schema gaps: none yet.
 Next: N1, DPP cross-strait contacts.
+
+### 2026-10-02 · #1 · N1 DPP cross-strait contacts
+Coverage: people DPP 2 → 4; cross-strait edges KMT 27 / DPP 0 → KMT 27 / DPP 5; evidence without URL 50 → 50
+Log: docs/research/2026-10-02-dpp-cross-strait.md
+Added: 4 nodes (hsieh-chang-ting, chen-chu, beijing-municipal-government, shanghai-municipal-government), 5 edges (hsieh-wang-yi-2012, chen-chu-beijing-2009, chen-chu-shanghai-2009, chen-chu-zhang-zhijun-2014, lai-shanghai-2014). Changed: none
+Found:
+- 謝長廷 met TAO director 王毅 in Beijing (2012-10-06, personal capacity), also 戴秉國 and 陳雲林.
+- 陳菊 as Kaohsiung mayor met Beijing mayor 郭金龍 and Shanghai mayor 韓正 (May 2009, World Games), and TAO director 張志軍 in Kaohsiung (2014-06-27).
+- 賴清德 as Tainan mayor visited Shanghai (June 2014, 陳澄波 exhibition, 復旦 discussion). The 楊雄 meeting rests on his own 2019 account.
+- 邱垂正 attended the first Straits Forum (2009) as an academic. Two outlets confirm it, but it's deferred to N3.
+Not found: DPP councillors or township heads at the Straits Forum 2010–16 (zh + en queries); a 劉淇 meeting in 2009; a TAO readout on gwytb.gov.cn for the 張志軍–陳菊 meeting (so it's T2, not T1).
+Ready to promote: all 5 new edges have a URL and a verbatim quote on every evidence entry: hsieh-wang-yi-2012, chen-chu-beijing-2009, chen-chu-shanghai-2009, chen-chu-zhang-zhijun-2014, lai-shanghai-2014.
+Schema gaps: none. Counterparts with no node (戴秉國, 陳雲林, 張志軍, 郭金龍, 韓正, 楊雄) are named in `notes`, and the edges target the hosting body or an existing node.
+Next: N1b (the rest of N1, split off), then N2.

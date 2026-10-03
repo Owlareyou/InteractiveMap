@@ -1218,5 +1218,95 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-01"
+  },
+  {
+    "id": "hsieh-chang-ting",
+    "wikidata_qid": null,
+    "name_zh": "謝長廷",
+    "name_en": "Frank Hsieh",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "行政院長",
+        "title_en": "Premier",
+        "org_id": null,
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [
+      "former_premier"
+    ],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "chen-chu",
+    "wikidata_qid": null,
+    "name_zh": "陳菊",
+    "name_en": "Chen Chu",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "高雄市長",
+        "title_en": "Mayor of Kaohsiung",
+        "org_id": null,
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "beijing-municipal-government",
+    "wikidata_qid": null,
+    "name_zh": "北京市人民政府",
+    "name_en": "Beijing Municipal Government",
+    "aliases": [],
+    "entity_type": "government_body",
+    "country": "CN",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-02"
+  },
+  {
+    "id": "shanghai-municipal-government",
+    "wikidata_qid": null,
+    "name_zh": "上海市人民政府",
+    "name_en": "Shanghai Municipal Government",
+    "aliases": [],
+    "entity_type": "government_body",
+    "country": "CN",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-02"
   }
 ]
