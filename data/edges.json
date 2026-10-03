@@ -4740,5 +4740,141 @@
     "review_status": "draft",
     "notes": "約 48%（鏡週刊 2023）；林崑海、張秀各 24%，員工 4%。單一來源 T3；林崑海 2022 年過世後其持股去向未查。",
     "education": null
+  },
+  {
+    "id": "kmt-endorsed-chiang-2026",
+    "source_id": "kmt",
+    "target_id": "chiang-wan-an",
+    "relation_type": "endorsed",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2026",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://cna.com.tw/news/aipl/202609045002.aspx",
+        "source_name": "中央社",
+        "source_type": "news",
+        "published_date": "2026-09-04",
+        "quote": null,
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/801606",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2026-04-01",
+        "quote": null,
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2026 台北市長選舉，國民黨候選人（尋求連任）；選舉日 2026-11-28。中央社登記名單與公視候選人名單均為表格，無可引述句子，quote 留空。",
+    "education": null
+  },
+  {
+    "id": "dpp-endorsed-shen-2026",
+    "source_id": "dpp",
+    "target_id": "shen-po-yang",
+    "relation_type": "endorsed",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2026",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://cna.com.tw/news/aipl/202609045002.aspx",
+        "source_name": "中央社",
+        "source_type": "news",
+        "published_date": "2026-09-04",
+        "quote": null,
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/801606",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2026-04-01",
+        "quote": null,
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2026 台北市長選舉，民進黨候選人；與 kmt-endorsed-chiang-2026 對照（同一選區）。表格來源，quote 留空。",
+    "education": null
+  },
+  {
+    "id": "kmt-tpp-coalition-2023",
+    "source_id": "kmt",
+    "target_id": "tpp",
+    "relation_type": "coalition_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": false,
+    "start": "2023-11-15",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2308130",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2023-11-17",
+        "quote": "「藍白合」於15日協商達成六點共識，預估明（18）日公布民調結果，決定正副人選",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.nownews.com/news/6307920",
+        "source_name": "NOWnews",
+        "source_type": "news",
+        "published_date": "2023-11-24",
+        "quote": "藍白合正式宣告破局！國民黨智庫副執行長凌濤痛批，昨天那場會議是背信毀約、故意設局",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2024 總統選舉「藍白合」：2023-11-15 於馬英九辦公室達成六點共識，2023-11-23 君悅飯店會談破局。合作未成立。",
+    "education": null
+  },
+  {
+    "id": "kmt-tpp-legislature-2024",
+    "source_id": "kmt",
+    "target_id": "tpp",
+    "relation_type": "coalition_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": false,
+    "start": "2024-05-28",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.businesstoday.com.tw/article/category/183027/post/202405290003/",
+        "source_name": "今周刊",
+        "source_type": "news",
+        "published_date": "2024-05-29",
+        "quote": "國民黨與民眾黨聯手強勢通過表決，終讓『國會改革』相關修正法案在5月28日全數三讀通過。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2488729",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2024-05-17",
+        "quote": "近身肉搏戰藍白聯手首役告捷　黃國昌順利遞國會改革案",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第 11 屆立法院藍白聯手表決通過國會改革法案（2024-05-28 三讀）。記為具體事件，非持續性結盟狀態。TVBS 引文為標題。",
+    "education": null
   }
 ]

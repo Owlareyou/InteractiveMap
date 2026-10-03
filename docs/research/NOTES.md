@@ -306,3 +306,21 @@ Not taken: 朱立倫–高思博 (relation not stated on a read page), 林崑海
 Ready to promote: lien-chan-sean-lien, fu-kun-chi-hsu-chen-wei, cher-wang-chen-wen-chi.
 Schema gaps: none.
 Next: E4 (coalition_with and endorsed). It's the last item in Now.
+
+### 2026-10-03 · #22 · E4 coalition_with and endorsed (last item in Now)
+Coverage: edges 143 → 147; `endorsed` and `coalition_with` now used. Never-used types are down from 10 (baseline) to 6.
+Log: docs/research/2026-10-03-e4-coalition-endorsed.md
+Added: 1 node (shen-po-yang), 4 edges (kmt-tpp-coalition-2023, kmt-tpp-legislature-2024, kmt-endorsed-chiang-2026, dpp-endorsed-shen-2026). Changed: none
+Found: the failed 2023 藍白合 (agreed 11-15, collapsed 11-23); the KMT–TPP joint passage of the 國會改革 bills (2024-05-28); 2026 Taipei nominees 蔣萬安 (KMT) and 沈伯洋 (DPP).
+Not found or not done: other 2026 races (candidates aren't nodes); whether the KMT and TPP cooperate in 2026 (no TPP candidate in Taipei, cause unsourced).
+Ready to promote: kmt-tpp-coalition-2023, kmt-tpp-legislature-2024. The endorsement edges have URLs but table-only sources (quote null).
+Schema gaps: none.
+Next: **Now is empty.** The loop stops here, as instructed ("until the Now section is done"). Next, Later, Inbox and Needs Jing remain for Jing to re-rank.
+
+### 2026-10-03 · Session summary (iterations #1–#22)
+Coverage, baseline → now:
+- nodes 54 → 97; edges 77 → 147
+- cross-strait edges by Taiwan-side party: KMT 27 / DPP 0 / TPP 0 → KMT 35 / DPP 8 / TPP 6 (all 6 TPP edges predate the TPP; see #3)
+- evidence without URL 50 → 27; never-used relation types 10 → 6
+- enforcement layer 3 → 14 edges
+Biggest open decisions are in QUEUE.md under Needs Jing: statement edges, domestic media allegations, party factions, `donor_to` choice, the two §6 characterisation edges, 夏立言's education edges, URL-only evidence for registry tables, and the manual lookups (MOPS, e-procurement, MOI party register, CEC).

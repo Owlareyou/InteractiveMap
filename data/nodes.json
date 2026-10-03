@@ -2153,5 +2153,28 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-03"
+  },
+  {
+    "id": "shen-po-yang",
+    "wikidata_qid": null,
+    "name_zh": "沈伯洋",
+    "name_en": "Puma Shen",
+    "aliases": [
+      "Shen Po-yang"
+    ],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
   }
 ]

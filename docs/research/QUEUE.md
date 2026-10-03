@@ -78,11 +78,7 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Empty layers and relation types
 
-- [ ] **E4 · `coalition_with` and `endorsed`.** The November 2023 KMT–TPP
-  talks (藍白合, which failed, so record them as an event with
-  `status: 'historical'`), KMT–TPP cooperation in the 2024 legislature, and
-  DPP nominations and endorsements in the 2026 local elections. Do both the
-  KMT and the DPP, or neither.
+(E1–E4 done; see Done.)
 
 ## Next
 
@@ -175,6 +171,9 @@ They're re-ranked every 5 iterations.
 - Family pairs not yet sourced: 朱立倫–高思博 (高育仁 family), 許榮淑–張俊宏
   (DPP founders), and 林崑海–張秀 (marriage status unclear).
   `2026-10-03-e3-family.md`.
+- 2026 local elections: the other races' nominees (新北, 桃園, 台中, …) aren't
+  nodes. Also, no TPP candidate in Taipei. Is that KMT–TPP cooperation?
+  Unsourced. `2026-10-03-e4-coalition-endorsed.md`.
 - 王令麟's 力霸/東森 embezzlement conviction (5.5 years, final; 公視 254038)
   needs a node first (see the line below).
 - 王令麟: KMT member and former three-term legislator (鏡週刊 2017, one
@@ -322,4 +321,8 @@ their log.)
   傅崐萁–徐榛蔚 and 王雪紅–陳文琦 (T2), plus 三立's shareholding (T3). No
   qualifying DPP or TPP pair met the standard (see the log).
   [Log](2026-10-03-e3-family.md)
+- [x] **E4 · `coalition_with` and `endorsed`** (2026-10-03, #22). The
+  failed 2023 藍白合, the 2024 joint passage of the 國會改革 bills, and the
+  2026 Taipei nominees 蔣萬安 (KMT) and 沈伯洋 (DPP).
+  [Log](2026-10-03-e4-coalition-endorsed.md)
   [Logs](2026-10-03-v4-batch3.md)
