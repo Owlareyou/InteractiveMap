@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.node.json",
     "validate": "tsx scripts/validate-data.ts",
+    "coverage": "tsx scripts/coverage.ts",
     "test": "tsx --test src/lib/*.test.ts"
   },
   "dependencies": {

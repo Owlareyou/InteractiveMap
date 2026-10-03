@@ -62,6 +62,8 @@ Background lives in `docs/`, not here:
 | `docs/plans/` | The approved plan for each task |
 | `docs/decisions/` | Why a design works the way it does (`edge-weight.md`, `grouping.md`) |
 | `docs/research/` | Dated research logs: what was searched, found, and taken |
+| `docs/research/QUEUE.md` | The research loop: the protocol for one iteration, and the prioritised topics still to investigate |
+| `docs/research/NOTES.md` | One appended entry per research iteration, so the next session can resume |
 | `docs/seed-verification.md` | Checklist for turning draft seed edges into reviewed ones |
 
 ## Requirements
@@ -85,6 +87,7 @@ npm run dev      # http://localhost:5173
 | `npm run build` | Type-check, then production build to `dist/` |
 | `npm run preview` | Serve the built output |
 | `npm run typecheck` | `tsc --noEmit`, strict |
+| `npm run coverage` | Print where the data is thin (party balance, empty relation types, missing URLs, quotes and QIDs) for the research loop |
 | `npm run validate` | Check `data/*.json` against the schema and invariants; exits 1 and lists every problem. `-- --data <dir>` checks another folder |
 | `npm test` | Edge-weight, grouping and filter checks (`node:test` via `tsx`) |
 
