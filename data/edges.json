@@ -433,12 +433,12 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "中華民國總統府",
+        "source_url": "https://english.president.gov.tw/Page/644",
+        "source_name": "中華民國總統府（英文總統簡介）",
         "source_type": "official_record",
         "published_date": null,
-        "quote": null,
-        "retrieved_date": null
+        "quote": "After receiving a B.S. from National Taiwan University's Department of Physical Medicine and Rehabilitation, Dr. Lai completed the Post-Bachelor Program in Medical Science at National Cheng Kung University. He then obtained a Master of Public Health degree from Harvard University, making him one of the few physicians in Taiwan with rehabilitation, clinical care, and public health expertise.",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
@@ -463,12 +463,12 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "中華民國總統府",
+        "source_url": "https://english.president.gov.tw/Page/644",
+        "source_name": "中華民國總統府（英文總統簡介）",
         "source_type": "official_record",
         "published_date": null,
-        "quote": null,
-        "retrieved_date": null
+        "quote": "After receiving a B.S. from National Taiwan University's Department of Physical Medicine and Rehabilitation, Dr. Lai completed the Post-Bachelor Program in Medical Science at National Cheng Kung University. He then obtained a Master of Public Health degree from Harvard University, making him one of the few physicians in Taiwan with rehabilitation, clinical care, and public health expertise.",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
@@ -493,12 +493,12 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "中華民國總統府",
+        "source_url": "https://english.president.gov.tw/Page/644",
+        "source_name": "中華民國總統府（英文總統簡介）",
         "source_type": "official_record",
         "published_date": null,
-        "quote": null,
-        "retrieved_date": null
+        "quote": "After receiving a B.S. from National Taiwan University's Department of Physical Medicine and Rehabilitation, Dr. Lai completed the Post-Bachelor Program in Medical Science at National Cheng Kung University. He then obtained a Master of Public Health degree from Harvard University, making him one of the few physicians in Taiwan with rehabilitation, clinical care, and public health expertise.",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
@@ -841,12 +841,12 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "新華社",
+        "source_url": "https://interpret.csis.org/translations/general-secretary-xi-jinping-meets-with-lien-chan-and-his-delegation/",
+        "source_name": "新華社（CSIS Interpret 英譯）",
         "source_type": "official_record",
-        "published_date": null,
-        "quote": null,
-        "retrieved_date": null
+        "published_date": "2013-02-25",
+        "quote": "In a meeting this morning at the Great Hall of the People with the Honorary Chairman of the Chinese Kuomintang (KMT), Lien Chan, and accompanying Taiwanese leaders from all sectors, Xi Jinping, general secretary of the Communist Party of China (CCP) Central Committee, stressed that it is the collective responsibility of the new CCP Central Committee leadership to continue to promote the peaceful development of cross-Strait relations and the peaceful \"reunification\" of the country.",
+        "retrieved_date": "2026-10-03"
       },
       {
         "source_url": "https://news.tvbs.com.tw/politics/3169301",
@@ -875,12 +875,12 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "新華社",
+        "source_url": "https://cpc.people.com.cn/n/2014/0219/c64094-24399555.html",
+        "source_name": "人民日報（人民網）",
         "source_type": "official_record",
-        "published_date": null,
+        "published_date": "2014-02-19",
         "quote": null,
-        "retrieved_date": null
+        "retrieved_date": "2026-10-03"
       },
       {
         "source_url": "https://news.tvbs.com.tw/politics/3169301",
@@ -892,7 +892,7 @@
       }
     ],
     "review_status": "draft",
-    "notes": null,
+    "notes": "人民網頁面擷取結果含亂碼，quote 留空（2026-10-03，V4）。",
     "education": null
   },
   {
@@ -985,12 +985,12 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "新華社",
+        "source_url": "https://interpret.csis.org/?p=1770",
+        "source_name": "新華社（CSIS Interpret 英譯）",
         "source_type": "official_record",
-        "published_date": null,
-        "quote": null,
-        "retrieved_date": null
+        "published_date": "2015-05-04",
+        "quote": "Xi Jinping welcomed Eric Chu and his delegation to the mainland.",
+        "retrieved_date": "2026-10-03"
       },
       {
         "source_url": "https://www.rfa.org/cantonese/news/TW-talk-05042015090327.html",
@@ -1019,12 +1019,12 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "新華社",
+        "source_url": "https://www.gov.cn/yaowen/liebiao/202604/content_7065151.htm",
+        "source_name": "新華社（中國政府網轉載）",
         "source_type": "official_record",
-        "published_date": null,
-        "quote": null,
-        "retrieved_date": null
+        "published_date": "2026-04-10",
+        "quote": "中共中央總書記習近平10日上午在北京會見了鄭麗文主席率領的中國國民黨訪問團。",
+        "retrieved_date": "2026-10-03"
       },
       {
         "source_url": "https://www.cna.com.tw/news/acn/202604100213.aspx",
@@ -1044,7 +1044,7 @@
       }
     ],
     "review_status": "draft",
-    "notes": "鄭習會；兩黨領導人相隔十年首度會面 first party-leader meeting in ten years",
+    "notes": "鄭習會；兩黨領導人相隔十年首度會面 first party-leader meeting in ten years；新華社引文原為簡體，已轉正體。",
     "education": null
   },
   {

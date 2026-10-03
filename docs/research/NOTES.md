@@ -212,3 +212,13 @@ Not found: any source for 夏立言 at Georgetown; the NCCU interview PDF itself
 Ready to promote: hung-edu-pccu, hung-edu-truman.
 Schema gaps: none.
 Next: V4 (evidence with no URL, in batches of about 10, T1 first).
+
+### 2026-10-03 · #14 · V4 Evidence with no URL, batch 1
+Coverage: evidence without URL 41 → 34; without quote 111 → 105
+Log: docs/research/2026-10-03-v4-batch1.md
+Added: 0 nodes, 0 edges. Changed: lai-edu-ntu, lai-edu-ncku, lai-edu-harvard, cheng-xi-2026, lien-xi-2013, chu-xi-2015, lien-xi-2014 (URL only)
+Found: the 總統府 English page for 賴清德 covers all three of his education edges. Xinhua readouts for 2013, 2015 and 2026 (via gov.cn and CSIS translations).
+Not found: official 總統府 biographies of 馬英九 or 蔡英文; a clean quote for 連習會 2014. rmzxw.com.cn failed DNS today.
+Ready to promote: lai-edu-ntu, lai-edu-ncku, lai-edu-harvard, cheng-xi-2026, lien-xi-2013, chu-xi-2015.
+Schema gaps: none.
+Next: V4 batch 2 (Xinhua biographies for wang-yi-tao, song-tao-tao, xi-*; LY legislator profiles; lien-xi-2015).

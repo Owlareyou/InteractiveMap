@@ -76,7 +76,7 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Make existing data trustworthy
 
-- [ ] **V4 · Evidence with no URL** (50 entries). Work through them in
+- [ ] **V4 · Evidence with no URL** (50 at the start; 34 after batch 1 on 2026-10-03, see `2026-10-03-v4-batch1.md`). Work through them in
   batches of about 10, starting with T1. Done when `npm run coverage` shows
   0.
 - [ ] **X7 · Fill in thin nodes** (promoted from Next at the #5 re-rank).
