@@ -2094,5 +2094,35 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-03"
+  },
+  {
+    "id": "lin-yueh-lung",
+    "wikidata_qid": null,
+    "name_zh": "林岳龍",
+    "name_en": "Lin Yueh-lung",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "chen-wei-jen",
+    "wikidata_qid": null,
+    "name_zh": "陳惟仁",
+    "name_en": "Chen Wei-jen",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
   }
 ]

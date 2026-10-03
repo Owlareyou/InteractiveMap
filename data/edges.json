@@ -4369,10 +4369,18 @@
         "published_date": "2026-03-26",
         "quote": "柯文哲一審遭判處17年有期徒刑，褫奪公權6年。可上訴。",
         "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://cna.com.tw/news/asoc/202609080023.aspx",
+        "source_name": "中央社",
+        "source_type": "news",
+        "published_date": "2026-09-08",
+        "quote": "台灣台北地方檢察署與柯文哲等7名被告都提起上訴。二審由高院謙股承審",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "一審有罪判決，應執行 17 年、褫奪公權 6 年；可上訴，上訴狀態未查，故 status 為 disputed。",
+    "notes": "一審有罪判決，應執行 17 年、褫奪公權 6 年；檢方與柯文哲均已上訴，高院 2026-09-08 首度開庭（中央社），故 status 為 disputed。",
     "education": null
   },
   {
@@ -4509,6 +4517,100 @@
     ],
     "review_status": "draft",
     "notes": "共諜案（為陸方情工蒐集正副總統出訪情資）。二審由 10 年改判 6 年，可上訴，故 status 為 disputed。2025-05-21 遭民進黨開除黨籍（公視 752336，見 log）。",
+    "education": null
+  },
+  {
+    "id": "lin-yueh-lung-investigated-2025",
+    "source_id": "lin-yueh-lung",
+    "target_id": "taipei-district-prosecutors-office",
+    "relation_type": "investigated_by",
+    "temporal_scope": "event",
+    "valence": "negative",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2025-06-10",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2898750",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2025-06-11",
+        "quote": "林岳龍也涉共諜案昨遭檢調約談，凌晨裁定10萬交保。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/755528",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2025-06-11",
+        "quote": "10日調查局國安站兵分多路搜索議會和林岳龍住家，因為他還有一個身分，就是議員助理。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "涉違《國家安全法》；曾任國民黨立委許宇甄、王鴻薇、林倩綺助理（王鴻薇辦公室 2023-01-16～2024-01-31，依搜尋摘要）。偵查階段，未查到起訴。國民黨主席朱立倫稱涉案黨員將嚴懲（TVBS），黨籍未經明確來源確認，故 party_affiliations 留空。",
+    "education": null
+  },
+  {
+    "id": "chen-wei-jen-investigated-2020",
+    "source_id": "chen-wei-jen",
+    "target_id": "taipei-district-prosecutors-office",
+    "relation_type": "investigated_by",
+    "temporal_scope": "event",
+    "valence": "negative",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2020-06",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.pts.org.tw/article/483639",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2020-06-18",
+        "quote": "陳惟仁、李易諴予法院裁定收押禁見。其中，李易諴是現任雲林縣長張麗善做立委時期的助理",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.globalsecurity.org/intell/library/news/2022/intell-220216-cna01.htm",
+        "source_name": "中央社（英文，GlobalSecurity 轉載）",
+        "source_type": "news",
+        "published_date": "2022-02-16",
+        "quote": "The Taiwan Supreme Court has upheld a decision by a lower court sentencing former legislative aide Chen Wei-jen (陳惟仁) to 10 months imprisonment for national security offenses by developing a spy network for China, according to court documents released Wednesday. The Supreme Court's decision is final.",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "前國會助理共諜案（2014–2018 活動）；陳惟仁曾任國民黨立委陳淑慧助理（中央社）。同案李易諴（張麗善時任立委之助理）2020-09 病逝不起訴（依搜尋摘要），林雍達曾任民進黨立委陳進丁助理（依搜尋摘要）；二人未建節點。",
+    "education": null
+  },
+  {
+    "id": "chen-wei-jen-ruled-2022",
+    "source_id": "chen-wei-jen",
+    "target_id": "supreme-court",
+    "relation_type": "ruled_on",
+    "temporal_scope": "event",
+    "valence": "negative",
+    "evidence_tier": "T3",
+    "directed": true,
+    "start": "2022-02",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.globalsecurity.org/intell/library/news/2022/intell-220216-cna01.htm",
+        "source_name": "中央社（英文，GlobalSecurity 轉載）",
+        "source_type": "news",
+        "published_date": "2022-02-16",
+        "quote": "The Taiwan Supreme Court has upheld a decision by a lower court sentencing former legislative aide Chen Wei-jen (陳惟仁) to 10 months imprisonment for national security offenses by developing a spy network for China, according to court documents released Wednesday. The Supreme Court's decision is final.",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "最高法院維持 10 月徒刑定讞（違反國家安全法）。僅一來源，T3。",
     "education": null
   }
 ]

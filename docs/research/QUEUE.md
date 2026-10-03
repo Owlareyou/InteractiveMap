@@ -78,13 +78,6 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Empty layers and relation types
 
-- [ ] **E1b · Espionage cases, the other parties** (split from E1 for
-  balance). E1 recorded the DPP-linked 黃取榮 case. Search with the same
-  effort for PRC-espionage prosecutions involving the staff or associates
-  of KMT and TPP officials (and independents). Record by stage reached. Also
-  check the appeal status of 柯文哲 (2026-03 ruling) and 黃取榮 (2026-06).
-  *Done when:* each party has a verdict in the log, including "searched,
-  nothing found".
 - [ ] **E2 · Political donations (`donor_to`).** Use the 監察院
   政治獻金公開查閱平台. Start with 旺旺 (the README has this as an open
   question), then the 5 largest corporate donors to each of the KMT, DPP
@@ -185,6 +178,9 @@ They're re-ranked every 5 iterations.
   quotable sentence. `2026-10-03-x7-thin-nodes.md`.
 - Nine people with ≤1 edge (the media and SEF figures from N3 and N4) need
   a breadth pass. Same log.
+- 朱政騏 (DPP Taipei councillor-primary winner, expelled): indicted
+  2026-04 under the 國安法 (summary). 徐春鶯: 反滲透法 indictment (summary),
+  TPP-adjacent but not staff. `2026-10-03-e1b-espionage-balance.md`.
 - 王令麟's 力霸/東森 embezzlement conviction (5.5 years, final; 公視 254038)
   needs a node first (see the line below).
 - 王令麟: KMT member and former three-term legislator (鏡週刊 2017, one
@@ -314,4 +310,8 @@ their log.)
   (indicted 2024), 黃取榮 (second-instance espionage ruling 2026,
   disputed), 傅崐萁 (two final convictions). The espionage balance check is
   in E1b. [Log](2026-10-03-e1-enforcement.md)
+- [x] **E1b · Espionage cases, the other parties** (2026-10-03, #19).
+  KMT-linked: 林岳龍 (investigated 2025) and 陳惟仁 (final 2022). TPP:
+  searched, none found. 柯文哲's appeal confirmed (second instance opened
+  2026-09-08). [Log](2026-10-03-e1b-espionage-balance.md)
   [Logs](2026-10-03-v4-batch3.md)

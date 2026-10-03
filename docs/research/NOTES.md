@@ -267,3 +267,16 @@ Not found or not done: 司法院 judgments (T1); appeal outcomes; 鄭文燦's ve
 Ready to promote: all 6 new edges.
 Schema gaps: none (no PFP node; party at the time recorded in notes).
 Next: E1b (espionage cases involving KMT and TPP officials' staff), then E2.
+
+### 2026-10-03 · #19 · E1b Espionage cases, the other parties
+Coverage: enforcement-layer edges 11 → 14; tiers T3 5 → 6
+Log: docs/research/2026-10-03-e1b-espionage-balance.md
+Added: 2 nodes (lin-yueh-lung, chen-wei-jen), 3 edges (lin-yueh-lung-investigated-2025, chen-wei-jen-investigated-2020, chen-wei-jen-ruled-2022). Changed: ko-ruled-2026 (+CNA: both sides appealed; second instance opened 2026-09-08)
+Found:
+- KMT-linked: 林岳龍 (aide to three KMT legislators) was investigated in 2025-06 (bail, no indictment found). 陳惟仁 (aide to a KMT legislator) has a final 10-month national-security conviction (2022).
+- TPP-linked: searched, no staff espionage case found.
+- Another DPP-linked case (朱政騏, indicted 2026-04) is in Inbox.
+Not found: whether 黃取榮 appealed; 林岳龍's indictment; the outcome for 林雍達.
+Ready to promote: lin-yueh-lung-investigated-2025, chen-wei-jen-investigated-2020. Not chen-wei-jen-ruled-2022 (T3).
+Schema gaps: none. Attribution note: aides have no party, so coverage counts them as "none".
+Next: E2 (political donations).
