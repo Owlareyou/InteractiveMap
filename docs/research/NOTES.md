@@ -254,3 +254,16 @@ Not found: a quotable source naming 蔣萬安's party (the 2022 win is confirmed
 Ready to promote: all 7 new edges.
 Schema gaps: none.
 Next: E1 (enforcement, for every party).
+
+### 2026-10-03 · #18 · E1 Enforcement, for every party
+Coverage: enforcement-layer edges 5 → 11; `indicted_by` now used; people DPP 10 → 11 (黃取榮)
+Log: docs/research/2026-10-03-e1-enforcement.md
+Added: 6 nodes (5 prosecutors' offices and courts, huang-chu-jung), 6 edges (ko-indicted-2024, ko-ruled-2026, cheng-wen-tsan-indicted-2024, fu-ruled-2018, fu-ruled-2020, huang-chu-jung-ruled-2026). Changed: none
+Found:
+- TPP: 柯文哲 was indicted on 2024-12-26 and convicted at first instance on 2026-03-26 (17 years, appealable).
+- DPP: 鄭文燦 was indicted on 2024-08-27 (trial ongoing). Former DPP member 黃取榮 (expelled 2025-05) had his espionage sentence cut to 6 years on appeal (2026-06-25).
+- KMT: 傅崐萁 has two final insider-trading convictions (2018, 2020). The first offence was while he was a PFP legislator.
+Not found or not done: 司法院 judgments (T1); appeal outcomes; 鄭文燦's verdict; espionage cases involving KMT or TPP officials' staff (not searched, so split into E1b for balance).
+Ready to promote: all 6 new edges.
+Schema gaps: none (no PFP node; party at the time recorded in notes).
+Next: E1b (espionage cases involving KMT and TPP officials' staff), then E2.

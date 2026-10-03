@@ -1989,5 +1989,110 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-03"
+  },
+  {
+    "id": "taipei-district-prosecutors-office",
+    "wikidata_qid": null,
+    "name_zh": "臺灣臺北地方檢察署",
+    "name_en": "Taipei District Prosecutors Office",
+    "aliases": [
+      "北檢"
+    ],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "taipei-district-court",
+    "wikidata_qid": null,
+    "name_zh": "臺灣臺北地方法院",
+    "name_en": "Taipei District Court",
+    "aliases": [
+      "北院",
+      "台北地院"
+    ],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "taoyuan-district-prosecutors-office",
+    "wikidata_qid": null,
+    "name_zh": "臺灣桃園地方檢察署",
+    "name_en": "Taoyuan District Prosecutors Office",
+    "aliases": [
+      "桃檢"
+    ],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "supreme-court",
+    "wikidata_qid": null,
+    "name_zh": "最高法院",
+    "name_en": "Supreme Court (ROC)",
+    "aliases": [],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "taiwan-high-court",
+    "wikidata_qid": null,
+    "name_zh": "臺灣高等法院",
+    "name_en": "Taiwan High Court",
+    "aliases": [
+      "高院"
+    ],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "huang-chu-jung",
+    "wikidata_qid": null,
+    "name_zh": "黃取榮",
+    "name_en": "Huang Chu-jung",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": "2025-05"
+      }
+    ],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
   }
 ]

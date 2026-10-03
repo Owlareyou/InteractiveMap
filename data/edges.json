@@ -4306,5 +4306,209 @@
     "review_status": "draft",
     "notes": "2025-10-18 當選（得票率 50.15%），2025-11-01 就任（台灣英文新聞，未作引文）。",
     "education": null
+  },
+  {
+    "id": "ko-indicted-2024",
+    "source_id": "ko-wen-je",
+    "target_id": "taipei-district-prosecutors-office",
+    "relation_type": "indicted_by",
+    "temporal_scope": "event",
+    "valence": "negative",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2024-12-26",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://newtalk.tw/news/view/2024-12-26/950431",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2024-12-26",
+        "quote": "台北地檢署偵辦民眾黨主席柯文哲台北市長任內涉「京華城」容積率弊案、柯任黨主席涉政治獻金侵占等案，今(26)日起訴，將柯文哲以圖利罪、違背職務行賄罪、公益侵占罪提起公訴",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2730420",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2024-12-26",
+        "quote": "柯文哲等人遭起訴",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "京華城容積率案及民眾黨政治獻金案；求刑合計 28 年 6 月。起訴非定罪。",
+    "education": null
+  },
+  {
+    "id": "ko-ruled-2026",
+    "source_id": "ko-wen-je",
+    "target_id": "taipei-district-court",
+    "relation_type": "ruled_on",
+    "temporal_scope": "event",
+    "valence": "negative",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2026-03-26",
+    "end": null,
+    "status": "disputed",
+    "evidence": [
+      {
+        "source_url": "https://news.pts.org.tw/article/800842",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2026-03-26",
+        "quote": "台北地方法院審理京華城案、柯文哲政治獻金案，今（26）日一審宣判，判柯文哲17年徒刑、褫奪公權6年",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.taiwannews.com.tw/zh/news/6328342",
+        "source_name": "台灣英文新聞",
+        "source_type": "news",
+        "published_date": "2026-03-26",
+        "quote": "柯文哲一審遭判處17年有期徒刑，褫奪公權6年。可上訴。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "一審有罪判決，應執行 17 年、褫奪公權 6 年；可上訴，上訴狀態未查，故 status 為 disputed。",
+    "education": null
+  },
+  {
+    "id": "cheng-wen-tsan-indicted-2024",
+    "source_id": "cheng-wen-tsan",
+    "target_id": "taoyuan-district-prosecutors-office",
+    "relation_type": "indicted_by",
+    "temporal_scope": "event",
+    "valence": "negative",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2024-08-27",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2598351",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2024-08-27",
+        "quote": "檢察官今（27）日偵查終結，依《貪污治罪條例》起訴鄭文燦等11人。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/711878",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2024-08-27",
+        "quote": "桃園地檢署今（27）日偵結起訴鄭文燦及相關人員共11人",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "涉收受 500 萬元賄款（林口特定區農地變更案）；求刑 12 年（公視）。一審審理中，搜尋所見尚無判決（2026 年 4 月庭訊）。起訴非定罪。公視引文取自刪節號前之句段。",
+    "education": null
+  },
+  {
+    "id": "fu-ruled-2018",
+    "source_id": "fu-kun-chi",
+    "target_id": "supreme-court",
+    "relation_type": "ruled_on",
+    "temporal_scope": "event",
+    "valence": "negative",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2018-09-12",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.pts.org.tw/article/406264",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2018-09-13",
+        "quote": "最高法院昨天駁回上訴，全案定讞，傅崐萁必須入監服刑",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/1329515",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2020-05-25",
+        "quote": "立委傅崐萁因為內線炒股案，遭判刑2年10個月定讞",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "合機電線電纜股票內線交易案（2003 年任親民黨立委時），判刑 8 月定讞。TVBS 引文為第二案，報導並述 2018 年首案 8 月刑期。",
+    "education": null
+  },
+  {
+    "id": "fu-ruled-2020",
+    "source_id": "fu-kun-chi",
+    "target_id": "supreme-court",
+    "relation_type": "ruled_on",
+    "temporal_scope": "event",
+    "valence": "negative",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2020-05",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/1329515",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2020-05-25",
+        "quote": "立委傅崐萁因為內線炒股案，遭判刑2年10個月定讞",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20200527edi007/index.html",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2020-05-27",
+        "quote": "花蓮縣立委傅崐萁因內線炒股案，被判刑2年10個月定讞，由於判決中並不包含「褫奪公權」",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "凱聚等股票案（1997–98），判刑 2 年 10 月定讞，2020-05-25 入監。定讞之確切日期與法院層級依搜尋摘要為最高法院，未讀判決書。",
+    "education": null
+  },
+  {
+    "id": "huang-chu-jung-ruled-2026",
+    "source_id": "huang-chu-jung",
+    "target_id": "taiwan-high-court",
+    "relation_type": "ruled_on",
+    "temporal_scope": "event",
+    "valence": "negative",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2026-06-25",
+    "end": null,
+    "status": "disputed",
+    "evidence": [
+      {
+        "source_url": "https://udn.com/news/story/7321/9588009",
+        "source_name": "聯合新聞網",
+        "source_type": "news",
+        "published_date": "2026-06-25",
+        "quote": "民進黨前資深黨員黃取榮、民主學院前副主任邱世元被大陸情工人員收買，一審判黃10年徒刑，台灣高等法院今改判黃6年徒刑",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/814767",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2026-06-25",
+        "quote": "改判黃取榮6年徒刑、民主學院前副主任邱世元判刑5年、副總統辦公室前諮議吳尚雨被判3年",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "共諜案（為陸方情工蒐集正副總統出訪情資）。二審由 10 年改判 6 年，可上訴，故 status 為 disputed。2025-05-21 遭民進黨開除黨籍（公視 752336，見 log）。",
+    "education": null
   }
 ]

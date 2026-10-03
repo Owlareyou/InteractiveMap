@@ -78,12 +78,13 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Empty layers and relation types
 
-- [ ] **E1 · Enforcement, for every party.** Court judgments (司法院裁判書
-  查詢 is T1) and indictments: 柯文哲 and 京華城 (indicted 2024-12);
-  鄭文燦 (bribery case, 2024); 傅崐萁 (past securities convictions).
-  Also prosecutions of PRC espionage involving staff of any party's
-  officials (lead: 黃取榮). Use `indicted_by`, `ruled_on` and
-  `investigated_by` strictly by the stage reached.
+- [ ] **E1b · Espionage cases, the other parties** (split from E1 for
+  balance). E1 recorded the DPP-linked 黃取榮 case. Search with the same
+  effort for PRC-espionage prosecutions involving the staff or associates
+  of KMT and TPP officials (and independents). Record by stage reached. Also
+  check the appeal status of 柯文哲 (2026-03 ruling) and 黃取榮 (2026-06).
+  *Done when:* each party has a verdict in the log, including "searched,
+  nothing found".
 - [ ] **E2 · Political donations (`donor_to`).** Use the 監察院
   政治獻金公開查閱平台. Start with 旺旺 (the README has this as an open
   question), then the 5 largest corporate donors to each of the KMT, DPP
@@ -184,6 +185,8 @@ They're re-ranked every 5 iterations.
   quotable sentence. `2026-10-03-x7-thin-nodes.md`.
 - Nine people with ≤1 edge (the media and SEF figures from N3 and N4) need
   a breadth pass. Same log.
+- 王令麟's 力霸/東森 embezzlement conviction (5.5 years, final; 公視 254038)
+  needs a node first (see the line below).
 - 王令麟: KMT member and former three-term legislator (鏡週刊 2017, one
   source), and 東森's founder. Needs a second source to qualify as a node.
   His 力霸/東森 conviction fits E1. `2026-10-03-media-political-ties.md`.
@@ -306,4 +309,9 @@ their log.)
   #17). `member_of` (T2) for 陳菊, 謝長廷, 卓榮泰, 鄭文燦 and 蘇嘉全, and
   鄭麗文's KMT membership and chair. 蔣萬安 is still pending (Inbox).
   [Log](2026-10-03-x7-thin-nodes.md)
+- [x] **E1 · Enforcement, for every party** (2026-10-03, #18). 柯文哲
+  (indicted 2024; first-instance conviction 2026, disputed), 鄭文燦
+  (indicted 2024), 黃取榮 (second-instance espionage ruling 2026,
+  disputed), 傅崐萁 (two final convictions). The espionage balance check is
+  in E1b. [Log](2026-10-03-e1-enforcement.md)
   [Logs](2026-10-03-v4-batch3.md)
