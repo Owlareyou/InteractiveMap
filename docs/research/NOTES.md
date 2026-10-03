@@ -111,3 +111,16 @@ Not found: the 總統府 appointment order for 卓榮泰 (so appointed_by is T3)
 Ready to promote: cho-premier, chiu-mac-chair, chiu-straits-forum-2009, cheng-sef-chair, wu-feng-shan-sef-chair, su-sef-chair. Not cho-appointed-by-lai (T3, single source).
 Schema gaps: none new.
 Next: N4 (mirror of the media item: SET, FTV, TVBS, EBC, Mirror TV ownership).
+
+### 2026-10-03 · #6 · N4 Media ownership, part 1 (三立, 民視, TVBS)
+Coverage: media_org nodes 3 → 6; economic-layer edges 7 → 12; evidence without URL 50 → 50; people with ≤1 edge 7 → 11 (the four new media figures)
+Log: docs/research/2026-10-03-media-ownership.md
+Added: 8 nodes (set-tv, ftv, tvbs, minjian-investment, cher-wang, chen-wen-chi, chang-jung-hua, wang-ming-yu), 5 edges (cher-wang-owns-tvbs, chen-wen-chi-chairs-tvbs, chang-jung-hua-chairs-set, wang-ming-yu-chairs-ftv, minjian-investment-owns-ftv). Changed: none
+Found:
+- TVBS: 王雪紅's investment vehicles bought it from Hong Kong TVB in 2015–16 (96% per 今周刊 2017; family 65% per Mirror 2019). 陳文琦 has been chair since 2019.
+- 三立: chair 張榮華, brother-in-law of the late founder 林崑海. The registry mirror shows directors' holdings only, so there's no ownership edge.
+- 民視: 王明玉 became chair on 2019-04-02 after the 郭倍宏 dispute. The parent and largest shareholder is 民間投資 (one source, T3).
+Not found: the MOEA registry (findbiz returned 403; the LawPlayer mirror works only when the 統編 is known); NCC approval of the TVBS transfer; 三立's shareholder structure.
+Ready to promote: cher-wang-owns-tvbs, chen-wen-chi-chairs-tvbs, wang-ming-yu-chairs-ftv. Not chang-jung-hua-chairs-set (LawPlayer evidence has quote null) or minjian-investment-owns-ftv (T3).
+Schema gaps: none.
+Next: N4b (東森, 鏡電視, political ties and allegations for all five outlets, NCC records).

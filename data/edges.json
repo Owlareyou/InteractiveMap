@@ -3484,5 +3484,167 @@
     "review_status": "draft",
     "notes": "2026-01-14 總統任命（TVBS），01-23 董監事會推選。",
     "education": null
+  },
+  {
+    "id": "cher-wang-owns-tvbs",
+    "source_id": "cher-wang",
+    "target_id": "tvbs",
+    "relation_type": "shareholder",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2015",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.businesstoday.com.tw/article/category/80392/post/201705180026/",
+        "source_name": "今周刊",
+        "source_type": "news",
+        "published_date": "2017-05-18",
+        "quote": "王雪紅人馬在TVB席次雖只僅剩一席，卻成功從TVB手中取得台灣聯利媒體（TVBS）經營權，分別在一五、一六年陸續透過利茂、德恩、連信三家投資公司取得TVBS九六％持股",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20190806fin001",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2019-08-11",
+        "quote": "身為TVBS最大股東，王雪紅家族持股65％",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2015、2016 年經利茂、德恩、連信三家投資公司自香港 TVB 取得；今周刊（2017）稱 96%，鏡週刊（2019）稱王雪紅家族持股 65%，差異未釐清（搜尋摘要稱部分股權轉予丁廣鋐之富仕宇投資，未讀原文）。NCC 核准紀錄未查。",
+    "education": null
+  },
+  {
+    "id": "chen-wen-chi-chairs-tvbs",
+    "source_id": "chen-wen-chi",
+    "target_id": "tvbs",
+    "relation_type": "board_member",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2019",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20190806fin001",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2019-08-11",
+        "quote": "聯利媒體董事會通過宏達電董事長王雪紅夫婿陳文琦接任董座",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://finance.technews.tw/2019/07/02/tvbs-president-retire-in-sep/",
+        "source_name": "TechNews 科技新報",
+        "source_type": "news",
+        "published_date": "2019-07-02",
+        "quote": "TVBS 將於 7 月召開董事會，推舉威盛董事長陳文琦接任董事長",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "董事長，接替張孝威（2019-09 退休）。鏡週刊稱其為王雪紅夫婿（spouse 邊未建，見 E3）。",
+    "education": null
+  },
+  {
+    "id": "chang-jung-hua-chairs-set",
+    "source_id": "chang-jung-hua",
+    "target_id": "set-tv",
+    "relation_type": "board_member",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.peoplenews.tw/?p=4473",
+        "source_name": "民報",
+        "source_type": "news",
+        "published_date": "2025-08-19",
+        "quote": "今年69歲的張榮華，是已故三立電視創辦人林崑海的妻弟，3年前林崑海逝世，原總經理張榮華便接下董事長一職。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://lawplayer.com/company/23740512",
+        "source_name": "LawPlayer（轉載經濟部商工登記公示資料，2026-09-18 更新）",
+        "source_type": "other",
+        "published_date": null,
+        "quote": null,
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "董事長；創辦人林崑海（已故）之妻弟。登記資料：董事長張榮華持股 0 股，法人董事為永興資本（代表人林義魚）。股權結構未查到公開來源，故未建 shareholder 邊。LawPlayer 為商工登記之轉載，非原始 T1 紀錄。",
+    "education": null
+  },
+  {
+    "id": "wang-ming-yu-chairs-ftv",
+    "source_id": "wang-ming-yu",
+    "target_id": "ftv",
+    "relation_type": "board_member",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2019-04-02",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://newtalk.tw/news/view/2019-04-02/228196",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2019-04-02",
+        "quote": "電子媒體民間全民電視今天(2日)召開臨時股東會，最後總經理王明玉高票當選新任董事長。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.mirrormedia.mg/story/amp/20190402fin008",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2019-04-02",
+        "quote": "會後也隨即開董事會，推舉王明玉擔任董事長、黃明展為副董事長。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2019 年經營權爭議後接任，前任郭倍宏派系退出。是否仍在任僅以 2019 報導為據（子公司民視文化 2026 登記代表人亦為王明玉，未建邊）。",
+    "education": null
+  },
+  {
+    "id": "minjian-investment-owns-ftv",
+    "source_id": "minjian-investment",
+    "target_id": "ftv",
+    "relation_type": "shareholder",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T3",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20190315fin001",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2019-03-15",
+        "quote": "民視母公司、最大股東「民間投資股份有限公司」",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "母公司、最大股東；持股比例未查。僅一來源。",
+    "education": null
   }
 ]

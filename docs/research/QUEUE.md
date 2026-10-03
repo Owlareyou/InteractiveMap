@@ -72,12 +72,14 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Neutrality gap
 
-- [ ] **N4 · Mirror of the media item.** 旺旺/中天 is in the data. Research
-  ownership and political ties at 三立 (SET), 民視 (FTV), TVBS, 東森 and
-  鏡電視 under the same rules: TWSE/MOEA registry filings for ownership
-  (T1), NCC rulings (T1), and allegations of editorial direction as T4.
-  *Done when:* each outlet has an ownership edge, or the log says why not.
-
+- [ ] **N4b · Media mirror, part 2** (split from N4). (a) Ownership and
+  chairs of 東森 (EBC) and 鏡電視 (Mirror TV), plus NCC decisions (鏡電視's
+  2022 licence; the TVBS share transfer in 2015–16). (b) Political ties for
+  all five outlets, to the 旺旺 standard: founders' and chairs' party roles
+  (e.g. 民視's founder 蔡同榮, former chair 郭倍宏), and allegations of
+  editorial direction as T4 only. Do every outlet or note why not. *Done
+  when:* 東森 and 鏡電視 each have an ownership edge or a logged reason, and
+  each of the five outlets has a political-ties verdict.
 - [ ] **N5 · KMT side of the 兩岸經貿文化論壇** (promoted from Inbox at
   the #5 re-rank). The `cross-strait-forum-kmt-ccp` node, added in N1b, has
   only DPP attendees (許榮淑, 范振宗). Link the KMT delegation leads for each
@@ -194,6 +196,11 @@ They're re-ranked every 5 iterations.
 - Methodology text: say in the app that government-to-government
   cross-strait edges stop in 2016 because the PRC suspended the channels,
   not because of a data gap. Same log, §4.
+- 王雪紅 and 陳文琦: Mirror 2019 calls him her husband (夫婿). It's a
+  `spouse` candidate for E3, with one source so far.
+  `2026-10-03-media-ownership.md` §1.
+- The 統編 for 民間全民電視 and 聯利媒體 would allow registry checks via
+  findbiz or LawPlayer. Same log.
 - 謝長廷 reportedly dined with two PLA General Political Department major
   generals in October 2012 (search summary only). Source: same log, §1.
 - People with no node who appear in N1 edges' `notes`: 戴秉國, 陳雲林
@@ -247,3 +254,7 @@ their log.)
   Forum attendance, and SEF chairs 鄭文燦, 吳豊山 and 蘇嘉全. No official
   cross-strait contact since 2016, by PRC suspension. Not an edge.
   [Log](2026-10-03-current-government.md)
+- [x] **N4 · Media mirror, part 1** (2026-10-03, #6). TVBS (王雪紅
+  ownership, chair 陳文琦), 三立 (chair 張榮華, no ownership source), 民視
+  (chair 王明玉, parent 民間投資 at T3). The rest is in N4b.
+  [Log](2026-10-03-media-ownership.md)

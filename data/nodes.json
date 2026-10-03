@@ -1667,5 +1667,158 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-03"
+  },
+  {
+    "id": "set-tv",
+    "wikidata_qid": null,
+    "name_zh": "三立電視",
+    "name_en": "Sanlih E-Television (SET)",
+    "aliases": [
+      "三立",
+      "SET"
+    ],
+    "entity_type": "media_org",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "ftv",
+    "wikidata_qid": null,
+    "name_zh": "民間全民電視（民視）",
+    "name_en": "Formosa Television (FTV)",
+    "aliases": [
+      "民視",
+      "FTV"
+    ],
+    "entity_type": "media_org",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "tvbs",
+    "wikidata_qid": null,
+    "name_zh": "TVBS（聯利媒體）",
+    "name_en": "TVBS",
+    "aliases": [
+      "聯利媒體",
+      "聯意製作"
+    ],
+    "entity_type": "media_org",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "minjian-investment",
+    "wikidata_qid": null,
+    "name_zh": "民間投資股份有限公司",
+    "name_en": "Minjian Investment Co.",
+    "aliases": [],
+    "entity_type": "company",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "cher-wang",
+    "wikidata_qid": null,
+    "name_zh": "王雪紅",
+    "name_en": "Cher Wang",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "chen-wen-chi",
+    "wikidata_qid": null,
+    "name_zh": "陳文琦",
+    "name_en": "Chen Wen-chi",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [
+      {
+        "title_zh": "TVBS（聯利媒體）董事長",
+        "title_en": "TVBS Chair",
+        "org_id": "tvbs",
+        "start": "2019",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "chang-jung-hua",
+    "wikidata_qid": null,
+    "name_zh": "張榮華",
+    "name_en": "Chang Jung-hua",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [
+      {
+        "title_zh": "三立電視董事長",
+        "title_en": "SET Chair",
+        "org_id": "set-tv",
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "wang-ming-yu",
+    "wikidata_qid": null,
+    "name_zh": "王明玉",
+    "name_en": "Wang Ming-yu",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [
+      {
+        "title_zh": "民視董事長",
+        "title_en": "FTV Chair",
+        "org_id": "ftv",
+        "start": "2019-04-02",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
   }
 ]
