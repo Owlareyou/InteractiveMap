@@ -1497,5 +1497,175 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-03"
+  },
+  {
+    "id": "executive-yuan",
+    "wikidata_qid": null,
+    "name_zh": "行政院",
+    "name_en": "Executive Yuan",
+    "aliases": [],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "straits-exchange-foundation",
+    "wikidata_qid": null,
+    "name_zh": "財團法人海峽交流基金會（海基會）",
+    "name_en": "Straits Exchange Foundation (SEF)",
+    "aliases": [
+      "海基會",
+      "SEF"
+    ],
+    "entity_type": "government_body",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "cho-jung-tai",
+    "wikidata_qid": null,
+    "name_zh": "卓榮泰",
+    "name_en": "Cho Jung-tai",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "行政院長",
+        "title_en": "Premier",
+        "org_id": "executive-yuan",
+        "start": "2024-05-20",
+        "end": null
+      }
+    ],
+    "tags": [
+      "former_party_chair"
+    ],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "chiu-chui-cheng",
+    "wikidata_qid": null,
+    "name_zh": "邱垂正",
+    "name_en": "Chiu Chui-cheng",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [
+      {
+        "title_zh": "行政院大陸委員會主任委員",
+        "title_en": "Minister, Mainland Affairs Council",
+        "org_id": "mainland-affairs-council",
+        "start": "2024-05-20",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "cheng-wen-tsan",
+    "wikidata_qid": null,
+    "name_zh": "鄭文燦",
+    "name_en": "Cheng Wen-tsan",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "海基會董事長",
+        "title_en": "SEF Chair",
+        "org_id": "straits-exchange-foundation",
+        "start": null,
+        "end": "2024-07-07"
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "wu-feng-shan",
+    "wikidata_qid": null,
+    "name_zh": "吳豊山",
+    "name_en": "Wu Feng-shan",
+    "aliases": [
+      "吳豐山"
+    ],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [
+      {
+        "title_zh": "海基會董事長",
+        "title_en": "SEF Chair",
+        "org_id": "straits-exchange-foundation",
+        "start": "2024-11-04",
+        "end": "2025-12-18"
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "su-jia-chyuan",
+    "wikidata_qid": null,
+    "name_zh": "蘇嘉全",
+    "name_en": "Su Jia-chyuan",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "海基會董事長",
+        "title_en": "SEF Chair",
+        "org_id": "straits-exchange-foundation",
+        "start": "2026-01-23",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
   }
 ]

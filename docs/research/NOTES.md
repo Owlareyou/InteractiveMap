@@ -97,3 +97,17 @@ Not found: the 2020–22 rounds (not searched); the TPP's MOI party-register rec
 Ready to promote: ko-shanghai-delegation-2018, chiang-shanghai-forum-2023, chiang-shanghai-delegation-2024, chiang-shanghai-forum-2025. Not ko-shanghai-delegation-2016: its 風傳媒 quote is null.
 Schema gaps: no relation type for a public statement endorsing or adopting a formula (e.g. 「兩岸一家親」). `criticizes` and `opposes` are negative only.
 Next: N3 (current government's cross-strait structure, including 邱垂正 from N1). Iteration #5: re-rank Now first.
+
+### 2026-10-03 · #5 · Re-rank, then N3 Current government's cross-strait structure
+Re-rank (every 5 iterations): Now keeps N3 and N4 first. Cross-strait edges are still KMT 30 / DPP 8 / TPP 6. Promoted N5 (KMT side of the KMT–CPC forum) from Inbox, because the forum node added in N1b only had DPP attendees. Promoted X7 (thin nodes) from Next, extended to cover `member_of` for people added with unsourced party affiliations.
+Coverage: people DPP 6 → 9, none 2 → 4; cross-strait edges unchanged except none 1 → 2 (邱垂正, party unverified); evidence without URL 50 → 50
+Log: docs/research/2026-10-03-current-government.md
+Added: 7 nodes (executive-yuan, straits-exchange-foundation, cho-jung-tai, chiu-chui-cheng, cheng-wen-tsan, wu-feng-shan, su-jia-chyuan), 7 edges (cho-premier, cho-appointed-by-lai, chiu-mac-chair, chiu-straits-forum-2009, cheng-sef-chair, wu-feng-shan-sef-chair, su-sef-chair). Changed: none
+Found:
+- 卓榮泰 became premier on 2024-05-20 (T1, Executive Yuan release). 邱垂正, previously SEF vice chair, became MAC chair the same day.
+- The SEF has had three chairs since 2024: 鄭文燦 (resigned 2024-07-07 amid the graft case), 吳豊山 (2024-11-04 to 2025-12-18), and 蘇嘉全 (from 2026-01-23, appointed by Lai on 01-14).
+- No official cross-strait meetings by the current government. The channels have been suspended since 2016 (unread summary). That's not an edge, but worth stating in the app's methodology text.
+Not found: the 總統府 appointment order for 卓榮泰 (so appointed_by is T3); the MAC minister bio page (403); 邱垂正's party membership; 鄭文燦's SEF start date on a read page.
+Ready to promote: cho-premier, chiu-mac-chair, chiu-straits-forum-2009, cheng-sef-chair, wu-feng-shan-sef-chair, su-sef-chair. Not cho-appointed-by-lai (T3, single source).
+Schema gaps: none new.
+Next: N4 (mirror of the media item: SET, FTV, TVBS, EBC, Mirror TV ownership).

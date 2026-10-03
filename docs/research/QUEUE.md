@@ -72,18 +72,17 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Neutrality gap
 
-- [ ] **N3 · Cross-strait edges for the current government.** MAC chair
-  邱垂正, premier 卓榮泰, and SEF (海基會) leadership. Look for
-  `position_held`, `appointed_by`, and any `met_officially_with` across
-  the strait. *Why:* the government side of cross-strait policy is missing
-  as a structure. *Carried over from N1:* 邱垂正 attended the 2009 Straits
-  Forum as an academic. udn 9573918 and LTN 5476333 make it T2-ready (see
-  `2026-10-02-dpp-cross-strait.md` §5). His party status is unverified.
 - [ ] **N4 · Mirror of the media item.** 旺旺/中天 is in the data. Research
   ownership and political ties at 三立 (SET), 民視 (FTV), TVBS, 東森 and
   鏡電視 under the same rules: TWSE/MOEA registry filings for ownership
   (T1), NCC rulings (T1), and allegations of editorial direction as T4.
   *Done when:* each outlet has an ownership edge, or the log says why not.
+
+- [ ] **N5 · KMT side of the 兩岸經貿文化論壇** (promoted from Inbox at
+  the #5 re-rank). The `cross-strait-forum-kmt-ccp` node, added in N1b, has
+  only DPP attendees (許榮淑, 范振宗). Link the KMT delegation leads for each
+  round (e.g. 吳伯雄 in 2009) to it, under the same T2 rule. *Done when:*
+  every round from 2006 on has a verdict in the log.
 
 ### Make existing data trustworthy
 
@@ -101,6 +100,11 @@ Each item reads: question, why it matters, where to look, done when.
 - [ ] **V4 · Evidence with no URL** (50 entries). Work through them in
   batches of about 10, starting with T1. Done when `npm run coverage` shows
   0.
+- [ ] **X7 · Fill in thin nodes** (promoted from Next at the #5 re-rank).
+  鄭麗文, 朱立倫, 吳伯雄 and 謝長廷 each have ≤1 edge. Add party roles,
+  education and `member_of` from official records. Also add `member_of`
+  edges for 陳菊, 謝長廷, 蔣萬安, 卓榮泰, 鄭文燦 and 蘇嘉全, who have
+  `party_affiliations` but no sourced membership edge.
 
 ### Empty layers and relation types
 
@@ -146,8 +150,6 @@ Each item reads: question, why it matters, where to look, done when.
 - [ ] **X6 · Institutional channels, 2008–2016.** The 江陳會 / 海基會–
   海協會 talks and their signed agreements. These need `government_body`
   nodes for SEF and ARATS.
-- [ ] **X7 · Fill in thin nodes.** 鄭麗文, 朱立倫 and 吳伯雄 each have ≤1
-  edge. Add party roles, education and `member_of` from official records.
 - [ ] **X8 · `participated_in_exchange`.** Local-level exchanges (township
   heads, councillors, temple pilgrimage delegations led by officials). For
   every party, only where an official or two-outlet record exists.
@@ -175,9 +177,6 @@ They're re-ranked every 5 iterations.
   contemporaneous source. `2026-10-03-dpp-cross-strait-2.md` §3.
 - 蘇治芬 (Yunlin, DPP): a Beijing produce expo in 2008, Shanghai and
   Shenzhen in 2011. No PRC counterpart identified yet. Same log, §4.
-- Mirror: KMT attendees of the 兩岸經貿文化論壇 (e.g. 吳伯雄 led the 2009
-  delegation) aren't linked to the new `cross-strait-forum-kmt-ccp` node.
-  Same log, §2.
 - September 2016: eight non-DPP magistrates and mayors met 張志軍 and
   俞正聲. KMT and independent side. Same log, §4.
 - 陳菊's 2013 trip also went to Shenzhen, Xiamen and Fuzhou. Counterparts
@@ -185,9 +184,16 @@ They're re-ranked every 5 iterations.
 - Twin-city forum 2020–22: were rounds held, or held online, and who took
   part? Not searched. `2026-10-03-twin-city-forum.md`.
 - Why the 2025 forum slipped from September to December: udn 9020523 says
-  「賴政府技術性卡關」. Unread. Fits N3 (MAC approvals). Same log.
+  「賴政府技術性卡關」. Unread. N3 is done, so this is open for whoever does E4 or L1. Same log.
 - 柯文哲's 2015-03-30 「一五新觀點」 interview (新華社, CCTV, 中評社) and
   the TAO's 03-31 response. From a search summary only. Same log.
+- The 總統府 appointment order for 卓榮泰 (2024-05-20) would make
+  `cho-appointed-by-lai` T1. The MAC minister bio page returned 403.
+  `2026-10-03-current-government.md`.
+- Acting SEF chair 許勝雄 (2024-07 to 11): search summary only. Same log.
+- Methodology text: say in the app that government-to-government
+  cross-strait edges stop in 2016 because the PRC suspended the channels,
+  not because of a data gap. Same log, §4.
 - 謝長廷 reportedly dined with two PLA General Political Department major
   generals in October 2012 (search summary only). Source: same log, §1.
 - People with no node who appear in N1 edges' `notes`: 戴秉國, 陳雲林
@@ -236,3 +242,8 @@ their log.)
   Taipei-hosted rounds of 2016 and 2018 (柯文哲) and the 2023, 2024 and 2025
   rounds (蔣萬安, new KMT node). 「兩岸一家親」 isn't an edge (schema gap).
   The MOI record went to Needs Jing. [Log](2026-10-03-twin-city-forum.md)
+- [x] **N3 · Cross-strait structure of the current government** (2026-10-03,
+  #5). Added 卓榮泰 as premier (T1), 邱垂正 as MAC chair and his 2009 Straits
+  Forum attendance, and SEF chairs 鄭文燦, 吳豊山 and 蘇嘉全. No official
+  cross-strait contact since 2016, by PRC suspension. Not an edge.
+  [Log](2026-10-03-current-government.md)
