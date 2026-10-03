@@ -72,6 +72,13 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Neutrality gap
 
+(N1–N5 done; see Done. N5b moved under V2 at the #10 re-rank.)
+
+### Make existing data trustworthy
+
+- [ ] **V2 · Fill in the 8 original §6 edges.** Find the URL and a verbatim
+  quote for each: 總統府 releases, 新華社 readouts. These are the brief's
+  T1 anchors, so they should be the first edges ready for promotion.
 - [ ] **N5b · 兩岸經貿文化論壇, remaining rounds** (split from N5). Find
   KMT delegation leads at T2 for: the 1st (2006, Beijing, 連戰), 2nd (2006,
   is it a round?), 3rd (2007), 4th (2008, Shanghai, 吳伯雄), 5th (2009,
@@ -80,16 +87,6 @@ Each item reads: question, why it matters, where to look, done when.
   a revival, e.g. around 鄭麗文's April 2026 visit). The China Daily mirror
   404s, so try www.chinadaily.com.cn, 人民網 or 中央社. *Done when:* every
   round has a verdict in the log.
-
-### Make existing data trustworthy
-
-- [ ] **V1 · Fill in the 6 flagged edges** from `seed-verification.md`
-  ("Check these first"): `rao-song-tao-2025`, `fu-kun-chi-edu-jnu`,
-  `want-want-owns-ctv` (公開資訊觀測站), `tsai-eng-meng-wang-yi-2008`,
-  `ctv-taichung-tender-2025` (政府電子採購網), `hsia-straits-forum-2023`.
-- [ ] **V2 · Fill in the 8 original §6 edges.** Find the URL and a verbatim
-  quote for each: 總統府 releases, 新華社 readouts. These are the brief's
-  T1 anchors, so they should be the first edges ready for promotion.
 - [ ] **V3 · Education edges with low or medium confidence:**
   `hsia-edu-georgetown`, `hung-edu-truman`, `hung-edu-pccu`,
   `hsia-edu-nccu`. *Where:* 立法院 legislator profiles, 總統府 and 行政院
@@ -194,6 +191,8 @@ They're re-ranked every 5 iterations.
 - 王雪紅 and 陳文琦: Mirror 2019 calls him her husband (夫婿). It's a
   `spouse` candidate for E3, with one source so far.
   `2026-10-03-media-ownership.md` §1.
+- 夏立言 spoke **by video** at the 2022 (14th) Straits Forum (公視 590010).
+  A possible separate edge. `2026-10-03-v1-flagged-edges.md` §6.
 - 王令麟: KMT member and former three-term legislator (鏡週刊 2017, one
   source), and 東森's founder. Needs a second source to qualify as a node.
   His 力霸/東森 conviction fits E1. `2026-10-03-media-political-ties.md`.
@@ -229,6 +228,11 @@ Decisions the loop can't make. Park the item and carry on with the next.
   Every outlet has some (`2026-10-03-media-political-ties.md`). Also: model
   party factions (湧言會, 新潮流, …) as nodes? And is PRC *monitoring* of an
   outlet (東森, 2024) a tie?
+- **Manual registry lookups** (V1): MOPS 9928 insider holdings (is
+  神旺投資 a 旺旺 entity?), and 政府電子採購網 for the 臺中國際會展中心 opening
+  tender. Each would make an edge T1. See `2026-10-03-v1-flagged-edges.md`.
+- **`fu-kun-chi-edu-jnu` status:** set to `disputed` in V1. Confirm, or
+  revert to `historical`.
 - **旺旺 donations** (from the README): the Control Yuan platform may need a
   manual lookup. See E2.
 
@@ -276,3 +280,7 @@ their log.)
 - [x] **N5 · KMT side of the 兩岸經貿文化論壇, part 1** (2026-10-03, #9).
   Linked 吳伯雄 (2010, 2013), 朱立倫 (2015) and 洪秀柱 (2016, renamed
   forum), all T2. The rest is in N5b. [Log](2026-10-03-kmt-ccp-forum.md)
+- [x] **V1 · The 6 flagged edges** (2026-10-03, #10). 饒慶鈴–宋濤 now
+  rests on two independent reports. 夏立言 2023 went from T3 to T2. CTV's
+  51.20% is explained. 傅崐萁's degree is set to disputed. MOPS and
+  e-procurement lookups are left for Jing. [Log](2026-10-03-v1-flagged-edges.md)

@@ -161,3 +161,17 @@ Not found: a second source for 2009 (MJIB only); any fetched source for 2006, 20
 Ready to promote: all 4 new edges.
 Schema gaps: none.
 Next: N5b (remaining forum rounds), then V1. Iteration #10 is due to re-rank.
+
+### 2026-10-03 · #10 · Re-rank, then V1 The six flagged seed edges
+Re-rank (every 5 iterations): the neutrality items are done except N5b, which adds more KMT forum rounds. Coverage's thinnest spot is still trust: 50 evidence entries without a URL, unchanged since the baseline. So V1 and V2 move ahead of N5b. Order now: V1, V2, N5b, V3, V4, X7, E1–E4.
+Coverage: tiers T3 6 → 5 (hsia-straits-forum-2023 → T2); evidence without quote 125 → 119; evidence without URL 50 → 50 (none of the six had URL-less evidence except 旺旺月刊, which is a print source)
+Log: docs/research/2026-10-03-v1-flagged-edges.md
+Added: 0 nodes, 0 edges. Changed: rao-song-tao-2025 (evidence replaced, start 2025-01-04), fu-kun-chi-edu-jnu (quotes; status → disputed), want-want-owns-ctv (51.20% = 神旺投資 49.79% + 正聲廣播 1.41%), tsai-eng-meng-wang-yi-2008 (+LTN 2019 source), ctv-taichung-tender-2025 (quote), hsia-straits-forum-2023 (specific sources; T3 → T2)
+Found:
+- The 饒慶鈴–宋濤 meeting (2025-01-04, 釣魚台國賓館) is reported as fact by two independent outlets. "Violation" remains the MAC's word.
+- CTV's 51.20% is two 旺旺-group insiders.
+- 傅崐萁's doctorate: CNA's profile lists it, and Newtalk says it was removed from his legislator profile. Set to `disputed` (my judgement, please check).
+Not found: MOPS and 政府電子採購網 records (both need JavaScript, so manual lookups are listed for Jing in the log); 天下 11525 (403 again).
+Ready to promote: rao-song-tao-2025, hsia-straits-forum-2023, fu-kun-chi-edu-jnu (as disputed). Not the other three (null quotes or a single source).
+Schema gaps: none.
+Next: V2 (the 8 original §6 edges).

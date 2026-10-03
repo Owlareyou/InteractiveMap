@@ -1346,29 +1346,37 @@
     "valence": "positive",
     "evidence_tier": "T2",
     "directed": true,
-    "start": "2025-01",
+    "start": "2025-01-04",
     "end": null,
     "status": "historical",
     "evidence": [
       {
-        "source_url": "https://news.pts.org.tw/article/813402",
+        "source_url": "https://news.pts.org.tw/article/733184",
         "source_name": "公視新聞網",
         "source_type": "news",
-        "published_date": null,
-        "quote": null,
-        "retrieved_date": "2026-10-01"
+        "published_date": "2025-01-10",
+        "quote": "台東縣長饒慶鈴率團赴中國與國台辦主任宋濤會面。",
+        "retrieved_date": "2026-10-03"
       },
       {
-        "source_url": "https://www.nownews.com/news/6848296",
-        "source_name": "NOWnews",
+        "source_url": "https://udn.com/news/story/7331/9571220",
+        "source_name": "聯合新聞網",
         "source_type": "news",
-        "published_date": null,
-        "quote": null,
-        "retrieved_date": "2026-10-01"
+        "published_date": "2026-06-17",
+        "quote": "大陸國台辦主任宋濤曾在去年1月4日傍晚在釣魚台國賓館會見來訪的台東縣長饒慶鈴一行。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.mirrormedia.mg/external/mnews_20260617nm006",
+        "source_name": "鏡新聞",
+        "source_type": "news",
+        "published_date": "2026-06-17",
+        "quote": "饒慶鈴先前前往中國訪問，在未向移民署依法報備的情況下，私自變更行程去會見中共國台辦主任宋濤",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "依陸委會主委邱垂正說法 per the MAC chair's statement",
+    "notes": "2025-01-04 傍晚，釣魚台國賓館（聯合新聞網）。會面本身有兩家獨立媒體報導；「違規」（未向移民署報備變更行程）為陸委會主委邱垂正之定性。饒慶鈴稱事前不知情（公視）。世界新聞網 9571359 與聯合新聞網同屬聯合報系，不另計。",
     "education": null
   },
   {
@@ -1467,10 +1475,18 @@
         "published_date": null,
         "quote": null,
         "retrieved_date": "2026-10-01"
+      },
+      {
+        "source_url": "https://news.ltn.com.tw/amp/news/politics/breakingnews/2726113",
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": "2019-03-13",
+        "quote": "蔡衍明在2008年12月5日與時任國台辦主任的王毅見面，蔡衍明正襟危坐地向王毅表示，是要『借助媒體的力量，來推動兩岸關係進一步發展』，王毅也允諾『如果集團將來有需要，國台辦定會全力支援。』",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "收購中時集團後向時任國台辦主任報告；記述出自旺旺自家刊物 account from Want Want's own magazine",
+    "notes": "收購中時集團後向時任國台辦主任報告；記述出自旺旺自家刊物 account from Want Want's own magazine；自由時報 2019 轉述何清漣《紅色滲透》所載；天下雜誌原文 2026-10-03 仍 403。",
     "education": null
   },
   {
@@ -1558,23 +1574,31 @@
     "relation_type": "attended_forum",
     "temporal_scope": "event",
     "valence": "positive",
-    "evidence_tier": "T3",
+    "evidence_tier": "T2",
     "directed": true,
     "start": "2023-06",
     "end": null,
     "status": "historical",
     "evidence": [
       {
-        "source_url": "https://www.taiwannews.com.tw/zh/topic/%E5%A4%8F%E7%AB%8B%E8%A8%80",
+        "source_url": "https://paper.people.com.cn/rmrb/html/2023-06/15/nw.D110000renmrb_20230615_2-14.htm",
+        "source_name": "人民日報",
+        "source_type": "news",
+        "published_date": "2023-06-15",
+        "quote": "中國國民黨副主席夏立言將應邀率團出席。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.taiwannews.com.tw/ch/news/4918557",
         "source_name": "台灣英文新聞",
         "source_type": "news",
-        "published_date": null,
-        "quote": null,
-        "retrieved_date": "2026-10-01"
+        "published_date": "2023-06-16",
+        "quote": "國民黨副主席夏立言今(16日) 率團前往中國福建，出席第15屆海峽論壇。",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "第15屆 15th forum",
+    "notes": "第15屆 15th forum。原引用之 Taiwan News 主題頁改為具體報導，另加人民日報。T3→T2（2026-10-03，V1）。人民日報引文原為簡體，已轉正體。",
     "education": null
   },
   {
@@ -1868,11 +1892,11 @@
         "source_type": "other",
         "published_date": null,
         "quote": null,
-        "retrieved_date": "2026-10-01"
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "董監持股51.20% (directors' and supervisors' holdings); 原始紀錄應查公開資訊觀測站",
+    "notes": "Money-Link（2026-08 內部人持股）：神旺投資股份有限公司 49.79%、正聲廣播股份有限公司 1.41%，合計 51.20%（即先前所記「董監持股」數字）；所屬集團標示為旺旺。公開資訊觀測站原始申報未能擷取（查詢介面需 JavaScript），見 V1 log。",
     "education": null
   },
   {
@@ -2097,12 +2121,12 @@
         "source_name": "自由時報",
         "source_type": "news",
         "published_date": "2026-08-21",
-        "quote": null,
-        "retrieved_date": "2026-10-01"
+        "quote": "2025年的台中國際會展中心開幕活動標案400萬元，也是由市長盧秀燕妹妹盧秀芳擔任董事長兼總經理的中視得標承攬。",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "臺中國際會展中心開幕活動標案新臺幣400萬元 NT$4m exhibition-centre opening tender",
+    "notes": "臺中國際會展中心開幕活動標案新臺幣400萬元 NT$4m exhibition-centre opening tender。政府電子採購網決標公告未能擷取，案號未知；仍為單一來源 T3（Taiwan News 6222430 未提及此標案）。",
     "education": null
   },
   {
@@ -2202,27 +2226,27 @@
     "directed": true,
     "start": null,
     "end": null,
-    "status": "historical",
+    "status": "disputed",
     "evidence": [
       {
         "source_url": "https://www.cna.com.tw/news/aipl/202503140137.aspx",
         "source_name": "中央通訊社",
         "source_type": "news",
-        "published_date": null,
-        "quote": null,
-        "retrieved_date": "2026-10-01"
+        "published_date": "2025-03-14",
+        "quote": "學歷：國立花蓮高中、淡江大學交通管理學系、淡江大學中國大陸研究所、國立東華大學公共行政研究所、廣州暨南大學法學博士",
+        "retrieved_date": "2026-10-03"
       },
       {
         "source_url": "https://newtalk.tw/news/view/2024-12-16/949161",
         "source_name": "新頭殼",
         "source_type": "news",
-        "published_date": null,
-        "quote": null,
-        "retrieved_date": "2026-10-01"
+        "published_date": "2024-12-16",
+        "quote": "國民黨總召傅崐萁2008年擔任第7屆立委時，學歷曾掛上『廣州暨南大學法學博士班』，但近兩屆卻悄悄拿掉了",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "2008年立委簡歷列「法學博士班」後移除；2024年自稱法學博士；是否取得學位未查證 degree status disputed",
+    "notes": "2008年立委簡歷列「法學博士班」後移除；2024年自稱法學博士；是否取得學位未查證 degree status disputed。status 改為 disputed（2026-10-03，V1）：中央社小檔案列「廣州暨南大學法學博士」，Newtalk 指 2008 年列「法學博士班」後移除；學位是否授予未查證。",
     "education": {
       "stage": "doctorate",
       "degree": null,
