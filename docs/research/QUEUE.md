@@ -76,9 +76,6 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Make existing data trustworthy
 
-- [ ] **V2 · Fill in the 8 original §6 edges.** Find the URL and a verbatim
-  quote for each: 總統府 releases, 新華社 readouts. These are the brief's
-  T1 anchors, so they should be the first edges ready for promotion.
 - [ ] **N5b · 兩岸經貿文化論壇, remaining rounds** (split from N5). Find
   KMT delegation leads at T2 for: the 1st (2006, Beijing, 連戰), 2nd (2006,
   is it a round?), 3rd (2007), 4th (2008, Shanghai, 吳伯雄), 5th (2009,
@@ -233,6 +230,11 @@ Decisions the loop can't make. Park the item and carry on with the next.
   tender. Each would make an edge T1. See `2026-10-03-v1-flagged-edges.md`.
 - **`fu-kun-chi-edu-jnu` status:** set to `disputed` in V1. Confirm, or
   revert to `historical`.
+- **Two §6 characterisations** (V2): `lai-opposes-xi`. The inaugural
+  speech says the ROC and PRC are 互不隸屬 but doesn't name Xi, so should
+  the edge stay, be retargeted to `prc-government`, or go? And
+  `ma-opposes-tsai` is too vague to source: replace it with dated
+  `criticizes` events (L1), or drop it?
 - **旺旺 donations** (from the README): the Control Yuan platform may need a
   manual lookup. See E2.
 
@@ -284,3 +286,7 @@ their log.)
   rests on two independent reports. 夏立言 2023 went from T3 to T2. CTV's
   51.20% is explained. 傅崐萁's degree is set to disputed. MOPS and
   e-procurement lookups are left for Jing. [Log](2026-10-03-v1-flagged-edges.md)
+- [x] **V2 · The 8 original §6 edges** (2026-10-03, #11). T1 URLs and
+  quotes for the three leader meetings and Lai's inaugural speech. Reuters
+  replaced by TVBS for 夏立言 2023. The 2017 appointment order wasn't found.
+  `ma-opposes-tsai` went to Needs Jing. [Log](2026-10-03-v2-anchor-edges.md)

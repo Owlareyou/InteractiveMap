@@ -13,12 +13,12 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "中華民國總統府",
+        "source_url": "https://english.president.gov.tw/NEWS/4781",
+        "source_name": "中華民國總統府（英文新聞稿）",
         "source_type": "official_record",
         "published_date": "2015-11-07",
-        "quote": null,
-        "retrieved_date": null
+        "quote": "President Ma Ying-jeou on the morning of November 7 departed for Singapore to attend a meeting between the leaders of the two sides of the Taiwan Strait later in the day.",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
@@ -39,16 +39,16 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "新華社",
+        "source_url": "https://www.gov.cn/yaowen/liebiao/202404/content_6944443.htm",
+        "source_name": "新華社（中國政府網轉載）",
         "source_type": "official_record",
         "published_date": "2024-04-10",
-        "quote": null,
-        "retrieved_date": null
+        "quote": "中共中央總書記習近平10日下午在京會見馬英九一行。",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "北京會面 Beijing meeting",
+    "notes": "北京會面 Beijing meeting。引文原為簡體，已轉正體",
     "education": null
   },
   {
@@ -65,12 +65,12 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "新華社",
+        "source_url": "https://interpret.csis.org/translations/general-secretary-xi-jinping-meets-with-kuomintang-chairperson-hung-hsiu-chu",
+        "source_name": "新華社（CSIS Interpret 英譯）",
         "source_type": "official_record",
         "published_date": "2016-11-01",
-        "quote": null,
-        "retrieved_date": null
+        "quote": "BEIJING, Nov. 1 (Chen Jianxing, of Xinhua)—Xi Jinping, general secretary of the Chinese Communist Party (CCP) Central Committee, met with Hung Hsiu-chu, chairperson of the Chinese Kuomintang's (KMT) mainland visiting delegation in Beijing on the afternoon of November 1.",
+        "retrieved_date": "2026-10-03"
       },
       {
         "source_url": null,
@@ -82,7 +82,7 @@
       }
     ],
     "review_status": "draft",
-    "notes": "以國民黨主席身分 as KMT chair",
+    "notes": "以國民黨主席身分 as KMT chair。新華社原文未直接擷取（中新網轉載頁擷取結果不可信，見 V2 log），引用 CSIS 英譯。",
     "education": null
   },
   {
@@ -94,29 +94,29 @@
     "valence": "positive",
     "evidence_tier": "T2",
     "directed": true,
-    "start": "2023",
+    "start": "2023-02",
     "end": null,
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
+        "source_url": "https://www.cna.com.tw/news/aipl/202302080221.aspx",
         "source_name": "中央通訊社",
         "source_type": "news",
-        "published_date": "2023",
-        "quote": null,
-        "retrieved_date": null
+        "published_date": "2023-02-08",
+        "quote": "夏立言今天率團訪陸，此行將拜會新任國台辦主任宋濤。",
+        "retrieved_date": "2026-10-03"
       },
       {
-        "source_url": null,
-        "source_name": "Reuters",
+        "source_url": "https://news.tvbs.com.tw/politics/2036580",
+        "source_name": "TVBS新聞網",
         "source_type": "news",
-        "published_date": "2023",
-        "quote": null,
-        "retrieved_date": null
+        "published_date": "2023-02-08",
+        "quote": "預計會和國台辦主任宋濤，以及政治局長委王滬寧見面",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "率團訪陸 delegation visits；§6 原列對象為習近平，經查實際會見宋濤、王滬寧，改指國台辦（規格決定 13）",
+    "notes": "率團訪陸 delegation visits；§6 原列對象為習近平，經查實際會見宋濤、王滬寧，改指國台辦（規格決定 13）。2026-10-03（V2）：原 Reuters 來源無 URL，改以 TVBS 取代；start 改為 2023-02（2 月訪陸）。",
     "education": null
   },
   {
@@ -133,16 +133,16 @@
     "status": "active",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "中華民國總統府",
+        "source_url": "https://webarchive.lib.ntu.edu.tw/archive/wayback/20240521013009/https://www.president.gov.tw/File/Doc/85ed7c50-3154-4259-8a7e-2241119e1734",
+        "source_name": "總統府公報 第7721號（臺大網頁典藏）",
         "source_type": "official_record",
         "published_date": "2024-05-20",
-        "quote": null,
-        "retrieved_date": null
+        "quote": "根據中華民國憲法，中華民國主權屬於國民全體；有中華民國國籍者，為中華民國國民；由此可見，中華民國與中華人民共和國互不隸屬。",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "公開立場，無直接接觸 public positions, no direct contact",
+    "notes": "公開立場，無直接接觸 public positions, no direct contact。就職演說未點名習近平；「opposes」係 §6 對立場之概括，非演說用語。",
     "education": null
   },
   {
@@ -165,10 +165,18 @@
         "published_date": "2017-09",
         "quote": null,
         "retrieved_date": null
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/764704",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2017-09-05",
+        "quote": "行政院林全院長已經在昨天請辭獲准，新任行政院長將由台南市長賴清德市長接任。",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "行政院長任命 Premier appointment",
+    "notes": "行政院長任命 Premier appointment。總統府任命令（公報）未尋獲；2017-09-05 蔡總統宣布，09-08 就任（後者依搜尋摘要）。",
     "education": null
   },
   {
@@ -219,16 +227,16 @@
     "status": "active",
     "evidence": [
       {
-        "source_url": null,
+        "source_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=938",
         "source_name": "立法院",
         "source_type": "official_record",
         "published_date": null,
         "quote": null,
-        "retrieved_date": null
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": null,
+    "notes": "立法院歷屆委員資料：第 4 屆，黨籍中國國民黨，全國不分區（表格欄位，無可引述之句子）。",
     "education": null
   },
   {

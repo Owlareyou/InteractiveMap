@@ -175,3 +175,16 @@ Not found: MOPS and 政府電子採購網 records (both need JavaScript, so manu
 Ready to promote: rao-song-tao-2025, hsia-straits-forum-2023, fu-kun-chi-edu-jnu (as disputed). Not the other three (null quotes or a single source).
 Schema gaps: none.
 Next: V2 (the 8 original §6 edges).
+
+### 2026-10-03 · #11 · V2 The brief's 8 original §6 edges
+Coverage: evidence without URL 50 → 43; without quote 119 → 113
+Log: docs/research/2026-10-03-v2-anchor-edges.md
+Added: 0 nodes, 0 edges. Changed: ma-xi-2015-singapore, ma-xi-2024-beijing, hung-xi-2016, hsia-prc-visits-2023 (Reuters → TVBS; start 2023-02), lai-opposes-xi, lai-appointed-by-tsai-2017 (+TVBS), hung-member-of-kmt (LY URL)
+Found:
+- T1 pages for 3 of the 3 leader meetings: the 總統府 English release (2015), and Xinhua via gov.cn (2024) and via CSIS translation (2016).
+- Lai's inaugural speech text in 總統府公報 7721 (互不隸屬). It doesn't name Xi.
+- The 總統府 "File/Doc" links are .docx files.
+Not found: the 2017 總統府 appointment order for 賴清德 (gazette issue not located); a Reuters report for 夏立言 2023 (replaced). ma-opposes-tsai not researched (too vague as specified).
+Ready to promote: ma-xi-2015-singapore, ma-xi-2024-beijing, hsia-prc-visits-2023, hung-xi-2016 (its KMT-release entry still has no URL).
+Schema gaps: none. Two calls for Jing: lai-opposes-xi (the speech doesn't name Xi) and ma-opposes-tsai (too vague to source).
+Next: N5b (remaining KMT–CPC forum rounds), then V3.
