@@ -1308,5 +1308,81 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-02"
+  },
+  {
+    "id": "hsu-jung-shu",
+    "wikidata_qid": null,
+    "name_zh": "許榮淑",
+    "name_en": "Hsu Jung-shu",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": "2009-07-27"
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "立法委員",
+        "title_en": "Legislator",
+        "org_id": "legislative-yuan",
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "fan-chen-tsung",
+    "wikidata_qid": null,
+    "name_zh": "范振宗",
+    "name_en": "Fan Chen-tsung",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": "2009-07-27"
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "行政院農業委員會主任委員",
+        "title_en": "Minister, Council of Agriculture",
+        "org_id": null,
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "cross-strait-forum-kmt-ccp",
+    "wikidata_qid": null,
+    "name_zh": "兩岸經貿文化論壇",
+    "name_en": "Cross-Strait Economic, Trade and Culture Forum",
+    "aliases": [
+      "國共論壇",
+      "兩岸論壇"
+    ],
+    "entity_type": "association",
+    "country": "CN",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
   }
 ]

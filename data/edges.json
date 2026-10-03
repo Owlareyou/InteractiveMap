@@ -2610,5 +2610,199 @@
     "review_status": "draft",
     "notes": "以台南市長身分主持陳澄波百二誕辰巡迴展上海站開幕，並於復旦大學座談。會見上海市長楊雄係依賴清德本人 2019 年說法。",
     "education": null
+  },
+  {
+    "id": "chen-chu-tianjin-2013",
+    "source_id": "chen-chu",
+    "target_id": "taiwan-affairs-office",
+    "relation_type": "made_prc_visit",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2013-08-10",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://newtalk.tw/news/view/2013-08-10/39089",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2013-08-10",
+        "quote": "高雄市長陳菊今(10)日晚間與中國國台辦主任張志軍會晤",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.storm.mg/article/32805",
+        "source_name": "風傳媒",
+        "source_type": "news",
+        "published_date": "2014-06-27",
+        "quote": "由於陳菊與張志軍曾在天津會晤，張志軍一看到在現場迎接的陳菊，高興地說：「我們已經握過手了。」",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.nownews.com/news/6086907",
+        "source_name": "NOWnews",
+        "source_type": "news",
+        "published_date": "2023-03-20",
+        "quote": "2013年，陳菊率市府代表團到天津、深圳、廈門與福州等城市時，民進黨也稱『正面肯定』。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "以高雄市長身分率市府團訪天津，晚間與國台辦主任張志軍會晤（張志軍未建節點，依規格決定 13 指向國台辦）。同行程另訪深圳、廈門、福州，未逐一查證會見對象。",
+    "education": null
+  },
+  {
+    "id": "hsu-jung-shu-kmt-ccp-forum-2009",
+    "source_id": "hsu-jung-shu",
+    "target_id": "cross-strait-forum-kmt-ccp",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2009-07-11",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.mjib.gov.tw/FileUploads/eBooks/9b5195134789425eaadaa0ce30a53630/Section_file/69a6423d05234c91b2ae5016a0c1a244.pdf",
+        "source_name": "展望與探索 第7卷第8期（法務部調查局）潘錫堂〈第五屆「兩岸經貿文化論壇」評析〉",
+        "source_type": "academic",
+        "published_date": "2009-08",
+        "quote": "儘管民進黨中央禁止現任及卸任黨公職人員參加，仍有農委會前主委范振宗、前立委許榮淑等7人與會。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.epochtimes.com/b5/nf4311_30.htm",
+        "source_name": "大紀元",
+        "source_type": "news",
+        "published_date": "2009-07-20",
+        "quote": "日前前往中國大陸參加兩岸論壇的前民進黨籍立委許榮淑、前農委會主委范振宗昨天返台，對於民進黨擬開除黨籍，許榮淑、范振宗表達遺憾與心痛",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第五屆，2009-07-11～12，湖南長沙。民進黨中央禁止黨公職參加；兩人以民進黨員身分出席，隨後遭開除黨籍（見 member_of 邊）。",
+    "education": null
+  },
+  {
+    "id": "fan-chen-tsung-kmt-ccp-forum-2009",
+    "source_id": "fan-chen-tsung",
+    "target_id": "cross-strait-forum-kmt-ccp",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2009-07-11",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.mjib.gov.tw/FileUploads/eBooks/9b5195134789425eaadaa0ce30a53630/Section_file/69a6423d05234c91b2ae5016a0c1a244.pdf",
+        "source_name": "展望與探索 第7卷第8期（法務部調查局）潘錫堂〈第五屆「兩岸經貿文化論壇」評析〉",
+        "source_type": "academic",
+        "published_date": "2009-08",
+        "quote": "儘管民進黨中央禁止現任及卸任黨公職人員參加，仍有農委會前主委范振宗、前立委許榮淑等7人與會。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.epochtimes.com/b5/nf4311_30.htm",
+        "source_name": "大紀元",
+        "source_type": "news",
+        "published_date": "2009-07-20",
+        "quote": "日前前往中國大陸參加兩岸論壇的前民進黨籍立委許榮淑、前農委會主委范振宗昨天返台，對於民進黨擬開除黨籍，許榮淑、范振宗表達遺憾與心痛",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第五屆，2009-07-11～12，湖南長沙。民進黨中央禁止黨公職參加；兩人以民進黨員身分出席，隨後遭開除黨籍（見 member_of 邊）。",
+    "education": null
+  },
+  {
+    "id": "hsu-jung-shu-member-of-dpp",
+    "source_id": "hsu-jung-shu",
+    "target_id": "dpp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": "2009-07-27",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.ltn.com.tw/news/politics/breakingnews/247137",
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": "2009-07-27",
+        "quote": "中評委認為兩人言行茲事體大，有必要重新議處，會後決議正式開除兩人黨籍。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.ltn.com.tw/news/focus/paper/322769",
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": "2009-07-28",
+        "quote": "許榮淑、范振宗兩人違紀赴中遭停權後，仍以不當言行破壞政黨形象，中評會決議將兩人開除黨籍。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.epochtimes.com/b5/nf4311_30.htm",
+        "source_name": "大紀元",
+        "source_type": "news",
+        "published_date": "2009-07-20",
+        "quote": "日前前往中國大陸參加兩岸論壇的前民進黨籍立委許榮淑、前農委會主委范振宗昨天返台，對於民進黨擬開除黨籍，許榮淑、范振宗表達遺憾與心痛",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2009-07-23 停權三年，2009-07-27 中評會開除黨籍，事由為違紀出席國共論壇。入黨日期未查。",
+    "education": null
+  },
+  {
+    "id": "fan-chen-tsung-member-of-dpp",
+    "source_id": "fan-chen-tsung",
+    "target_id": "dpp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": "2009-07-27",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.ltn.com.tw/news/politics/breakingnews/247137",
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": "2009-07-27",
+        "quote": "中評委認為兩人言行茲事體大，有必要重新議處，會後決議正式開除兩人黨籍。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.ltn.com.tw/news/focus/paper/322769",
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": "2009-07-28",
+        "quote": "許榮淑、范振宗兩人違紀赴中遭停權後，仍以不當言行破壞政黨形象，中評會決議將兩人開除黨籍。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.epochtimes.com/b5/nf4311_30.htm",
+        "source_name": "大紀元",
+        "source_type": "news",
+        "published_date": "2009-07-20",
+        "quote": "日前前往中國大陸參加兩岸論壇的前民進黨籍立委許榮淑、前農委會主委范振宗昨天返台，對於民進黨擬開除黨籍，許榮淑、范振宗表達遺憾與心痛",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2009-07-27 中評會開除黨籍（同日上午本人已宣布退黨，依 TVBS 報導摘要，未讀原文）。入黨日期未查。",
+    "education": null
   }
 ]

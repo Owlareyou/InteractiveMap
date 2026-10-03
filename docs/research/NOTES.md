@@ -59,3 +59,15 @@ Not found: DPP councillors or township heads at the Straits Forum 2010–16 (zh 
 Ready to promote: all 5 new edges have a URL and a verbatim quote on every evidence entry: hsieh-wang-yi-2012, chen-chu-beijing-2009, chen-chu-shanghai-2009, chen-chu-zhang-zhijun-2014, lai-shanghai-2014.
 Schema gaps: none. Counterparts with no node (戴秉國, 陳雲林, 張志軍, 郭金龍, 韓正, 楊雄) are named in `notes`, and the edges target the hosting body or an existing node.
 Next: N1b (the rest of N1, split off), then N2.
+
+### 2026-10-03 · #2 · N1b DPP cross-strait contacts, part 2
+Coverage: people DPP 4 → 6; cross-strait edges KMT 27 / DPP 5 → KMT 27 / DPP 8; evidence without URL 50 → 50
+Log: docs/research/2026-10-03-dpp-cross-strait-2.md
+Added: 3 nodes (hsu-jung-shu, fan-chen-tsung, cross-strait-forum-kmt-ccp), 5 edges (chen-chu-tianjin-2013, hsu-jung-shu-kmt-ccp-forum-2009, fan-chen-tsung-kmt-ccp-forum-2009, hsu-jung-shu-member-of-dpp, fan-chen-tsung-member-of-dpp). Changed: none
+Found:
+- 陳菊 met TAO director 張志軍 in Tianjin on 2013-08-10 (the N1 Inbox lead, now confirmed).
+- 許榮淑 and 范振宗 attended the 2009 KMT–CPC forum in Changsha despite the DPP ban, and were expelled on 2009-07-27. An MJIB-published journal (展望與探索) is one of the sources.
+Not found: a fetched source for 許信良 at the 2009 Straits Forum (China Daily returns 404) or for his 2009 party status; any source besides a 2026 KMT attack list for 李文忠, 鄭朝明 and 顏建發; PRC trips by 林佳龍 or 鄭文燦; a PRC counterpart for 蘇治芬's 2008 Beijing expo trip.
+Ready to promote: all 5 new edges have a URL and a verbatim quote on every evidence entry.
+Schema gaps: no relation type for party discipline (suspension or expulsion). It's recorded as member_of with an end date, plus notes.
+Next: N2 (TPP and 柯文哲). Note that N1 and N1b gave DPP people `party_affiliations` but, except for 許榮淑 and 范振宗, no `member_of` edges (謝長廷, 陳菊). That fits under X3 or X7.

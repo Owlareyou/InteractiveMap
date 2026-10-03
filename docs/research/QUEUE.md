@@ -72,12 +72,6 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Neutrality gap
 
-- [ ] **N1b · DPP cross-strait contacts, part 2** (split from N1).
-  (a) Other DPP local executives' PRC trips or meetings with PRC officials
-  from 2009 to 2016, beyond 陳菊 and 賴清德. (b) The 2009 Straits Forum
-  attendees with a DPP history (許信良, 李文忠, 鄭朝明, 許榮淑, 顏建發): check
-  each one's party status in 2009 before recording anything. *Done when:*
-  every name has a verdict in the log.
 - [ ] **N2 · TPP and 柯文哲.** The 上海–臺北雙城論壇 (2015, 2017, 2019,
   and later rounds under 蔣萬安, which belong under KMT), 柯文哲's
   「兩岸一家親」 remarks, and the founding (2019) and leadership of the TPP:
@@ -181,10 +175,18 @@ Each item reads: question, why it matters, where to look, done when.
 New leads found during iterations land here with one line and a source.
 They're re-ranked every 5 iterations.
 
-- 陳菊 may have made an earlier trip to Tianjin. She thanked 張志軍 for his
-  hospitality "on her previous visit to Tianjin" (from a search summary of
-  rmzxw 2014-06-30, unconfirmed). Source:
-  `2026-10-02-dpp-cross-strait.md` §3.
+- 許信良 at the 2009 Straits Forum, and his DPP status in 2009. A Xinhua
+  item via China Daily (2009-05-18) returned 404. Needs a fetchable
+  contemporaneous source. `2026-10-03-dpp-cross-strait-2.md` §3.
+- 蘇治芬 (Yunlin, DPP): a Beijing produce expo in 2008, Shanghai and
+  Shenzhen in 2011. No PRC counterpart identified yet. Same log, §4.
+- Mirror: KMT attendees of the 兩岸經貿文化論壇 (e.g. 吳伯雄 led the 2009
+  delegation) aren't linked to the new `cross-strait-forum-kmt-ccp` node.
+  Same log, §2.
+- September 2016: eight non-DPP magistrates and mayors met 張志軍 and
+  俞正聲. KMT and independent side. Same log, §4.
+- 陳菊's 2013 trip also went to Shenzhen, Xiamen and Fuzhou. Counterparts
+  unchecked. Same log, §1.
 - 謝長廷 reportedly dined with two PLA General Political Department major
   generals in October 2012 (search summary only). Source: same log, §1.
 - People with no node who appear in N1 edges' `notes`: 戴秉國, 陳雲林
@@ -212,3 +214,8 @@ their log.)
   賴清德 Shanghai 2014). Cross-strait edges for DPP went from 0 to 5. The
   rest was split into N1b.
   [Log](2026-10-02-dpp-cross-strait.md)
+- [x] **N1b · DPP cross-strait contacts, part 2** (2026-10-03, #2). Added
+  陳菊–張志軍 in Tianjin (2013), and 許榮淑 and 范振宗 at the 2009
+  KMT–CPC forum plus their expulsion. Cross-strait edges for DPP went from 5
+  to 8. 許信良, 李文忠, 鄭朝明 and 顏建發 weren't taken (single or
+  unfetchable sources). [Log](2026-10-03-dpp-cross-strait-2.md)
