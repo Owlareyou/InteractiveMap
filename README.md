@@ -43,6 +43,18 @@ Tasks come from §8 of the brief. Update this table when a task lands.
   study keeps counting toward engagement; **colour-blind palette checks are
   no longer required** for new colours.
 
+### Research loop (2026-10-02 → 2026-10-03)
+
+22 research iterations ran after Task 10 paused (log: `docs/research/NOTES.md`,
+open questions in `docs/research/QUEUE.md` under *Needs Jing*). Data now:
+**97 nodes, 147 edges** (was 54 / 77).
+
+- Cross-strait edges by Taiwan-side party: KMT 27 / DPP 0 / TPP 0 → KMT 35 /
+  DPP 8 / TPP 6. Enforcement layer 3 → 14 edges.
+- Evidence without a URL 50 → 27; never-used relation types 10 → 6.
+- The queue's *Now* section is empty. *Next*, *Later*, *Inbox* and
+  *Needs Jing* are waiting for Jing to re-rank.
+
 Next session, the rest of Task 10 per `docs/plans/task-7-10.md`:
 - `scripts/check-zh.ts` + `npm run check:zh` (store the simplified-character
   list as `\u` escapes, or the script flags itself)
@@ -52,7 +64,7 @@ Next session, the rest of Task 10 per `docs/plans/task-7-10.md`:
 Still open, not blocking:
 - Verify draft sources (`docs/seed-verification.md`).
 - Look up 旺旺 donations manually on the Control Yuan platform.
-- Research DPP / TPP cross-strait contacts so coverage isn't KMT-only.
+- Decide the *Needs Jing* items in `docs/research/QUEUE.md`.
 - Fix the npm cache once: `sudo chown -R 501:20 ~/.npm`.
 
 Background lives in `docs/`, not here:
@@ -163,7 +175,7 @@ survive between tasks.
 | 14 | The China-education signal (decision 9) counts only study at PRC-region institutions **after 1949-10-01**. Earlier mainland study (for example 黃埔) was under the ROC. Implemented in Task 7. |
 | 15 | `member_of` edges exist only for the original six figures. People added later carry party membership in `party_affiliations` only, which Task 7's party grouping will show. This keeps the graph about ties rather than membership. |
 | 16 | Evidence added from research carries the real URL and `retrieved_date`. It stays `draft` until someone reads the source and adds a verbatim `quote`. |
-| 17 | **Coverage is not yet balanced.** The 2026-10-01 round researched KMT–CCP ties only, at Jing's request. The recording rules are identical for every party, but DPP / TPP / independent cross-strait contacts haven't been researched yet. See the research log's coverage note. |
+| 17 | **Coverage is not yet balanced.** The 2026-10-01 round researched KMT–CCP ties only, at Jing's request. The 2026-10-02/03 research loop added DPP and TPP cross-strait edges (KMT 35 / DPP 8 / TPP 6; all six TPP edges predate the party), but the counts are still uneven. The recording rules are identical for every party. See `docs/research/NOTES.md`. |
 | 18 | **Red outline** on any non-person node whose `country` is a PRC region (`CN`, `HK`, `MO`): the CCP, PRC state bodies, PRC schools, the Straits Forum. Derived from `country`, never hand-tagged. People are excluded. Regions are set in `src/settings/china.ts`. |
 | 19 | `RelationType` gains **`reported_editorial_direction`** (cross-strait layer): "SOURCE (a media outlet) was reported to take editorial direction from TARGET." It exists to record the 2019 FT report about 中時 / 中天 and the TAO, as two **T4** edges with status `disputed`. Approved by Jing on 2026-10-01. |
 | 20 | Grouping (Task 7): role type uses **current** roles only; "none recorded" and "not applicable" are separate groups; **undated** PRC-region study counts toward engagement and is flagged as undated. Reasoning: `docs/decisions/grouping.md`. |
