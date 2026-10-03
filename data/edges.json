@@ -2804,5 +2804,285 @@
     "review_status": "draft",
     "notes": "2009-07-27 中評會開除黨籍（同日上午本人已宣布退黨，依 TVBS 報導摘要，未讀原文）。入黨日期未查。",
     "education": null
+  },
+  {
+    "id": "ko-member-of-tpp",
+    "source_id": "ko-wen-je",
+    "target_id": "tpp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2019-08-06",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/amp/20190806inv004",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2019-08-06",
+        "quote": "台北市長柯文哲創立台灣民眾黨，今（6日）舉行創黨大會，他以黨主席的身分發表創黨宣言",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.ltn.com.tw/amp/news/politics/breakingnews/2897354",
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": "2019-08-27",
+        "quote": "8月6日正式召開政黨成立大會",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "創黨主席。",
+    "education": null
+  },
+  {
+    "id": "ko-tpp-chair",
+    "source_id": "ko-wen-je",
+    "target_id": "tpp",
+    "relation_type": "position_held",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2019-08-06",
+    "end": "2025-01-01",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/amp/20190806inv004",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2019-08-06",
+        "quote": "台北市長柯文哲創立台灣民眾黨，今（6日）舉行創黨大會，他以黨主席的身分發表創黨宣言",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/737944",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2025-02-15",
+        "quote": "柯文哲涉京華城弊案及政治獻金等案遭羈押禁見後，在今（2025）年元旦請辭黨主席",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "首任黨主席；2025-01-01 請辭（京華城案羈押期間）。",
+    "education": null
+  },
+  {
+    "id": "huang-member-of-tpp",
+    "source_id": "huang-kuo-chang",
+    "target_id": "tpp",
+    "relation_type": "member_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2780549",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2025-02-15",
+        "quote": "黃國昌得票數為8903票，得票率96.11%；蔡壁如得票數360票，得票率3.89%，結果由黃國昌勝出。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/737944",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2025-02-15",
+        "quote": "民眾黨今（15）日下午宣布黨主席補選結果，由民眾黨代理主席黃國昌以8903票勝出，得票率96.11%",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "入黨日期未查。曾任時代力量主席（未建節點）。",
+    "education": null
+  },
+  {
+    "id": "huang-tpp-chair",
+    "source_id": "huang-kuo-chang",
+    "target_id": "tpp",
+    "relation_type": "position_held",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2025-02-15",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2780549",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2025-02-15",
+        "quote": "黃國昌得票數為8903票，得票率96.11%；蔡壁如得票數360票，得票率3.89%，結果由黃國昌勝出。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/737944",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2025-02-15",
+        "quote": "民眾黨今（15）日下午宣布黨主席補選結果，由民眾黨代理主席黃國昌以8903票勝出，得票率96.11%",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2025-01 起任代理主席，2025-02-15 補選當選。",
+    "education": null
+  },
+  {
+    "id": "ko-shanghai-forum-2015",
+    "source_id": "ko-wen-je",
+    "target_id": "shanghai-municipal-government",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2015-08-18",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.ltn.com.tw/amp/news/politics/breakingnews/1415730",
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": "2015-08-18",
+        "quote": "台北市長柯文哲和上海市長楊雄在今日上午9點左右，輕裝、並肩踏入會場。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/304088",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": null,
+        "quote": "柯文哲將在上海瑞金賓館,和上海市長楊雄進行會談,也有產業界隨行.",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "台北上海雙城論壇，上海舉行；會見上海市長楊雄。時任無黨籍台北市長（民眾黨 2019-08-06 成立前）。公視頁面標示 2015-10-28，與 8 月行程不符，published_date 留空。",
+    "education": null
+  },
+  {
+    "id": "ko-shanghai-forum-2017",
+    "source_id": "ko-wen-je",
+    "target_id": "shanghai-municipal-government",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2017-07-02",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20170702inv001",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2017-07-02",
+        "quote": "雙城論壇今天上午在上海東方濱江酒店舉行，東道主上海市長應勇和台北市長柯文哲均發表致詞。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.ltn.com.tw/amp/news/politics/breakingnews/2118424",
+        "source_name": "自由時報",
+        "source_type": "news",
+        "published_date": "2017-07-02",
+        "quote": "台北、上海雙城論壇今天上午登場，中共總書記習近平愛將、上海市長應勇率先致詞",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "台北上海雙城論壇，上海舉行；上海市長應勇主辦。時任無黨籍台北市長（民眾黨 2019-08-06 成立前）。",
+    "education": null
+  },
+  {
+    "id": "ko-zhang-zhijun-2017",
+    "source_id": "ko-wen-je",
+    "target_id": "taiwan-affairs-office",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2017-07-03",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.cna.com.tw/news/acn/201707030073.aspx",
+        "source_name": "中央社",
+        "source_type": "news",
+        "published_date": "2017-07-03",
+        "quote": "台北市政府公布，台北市長柯文哲預計今天下午4時30分和大陸國台辦主任張志軍在上海會面，地點將另行通知。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://newtalk.tw/news/view/2017-07-04/91232",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2017-07-04",
+        "quote": "台北市長柯文哲結束為期3天的雙城論壇行程，返台前與中國國台辦主任張志軍會面，受到外界關注。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20170703inv012",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2017-07-03",
+        "quote": null,
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "「柯張會」，上海迎賓館，閉門約 35 分鐘（鏡週刊）。張志軍未建節點，依規格決定 13 指向國台辦。中央社稿為會前預告。時任無黨籍台北市長（民眾黨 2019-08-06 成立前）。",
+    "education": null
+  },
+  {
+    "id": "ko-shanghai-forum-2019",
+    "source_id": "ko-wen-je",
+    "target_id": "shanghai-municipal-government",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2019-07-04",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://newtalk.tw/news/view/2019-07-04/268196",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2019-07-04",
+        "quote": "柯文哲上午前往上海金山假日酒店出席雙城論壇主論壇開幕式，而上海市長應勇致詞時，強調「兩岸一家親」。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20190703inv008",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2019-07-03",
+        "quote": "台北上海雙城論壇明天（4日）登場，上海市長應勇今晚（3日）作東，在上海興國賓館宴請台北市長柯文哲率領的北市府團隊及貴賓",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "台北上海雙城論壇，上海舉行；前一晚應勇宴請，上海市台辦主任李文輝在場。時任無黨籍台北市長（民眾黨 2019-08-06 成立前）。",
+    "education": null
   }
 ]

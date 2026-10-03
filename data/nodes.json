@@ -1384,5 +1384,89 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-03"
+  },
+  {
+    "id": "tpp",
+    "wikidata_qid": null,
+    "name_zh": "台灣民眾黨",
+    "name_en": "Taiwan People's Party (TPP)",
+    "aliases": [
+      "民眾黨"
+    ],
+    "entity_type": "party",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "ko-wen-je",
+    "wikidata_qid": null,
+    "name_zh": "柯文哲",
+    "name_en": "Ko Wen-je",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "tpp",
+        "start": "2019-08-06",
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "台灣民眾黨主席",
+        "title_en": "TPP Chair",
+        "org_id": "tpp",
+        "start": "2019-08-06",
+        "end": "2025-01-01"
+      },
+      {
+        "title_zh": "臺北市長",
+        "title_en": "Mayor of Taipei",
+        "org_id": null,
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [
+      "former_party_chair"
+    ],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "huang-kuo-chang",
+    "wikidata_qid": null,
+    "name_zh": "黃國昌",
+    "name_en": "Huang Kuo-chang",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "tpp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "台灣民眾黨主席",
+        "title_en": "TPP Chair",
+        "org_id": "tpp",
+        "start": "2025-02-15",
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
   }
 ]

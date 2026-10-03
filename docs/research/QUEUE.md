@@ -72,11 +72,14 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Neutrality gap
 
-- [ ] **N2 · TPP and 柯文哲.** The 上海–臺北雙城論壇 (2015, 2017, 2019,
-  and later rounds under 蔣萬安, which belong under KMT), 柯文哲's
-  「兩岸一家親」 remarks, and the founding (2019) and leadership of the TPP:
-  柯文哲, then 黃國昌 as chair from 2025. Add a `tpp` party node. *Done when:*
-  the TPP has a node, member edges and its cross-strait edges.
+- [ ] **N2b · Twin-city forum, rest** (split from N2). (a) The
+  Taipei-hosted rounds in 柯文哲's term, when Shanghai officials came to
+  Taipei: which years, and who came. (b) The rounds under 蔣萬安 (KMT): add a
+  蔣萬安 node only with a T1 or T2 edge. (c) 柯文哲's 「兩岸一家親」
+  remarks: a statement, not a tie. Record the sources in the log, and add an
+  edge only if a relation type fits (otherwise it's a schema gap). (d) The
+  MOI party-register record for the TPP (T1). *Done when:* every round from
+  2015 on has a verdict in the log.
 - [ ] **N3 · Cross-strait edges for the current government.** MAC chair
   邱垂正, premier 卓榮泰, and SEF (海基會) leadership. Look for
   `position_held`, `appointed_by`, and any `met_officially_with` across
@@ -219,3 +222,7 @@ their log.)
   KMT–CPC forum plus their expulsion. Cross-strait edges for DPP went from 5
   to 8. 許信良, 李文忠, 鄭朝明 and 顏建發 weren't taken (single or
   unfetchable sources). [Log](2026-10-03-dpp-cross-strait-2.md)
+- [x] **N2 · TPP and 柯文哲, part 1** (2026-10-03, #3). Added the `tpp`
+  node, 柯文哲 and 黃國昌 (membership and chair), 柯文哲's Shanghai forum
+  rounds in 2015, 2017 and 2019, and the 2017 柯張會. All 4 cross-strait
+  edges predate the TPP. The rest is in N2b. [Log](2026-10-03-tpp-ko-wen-je.md)

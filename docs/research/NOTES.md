@@ -71,3 +71,16 @@ Not found: a fetched source for 許信良 at the 2009 Straits Forum (China Daily
 Ready to promote: all 5 new edges have a URL and a verbatim quote on every evidence entry.
 Schema gaps: no relation type for party discipline (suspension or expulsion). It's recorded as member_of with an end date, plus notes.
 Next: N2 (TPP and 柯文哲). Note that N1 and N1b gave DPP people `party_affiliations` but, except for 許榮淑 and 范振宗, no `member_of` edges (謝長廷, 陳菊). That fits under X3 or X7.
+
+### 2026-10-03 · #3 · N2 TPP and 柯文哲 (part 1)
+Coverage: people TPP 0 → 2; cross-strait edges KMT 27 / DPP 8 / TPP 0 → KMT 27 / DPP 8 / TPP 4; evidence without URL 50 → 50
+Log: docs/research/2026-10-03-tpp-ko-wen-je.md
+Added: 3 nodes (tpp, ko-wen-je, huang-kuo-chang), 8 edges (ko-member-of-tpp, ko-tpp-chair, huang-member-of-tpp, huang-tpp-chair, ko-shanghai-forum-2015, ko-shanghai-forum-2017, ko-zhang-zhijun-2017, ko-shanghai-forum-2019). Changed: none
+Found:
+- The TPP was founded 2019-08-06 with 柯文哲 as chair. He resigned 2025-01-01 while detained. 黃國昌 won the 2025-02-15 by-election with 96.11%.
+- 柯文哲 attended the twin-city forum in Shanghai in 2015, 2017 and 2019, meeting mayors 楊雄 and 應勇, and met TAO director 張志軍 on 2017-07-03.
+- **Caveat:** all 4 of the "TPP" cross-strait edges predate the TPP. He was an independent mayor then. Coverage buckets by "ever a member", so read the TPP figure with that in mind.
+Not found: the MOI party-register record (T1) for the TPP; 黃國昌's join date; any change to 柯文哲's membership after his indictment (not searched; see E1).
+Ready to promote: ko-member-of-tpp, ko-tpp-chair, huang-member-of-tpp, huang-tpp-chair, ko-shanghai-forum-2015, ko-shanghai-forum-2017, ko-shanghai-forum-2019. Not ko-zhang-zhijun-2017: its 鏡週刊 evidence has quote null, though its other two sources are quoted.
+Schema gaps: none new. The 「兩岸一家親」 remarks are statements, not ties, and will need a call in N2b (likely no edge).
+Next: N2b (the rest of N2), then N3. Iteration #5 is due to re-rank Now.
