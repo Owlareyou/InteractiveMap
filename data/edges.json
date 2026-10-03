@@ -523,16 +523,16 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
+        "source_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=746",
         "source_name": "立法院",
         "source_type": "official_record",
         "published_date": null,
-        "quote": null,
-        "retrieved_date": null
+        "quote": "私立文化大學法律系",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "時稱中國文化學院 then Chinese Culture College",
+    "notes": "時稱中國文化學院 then Chinese Culture College；立法院第 3 屆委員資料學歷欄列「私立文化大學法律系」（2026-10-03，V3）。",
     "education": {
       "stage": "bachelor",
       "degree": null,
@@ -553,19 +553,19 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
+        "source_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=746",
         "source_name": "立法院",
         "source_type": "official_record",
         "published_date": null,
-        "quote": null,
-        "retrieved_date": null
+        "quote": "美國密蘇里州立杜魯門大學教育學碩士",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "時稱東北密蘇里州立大學 then Northeast Missouri State University",
+    "notes": "時稱東北密蘇里州立大學 then Northeast Missouri State University；立法院第 3 屆委員資料學歷欄列「美國密蘇里州立杜魯門大學教育學碩士」（2026-10-03，V3）。同欄另列「師範大學教育研究所進修」（進修，非學位，未建邊）。",
     "education": {
       "stage": "master",
-      "degree": null,
+      "degree": "教育學碩士",
       "field": "教育"
     }
   },
@@ -592,7 +592,7 @@
       }
     ],
     "review_status": "draft",
-    "notes": null,
+    "notes": "存疑（2026-10-03，V3）：搜尋摘要引政大外交系校友專訪（diplomacy.nccu.edu.tw PDF，現 404）稱其大學為輔大法律系、後考取政大外交研究所——若屬實，本邊 stage 應為 master 而非 bachelor。原始頁未讀到，未改資料，見 Needs Jing。",
     "education": {
       "stage": "bachelor",
       "degree": null,
@@ -622,7 +622,7 @@
       }
     ],
     "review_status": "draft",
-    "notes": null,
+    "notes": "未查證（2026-10-03，V3）：檢索中英文來源均未找到喬治城大學學歷之記載；陸委會首長簡介頁 403。見 Needs Jing。",
     "education": {
       "stage": "master",
       "degree": null,

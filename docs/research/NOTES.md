@@ -200,3 +200,15 @@ Not found: fetchable sources for the 2006, 2007, 2008 and 2009 (second source) r
 Ready to promote: hsiao-hsu-tsen-kmt-ccp-forum-2026.
 Schema gaps: none. One judgement call: the 2026 forum is folded into the same node (see log).
 Next: V3 (education edges with low or medium confidence).
+
+### 2026-10-03 · #13 · V3 Education edges with low or medium confidence
+Coverage: evidence without URL 43 → 41; without quote 113 → 111
+Log: docs/research/2026-10-03-v3-education.md
+Added: 0 nodes, 0 edges. Changed: hung-edu-pccu, hung-edu-truman (LY URL and quotes; degree 教育學碩士), hsia-edu-nccu and hsia-edu-georgetown (notes only: flagged)
+Found:
+- 洪秀柱's 立法院 profile confirms 文化大學 law and a 杜魯門大學 master's in education.
+- 夏立言: summaries of an NCCU alumni interview say 輔大 law, then 政大's graduate institute of diplomacy. That would make hsia-edu-nccu a master's, not a bachelor's.
+Not found: any source for 夏立言 at Georgetown; the NCCU interview PDF itself (404); the MAC minister bio (403).
+Ready to promote: hung-edu-pccu, hung-edu-truman.
+Schema gaps: none.
+Next: V4 (evidence with no URL, in batches of about 10, T1 first).

@@ -76,10 +76,6 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Make existing data trustworthy
 
-- [ ] **V3 · Education edges with low or medium confidence:**
-  `hsia-edu-georgetown`, `hung-edu-truman`, `hung-edu-pccu`,
-  `hsia-edu-nccu`. *Where:* 立法院 legislator profiles, 總統府 and 行政院
-  official biographies.
 - [ ] **V4 · Evidence with no URL** (50 entries). Work through them in
   batches of about 10, starting with T1. Done when `npm run coverage` shows
   0.
@@ -231,6 +227,10 @@ Decisions the loop can't make. Park the item and carry on with the next.
   the edge stay, be retargeted to `prc-government`, or go? And
   `ma-opposes-tsai` is too vague to source: replace it with dated
   `criticizes` events (L1), or drop it?
+- **夏立言's education** (V3): `hsia-edu-nccu` is probably a master's
+  (政大外交研究所) after a 輔大 law degree, per summaries of an NCCU
+  interview that is now 404. Change the stage? `hsia-edu-georgetown` has no
+  source at all: keep it as draft, or remove it?
 - **旺旺 donations** (from the README): the Control Yuan platform may need a
   manual lookup. See E2.
 
@@ -290,3 +290,7 @@ their log.)
   2026-02 revival (蕭旭岑, 「兩岸交流合作前瞻論壇」) was added at T2. The
   2006–09 and 2011–12 rounds have verdicts but no T2 KMT lead (China Daily
   404s). [Log](2026-10-03-kmt-ccp-forum.md)
+- [x] **V3 · Education edges with low or medium confidence** (2026-10-03,
+  #13). Both 洪秀柱 edges confirmed against her LY profile (T1). The two
+  夏立言 edges were not confirmed and are flagged (政大 is probably a
+  master's; no source for Georgetown). [Log](2026-10-03-v3-education.md)
