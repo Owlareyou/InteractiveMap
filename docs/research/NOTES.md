@@ -294,3 +294,15 @@ Not found: the large-party donor lists; whether NT$1m is the statutory cap (not 
 Ready to promote: none (no edges).
 Schema gaps: none.
 Next: E3 (family and spouse ties).
+
+### 2026-10-03 · #21 · E3 Family and spouse ties
+Coverage: personal-layer edges 19 → 22; `spouse` now used; T3 6 → 7
+Log: docs/research/2026-10-03-e3-family.md
+Added: 1 node (hsu-chen-wei), 4 edges (lien-chan-sean-lien, fu-kun-chi-hsu-chen-wei, cher-wang-chen-wen-chi, chang-jung-hua-owns-set [T3]). Changed: chang-jung-hua-chairs-set (notes)
+Found:
+- 連戰–連勝文 (father and son), 傅崐萁–徐榛蔚 (spouses), 王雪紅–陳文琦 (spouses).
+- 三立 shareholding: 張榮華 48%, 林崑海 and 張秀 24% each (鏡週刊 2023, single source).
+Not taken: 朱立倫–高思博 (relation not stated on a read page), 林崑海–張榮華 (sources conflict on 妻弟 vs 同居女友's brother), 許榮淑–張俊宏 (unsourced; 張 not a node). TPP: no qualifying pair.
+Ready to promote: lien-chan-sean-lien, fu-kun-chi-hsu-chen-wei, cher-wang-chen-wen-chi.
+Schema gaps: none.
+Next: E4 (coalition_with and endorsed). It's the last item in Now.

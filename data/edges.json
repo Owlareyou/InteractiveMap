@@ -3632,7 +3632,7 @@
       }
     ],
     "review_status": "draft",
-    "notes": "董事長；創辦人林崑海（已故）之妻弟。登記資料：董事長張榮華持股 0 股，法人董事為永興資本（代表人林義魚）。股權結構未查到公開來源，故未建 shareholder 邊。LawPlayer 為商工登記之轉載，非原始 T1 紀錄。",
+    "notes": "董事長；創辦人林崑海（已故）之妻弟。登記資料：董事長張榮華持股 0 股，法人董事為永興資本（代表人林義魚）。股權結構見 chang-jung-hua-owns-set（鏡週刊 2023，T3）。LawPlayer 為商工登記之轉載，非原始 T1 紀錄。",
     "education": null
   },
   {
@@ -4611,6 +4611,134 @@
     ],
     "review_status": "draft",
     "notes": "最高法院維持 10 月徒刑定讞（違反國家安全法）。僅一來源，T3。",
+    "education": null
+  },
+  {
+    "id": "lien-chan-sean-lien",
+    "source_id": "lien-chan",
+    "target_id": "sean-lien",
+    "relation_type": "relative_of",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": false,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://news.pts.org.tw/article/283930",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2014-12-31",
+        "quote": "國民黨台北市長候選人連勝文的父親、國民黨榮譽主席連戰16號出席「中國人反獨護國動員大會」時",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://newtalk.tw/news/view/2014-07-06/48922",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2014-07-06",
+        "quote": "為全力拉抬兒子連勝文的選情，連戰於2日晚間宴請黨籍雙北立委與黨內大老",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "父子 father and son",
+    "education": null
+  },
+  {
+    "id": "fu-kun-chi-hsu-chen-wei",
+    "source_id": "fu-kun-chi",
+    "target_id": "hsu-chen-wei",
+    "relation_type": "spouse",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": false,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://newtalk.tw/news/view/2025-07-24/983549",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2025-07-24",
+        "quote": "傅崐萁妻子、花蓮縣長徐榛蔚要求童子賢公開道歉",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/407514",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2018-09-25",
+        "quote": "緊牽妻子徐榛蔚的手，前花蓮縣長傅崐萁上午十點準時出現在花蓮地檢署門口",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "夫妻；依搜尋摘要 2009 年離婚後二人分任縣長、副縣長，2016 年復婚（未讀原文，未作為事實記錄）。徐榛蔚 2018 年以國民黨提名當選花蓮縣長（公視 413170：「藍營徐榛蔚」）。",
+    "education": null
+  },
+  {
+    "id": "cher-wang-chen-wen-chi",
+    "source_id": "cher-wang",
+    "target_id": "chen-wen-chi",
+    "relation_type": "spouse",
+    "temporal_scope": "property",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": false,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20190806fin001",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2019-08-11",
+        "quote": "聯利媒體董事會通過宏達電董事長王雪紅夫婿陳文琦接任董座",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.nownews.com/news/6331938",
+        "source_name": "NOWnews",
+        "source_type": "news",
+        "published_date": "2023-12-29",
+        "quote": "丈夫為威盛董事長陳文琦",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "夫妻 spouses",
+    "education": null
+  },
+  {
+    "id": "chang-jung-hua-owns-set",
+    "source_id": "chang-jung-hua",
+    "target_id": "set-tv",
+    "relation_type": "shareholder",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T3",
+    "directed": true,
+    "start": null,
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20230613inv001",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2023-06-14",
+        "quote": "張榮華控48%股權，林崑海與張秀各持股24%，另4%股權為員工認股。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "約 48%（鏡週刊 2023）；林崑海、張秀各 24%，員工 4%。單一來源 T3；林崑海 2022 年過世後其持股去向未查。",
     "education": null
   }
 ]

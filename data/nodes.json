@@ -2124,5 +2124,34 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-03"
+  },
+  {
+    "id": "hsu-chen-wei",
+    "wikidata_qid": null,
+    "name_zh": "徐榛蔚",
+    "name_en": "Hsu Chen-wei",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "花蓮縣長",
+        "title_en": "Hualien County Magistrate",
+        "org_id": null,
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
   }
 ]

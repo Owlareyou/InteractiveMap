@@ -78,10 +78,6 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Empty layers and relation types
 
-- [ ] **E3 · Family and spouse ties.** Only where both people are already
-  nodes or qualify on their own: 連戰–連勝文 (`relative_of`); 傅崐萁–
-  徐榛蔚 (`spouse`, Hualien magistrate); 朱立倫–高思博. Find the
-  equivalents for DPP and TPP figures.
 - [ ] **E4 · `coalition_with` and `endorsed`.** The November 2023 KMT–TPP
   talks (藍白合, which failed, so record them as an event with
   `status: 'historical'`), KMT–TPP cooperation in the 2024 legislature, and
@@ -176,6 +172,9 @@ They're re-ranked every 5 iterations.
 - 朱政騏 (DPP Taipei councillor-primary winner, expelled): indicted
   2026-04 under the 國安法 (summary). 徐春鶯: 反滲透法 indictment (summary),
   TPP-adjacent but not staff. `2026-10-03-e1b-espionage-balance.md`.
+- Family pairs not yet sourced: 朱立倫–高思博 (高育仁 family), 許榮淑–張俊宏
+  (DPP founders), and 林崑海–張秀 (marriage status unclear).
+  `2026-10-03-e3-family.md`.
 - 王令麟's 力霸/東森 embezzlement conviction (5.5 years, final; 公視 254038)
   needs a node first (see the line below).
 - 王令麟: KMT member and former three-term legislator (鏡週刊 2017, one
@@ -319,4 +318,8 @@ their log.)
   records. 2024 presidential corporate donations extracted (CSV). No edges:
   the NT$1m cap makes "top 5" arbitrary, so the choice is with Jing.
   [Log](2026-10-03-e2-donations.md)
+- [x] **E3 · Family and spouse ties** (2026-10-03, #21). 連戰–連勝文,
+  傅崐萁–徐榛蔚 and 王雪紅–陳文琦 (T2), plus 三立's shareholding (T3). No
+  qualifying DPP or TPP pair met the standard (see the log).
+  [Log](2026-10-03-e3-family.md)
   [Logs](2026-10-03-v4-batch3.md)
