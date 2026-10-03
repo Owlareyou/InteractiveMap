@@ -76,7 +76,7 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Make existing data trustworthy
 
-- [ ] **V4 · Evidence with no URL** (50 at the start; 34 after batch 1 on 2026-10-03, see `2026-10-03-v4-batch1.md`). Work through them in
+- [ ] **V4 · Evidence with no URL** (50 at the start; 34 after batch 1, 28 after batch 2, see `2026-10-03-v4-batch*.md`). Work through them in
   batches of about 10, starting with T1. Done when `npm run coverage` shows
   0.
 - [ ] **X7 · Fill in thin nodes** (promoted from Next at the #5 re-rank).
@@ -231,6 +231,10 @@ Decisions the loop can't make. Park the item and carry on with the next.
   (政大外交研究所) after a 輔大 law degree, per summaries of an NCCU
   interview that is now 404. Change the stage? `hsia-edu-georgetown` has no
   source at all: keep it as draft, or remove it?
+- **Quotes for registry-style records:** LY member pages, Money-Link, and
+  LawPlayer are tables with nothing sentence-like to quote. Is URL plus
+  `quote: null` enough to promote such edges, or should a field value (e.g.
+  「第 11 屆／中國國民黨／花蓮縣選舉區」) go in `quote`?
 - **旺旺 donations** (from the README): the Control Yuan platform may need a
   manual lookup. See E2.
 

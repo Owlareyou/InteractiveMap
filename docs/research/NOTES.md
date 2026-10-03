@@ -222,3 +222,14 @@ Not found: official 總統府 biographies of 馬英九 or 蔡英文; a clean quo
 Ready to promote: lai-edu-ntu, lai-edu-ncku, lai-edu-harvard, cheng-xi-2026, lien-xi-2013, chu-xi-2015.
 Schema gaps: none.
 Next: V4 batch 2 (Xinhua biographies for wang-yi-tao, song-tao-tao, xi-*; LY legislator profiles; lien-xi-2015).
+
+### 2026-10-03 · #15 · Re-rank (no change), then V4 batch 2
+Re-rank (every 5 iterations): order unchanged (V4, X7, E1–E4). V4 still has 34 URL-less entries, and X7 (13 people with ≤1 edge, several with unsourced party affiliations) is an honesty fix. Enforcement is the thinnest layer (5 edges), so E1 follows X7.
+Coverage: evidence without URL 34 → 28; without quote 105 → 103
+Log: docs/research/2026-10-03-v4-batch2.md
+Added: 0 nodes, 0 edges. Changed: xi-member-of-ccp, xi-edu-tsinghua-2002, fu-legislator, chen-yu-jen-legislator, lo-ming-tsai-legislator, han-speaker (+PTS), fu-kun-chi-edu-jnu (notes)
+Found: the 2022 Xinhua leadership biographies (party membership and doctorate); 立法院 11th-term profiles for four KMT legislators. 傅崐萁's LY profile omits the 暨南 doctorate.
+Not found: a reliable 1975–79 Tsinghua line (the fetch looked garbled, so it wasn't used); 王毅's TAO term in his 2022 biography; a first-party page for 宋濤's appointment.
+Ready to promote: xi-member-of-ccp, xi-edu-tsinghua-2002. The LY legislator edges have URLs but null quotes (table fields). Jing may accept URL-only for registry-style records.
+Schema gaps: none.
+Next: V4 batch 3 (see the log's candidate list).

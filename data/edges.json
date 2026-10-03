@@ -673,16 +673,16 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "新華社",
+        "source_url": "https://www.cac.gov.cn/2022-10/23/c_1668202774242500.htm",
+        "source_name": "新華社「中共二十屆中央領導機構成員簡歷」（中國網信網轉載）",
         "source_type": "official_record",
-        "published_date": null,
-        "quote": null,
-        "retrieved_date": null
+        "published_date": "2022-10-23",
+        "quote": "清華大學人文社會學院馬克思主義理論與思想政治教育專業畢業，在職研究生學歷，法學博士學位",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "在職研究生 part-time, while in office",
+    "notes": "在職研究生 part-time, while in office；新華社引文原為簡體，已轉正體。",
     "education": {
       "stage": "doctorate",
       "degree": "法學博士",
@@ -815,16 +815,16 @@
     "status": "active",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "新華社",
+        "source_url": "https://www.cac.gov.cn/2022-10/23/c_1668202774242500.htm",
+        "source_name": "新華社「中共二十屆中央領導機構成員簡歷」（中國網信網轉載）",
         "source_type": "official_record",
-        "published_date": null,
-        "quote": null,
-        "retrieved_date": null
+        "published_date": "2022-10-23",
+        "quote": "1974年1月加入中國共產黨",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": null,
+    "notes": "新華社引文原為簡體，已轉正體。",
     "education": null
   },
   {
@@ -2254,7 +2254,7 @@
       }
     ],
     "review_status": "draft",
-    "notes": "2008年立委簡歷列「法學博士班」後移除；2024年自稱法學博士；是否取得學位未查證 degree status disputed。status 改為 disputed（2026-10-03，V1）：中央社小檔案列「廣州暨南大學法學博士」，Newtalk 指 2008 年列「法學博士班」後移除；學位是否授予未查證。",
+    "notes": "2008年立委簡歷列「法學博士班」後移除；2024年自稱法學博士；是否取得學位未查證 degree status disputed。status 改為 disputed（2026-10-03，V1）：中央社小檔案列「廣州暨南大學法學博士」，Newtalk 指 2008 年列「法學博士班」後移除；學位是否授予未查證。；立法院第 11 屆委員資料學歷欄僅列「淡江大學中國大陸研究所碩士」，未列暨南大學（2026-10-03，V4）。",
     "education": {
       "stage": "doctorate",
       "degree": null,
@@ -2275,16 +2275,24 @@
     "status": "active",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "立法院",
+        "source_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46854",
+        "source_name": "立法院 第11屆委員資料",
         "source_type": "official_record",
         "published_date": null,
         "quote": null,
-        "retrieved_date": null
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/679365",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2024-02-01",
+        "quote": "韓國瑜以54票勝過游錫堃51票，當選院長。",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": null,
+    "notes": "立法院委員資料頁（第 11 屆，黨籍中國國民黨；表格欄位，無可引述之句子）。",
     "education": null
   },
   {
@@ -2301,16 +2309,16 @@
     "status": "active",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "立法院",
+        "source_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46824",
+        "source_name": "立法院 第11屆委員資料",
         "source_type": "official_record",
         "published_date": null,
         "quote": null,
-        "retrieved_date": null
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": null,
+    "notes": "立法院委員資料頁（第 11 屆，黨籍中國國民黨；表格欄位，無可引述之句子）。",
     "education": null
   },
   {
@@ -2327,16 +2335,16 @@
     "status": "active",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "立法院",
+        "source_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46813",
+        "source_name": "立法院 第11屆委員資料",
         "source_type": "official_record",
         "published_date": null,
         "quote": null,
-        "retrieved_date": null
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": null,
+    "notes": "立法院委員資料頁（第 11 屆，黨籍中國國民黨；表格欄位，無可引述之句子）。",
     "education": null
   },
   {
@@ -2353,16 +2361,16 @@
     "status": "active",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "立法院",
+        "source_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46857",
+        "source_name": "立法院 第11屆委員資料",
         "source_type": "official_record",
         "published_date": null,
         "quote": null,
-        "retrieved_date": null
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": null,
+    "notes": "立法院委員資料頁（第 11 屆，黨籍中國國民黨；表格欄位，無可引述之句子）。",
     "education": null
   },
   {
