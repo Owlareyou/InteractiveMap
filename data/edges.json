@@ -3646,5 +3646,141 @@
     "review_status": "draft",
     "notes": "母公司、最大股東；持股比例未查。僅一來源。",
     "education": null
+  },
+  {
+    "id": "maode-owns-ebc",
+    "source_id": "maode-international",
+    "target_id": "ebc",
+    "relation_type": "shareholder",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2018",
+    "end": null,
+    "status": "active",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/amp/20171106fin012",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2017-11-08",
+        "quote": "這次茂德機構總裁張高祥以160億元買下東森電視95%股權",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://finance.ettoday.net/news/1104539",
+        "source_name": "ETtoday財經雲",
+        "source_type": "news",
+        "published_date": "2018-01-31",
+        "quote": "國家通訊傳播委員會（NCC）今天（31日）審查同意「茂德國際收購東森電視案」",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "約 95% 股權，總裁張高祥；王令麟出清持股。NCC 2018-01-31 附款同意，尚待經濟部投審會許可——交割完成日期未查證。start 取 NCC 同意年份。",
+    "education": null
+  },
+  {
+    "id": "ebc-ncc-2018",
+    "source_id": "ebc",
+    "target_id": "ncc",
+    "relation_type": "ruled_on",
+    "temporal_scope": "event",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2018-01-31",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://finance.ettoday.net/news/1104539",
+        "source_name": "ETtoday財經雲",
+        "source_type": "news",
+        "published_date": "2018-01-31",
+        "quote": "國家通訊傳播委員會（NCC）今天（31日）審查同意「茂德國際收購東森電視案」",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.cna.com.tw/news/afe/202308160224.aspx",
+        "source_name": "中央社",
+        "source_type": "news",
+        "published_date": "2023-08-16",
+        "quote": "東森電視2018年提報股權交易案有14項承諾待履行",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "NCC 附 14 項承諾同意茂德收購案；2023-08 NCC 因節目投資承諾執行率不足發函要求履行。",
+    "education": null
+  },
+  {
+    "id": "mirror-tv-ncc-2022",
+    "source_id": "mirror-tv",
+    "target_id": "ncc",
+    "relation_type": "ruled_on",
+    "temporal_scope": "event",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2022-01-19",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.pts.org.tw/article/643655",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2023-06-28",
+        "quote": "2022年1月19日，NCC核准鏡電視新聞台申設案，是繼2012年UDN新聞台後，近10年首度獲准申設的新聞台，不過NCC也附帶通過12項負擔、14項附款以及16項行政指導等決議。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://newtalk.tw/news/view/2022-01-19/698916",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2022-01-19",
+        "quote": "許可衛星廣播電視「鏡電視新聞台」申設，並就其未來營運附加附款及行政指導。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "核准新聞台申設，附 12 項負擔、14 項附款、16 項行政指導；含股權分散與 5% 以上股東簽署編輯室公約之要求。申設過程之政治介入指控見 N4c。",
+    "education": null
+  },
+  {
+    "id": "pei-wei-chairs-mirror-tv",
+    "source_id": "pei-wei",
+    "target_id": "mirror-tv",
+    "relation_type": "board_member",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2020-05",
+    "end": "2021-08-18",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.pts.org.tw/article/643655",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2023-06-28",
+        "quote": "2020年5月，鏡電視獲經濟部商業司核准設立，首任董事長為裴偉，創設外部公評人制度，確保新聞內容符合正確、平衡、公平。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.nownews.com/news/5741021",
+        "source_name": "NOWnews",
+        "source_type": "news",
+        "published_date": "2022-03-10",
+        "quote": "《鏡電視》2021年7月9日稱裴偉已辭去董事長，但裴是在8月18日才辭職",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "首任董事長；2021-08-18 辭職，由陳建平接任（2022-03-04 陳建平遭撤換，李永豐接任）。裴偉亦為鏡傳媒董事長（未建節點）。持股比例未查到。",
+    "education": null
   }
 ]

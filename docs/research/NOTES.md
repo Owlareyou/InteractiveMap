@@ -124,3 +124,15 @@ Not found: the MOEA registry (findbiz returned 403; the LawPlayer mirror works o
 Ready to promote: cher-wang-owns-tvbs, chen-wen-chi-chairs-tvbs, wang-ming-yu-chairs-ftv. Not chang-jung-hua-chairs-set (LawPlayer evidence has quote null) or minjian-investment-owns-ftv (T3).
 Schema gaps: none.
 Next: N4b (東森, 鏡電視, political ties and allegations for all five outlets, NCC records).
+
+### 2026-10-03 · #7 · N4b Media ownership, part 2 (東森, 鏡電視, NCC)
+Coverage: media_org nodes 6 → 8; enforcement-layer ruled_on edges +2; evidence without URL 50 → 50
+Log: docs/research/2026-10-03-media-ownership-2.md
+Added: 4 nodes (ebc, maode-international, mirror-tv, pei-wei), 4 edges (maode-owns-ebc, ebc-ncc-2018, mirror-tv-ncc-2022, pei-wei-chairs-mirror-tv). Changed: none
+Found:
+- 東森: 茂德 (張高祥) bought about 95% in 2017. The NCC approved it with 14 commitments on 2018-01-31, and in 2023 chased it for missing its programme-investment pledges.
+- 鏡電視: the NCC approved its news channel on 2022-01-19 with 12 burdens, 14 conditions and 16 guidance items. 裴偉 was founding chair, 2020-05 to 2021-08-18.
+Not found: 鏡電視's shareholders; whether the 茂德 deal closed (Investment Commission); the NCC record of the TVBS transfer; 東森's current chair.
+Ready to promote: ebc-ncc-2018, mirror-tv-ncc-2022, pei-wei-chairs-mirror-tv, maode-owns-ebc (its ETtoday quote is the part before an ellipsis in the fetch output, so check it when promoting).
+Schema gaps: none.
+Next: N4c (political ties and T4 allegations for all five outlets, to the 旺旺 standard), then N5.

@@ -1820,5 +1820,80 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-03"
+  },
+  {
+    "id": "ebc",
+    "wikidata_qid": null,
+    "name_zh": "東森電視",
+    "name_en": "Eastern Broadcasting Co. (EBC)",
+    "aliases": [
+      "東森",
+      "EBC"
+    ],
+    "entity_type": "media_org",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "maode-international",
+    "wikidata_qid": null,
+    "name_zh": "茂德國際",
+    "name_en": "Maode International",
+    "aliases": [
+      "茂德機構"
+    ],
+    "entity_type": "company",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "mirror-tv",
+    "wikidata_qid": null,
+    "name_zh": "鏡電視",
+    "name_en": "Mirror TV",
+    "aliases": [
+      "鏡新聞"
+    ],
+    "entity_type": "media_org",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "pei-wei",
+    "wikidata_qid": null,
+    "name_zh": "裴偉",
+    "name_en": "Pei Wei",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [
+      {
+        "title_zh": "鏡電視董事長",
+        "title_en": "Mirror TV Chair",
+        "org_id": "mirror-tv",
+        "start": "2020-05",
+        "end": "2021-08-18"
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
   }
 ]

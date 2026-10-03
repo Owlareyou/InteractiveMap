@@ -72,14 +72,15 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Neutrality gap
 
-- [ ] **N4b · Media mirror, part 2** (split from N4). (a) Ownership and
-  chairs of 東森 (EBC) and 鏡電視 (Mirror TV), plus NCC decisions (鏡電視's
-  2022 licence; the TVBS share transfer in 2015–16). (b) Political ties for
-  all five outlets, to the 旺旺 standard: founders' and chairs' party roles
-  (e.g. 民視's founder 蔡同榮, former chair 郭倍宏), and allegations of
-  editorial direction as T4 only. Do every outlet or note why not. *Done
-  when:* 東森 and 鏡電視 each have an ownership edge or a logged reason, and
-  each of the five outlets has a political-ties verdict.
+- [ ] **N4c · Media mirror, part 3: political ties** (split from N4b).
+  For 三立, 民視, TVBS, 東森 and 鏡電視, to the same standard as 旺旺:
+  founders', owners' and chairs' party roles and offices (e.g. 民視's
+  founder 蔡同榮, former chair 郭倍宏), and allegations of editorial
+  direction or political interference as T4 only (e.g. the 2022
+  鏡電視-licence recording; Mirror's 2019 「陳文琦…挺韓惹議」). Also look
+  for the NCC record of the TVBS transfer. *Done when:* each of the five
+  outlets has a political-ties verdict in the log, including "nothing at
+  T2 or above".
 - [ ] **N5 · KMT side of the 兩岸經貿文化論壇** (promoted from Inbox at
   the #5 re-rank). The `cross-strait-forum-kmt-ccp` node, added in N1b, has
   only DPP attendees (許榮淑, 范振宗). Link the KMT delegation leads for each
@@ -258,3 +259,7 @@ their log.)
   ownership, chair 陳文琦), 三立 (chair 張榮華, no ownership source), 民視
   (chair 王明玉, parent 民間投資 at T3). The rest is in N4b.
   [Log](2026-10-03-media-ownership.md)
+- [x] **N4b · Media mirror, part 2** (2026-10-03, #7). 東森 (茂德 owns
+  about 95%; NCC approval 2018-01-31), 鏡電視 (NCC approval 2022-01-19;
+  founding chair 裴偉; shareholders not found). Political ties are in N4c.
+  [Log](2026-10-03-media-ownership-2.md)
