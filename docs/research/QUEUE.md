@@ -76,9 +76,6 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Make existing data trustworthy
 
-- [ ] **V4 · Evidence with no URL** (50 at the start; 34 after batch 1, 28 after batch 2, see `2026-10-03-v4-batch*.md`). Work through them in
-  batches of about 10, starting with T1. Done when `npm run coverage` shows
-  0.
 - [ ] **X7 · Fill in thin nodes** (promoted from Next at the #5 re-rank).
   鄭麗文, 朱立倫, 吳伯雄 and 謝長廷 each have ≤1 edge. Add party roles,
   education and `member_of` from official records. Also add `member_of`
@@ -109,6 +106,12 @@ Each item reads: question, why it matters, where to look, done when.
   KMT and the DPP, or neither.
 
 ## Next
+
+- [ ] **V4b · Evidence with no URL, remaining 27** (moved from Now at #16).
+  Batches 1–3 took it from 50 to 27. The rest need sites that were blocked
+  on 2026-10-03 (CEC 404 and DNS failure, NCC, the 總統府 archive, HKEX) or
+  a decision from Jing. Each entry and its route is in
+  `2026-10-03-v4-batch3.md`. Retry when the CEC sites respond.
 
 - [ ] **X1 · Wikidata QIDs.** Look up each node's QID on wikidata.org and
   check the label and description match. That makes this a research step,
@@ -298,3 +301,6 @@ their log.)
   #13). Both 洪秀柱 edges confirmed against her LY profile (T1). The two
   夏立言 edges were not confirmed and are flagged (政大 is probably a
   master's; no source for Georgetown). [Log](2026-10-03-v3-education.md)
+- [~] **V4 · Evidence with no URL, batches 1–3** (2026-10-03, #14–16). 50 →
+  27. The remainder (blocked sources) moved to Next as V4b.
+  [Logs](2026-10-03-v4-batch3.md)

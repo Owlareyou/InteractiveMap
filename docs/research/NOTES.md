@@ -233,3 +233,14 @@ Not found: a reliable 1975–79 Tsinghua line (the fetch looked garbled, so it w
 Ready to promote: xi-member-of-ccp, xi-edu-tsinghua-2002. The LY legislator edges have URLs but null quotes (table fields). Jing may accept URL-only for registry-style records.
 Schema gaps: none.
 Next: V4 batch 3 (see the log's candidate list).
+
+### 2026-10-03 · #16 · V4 batch 3, and V4 moved to Next
+Coverage: evidence without URL 28 → 27; without quote 103 → 102
+Log: docs/research/2026-10-03-v4-batch3.md
+Added: 0 nodes, 0 edges. Changed: wang-yi-tao (URL, discrepancy noted), ctitv-licence-denied-2020 (PTS quote, +TechNews)
+Found: little this batch. 王毅's 人民網 biography (term dates disagree with the edge: 2008-09 vs 2008-06, unresolved).
+Not found: CEC bulletins (404 and DNS failure), the NCC release, 連習會 2015 (rmzxw DNS), a TAO page naming 宋濤.
+Ready to promote: none new.
+Schema gaps: none.
+Decision: V4 → Next as V4b, with all 27 remaining entries listed in the log with a route for each. Most need blocked sites or a decision from Jing. Continuing with X7.
+Next: X7 (thin nodes and unsourced party affiliations).

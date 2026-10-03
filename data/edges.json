@@ -1537,16 +1537,16 @@
     "status": "historical",
     "evidence": [
       {
-        "source_url": null,
-        "source_name": "新華社",
+        "source_url": "https://cpc.people.com.cn/n1/2018/0320/c64094-29877085-3.html",
+        "source_name": "人民網（王毅簡歷）",
         "source_type": "official_record",
-        "published_date": null,
+        "published_date": "2018-03-20",
         "quote": null,
-        "retrieved_date": null
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": null,
+    "notes": "人民網 2018 簡歷擷取結果記為「2008年9月-2013年3月」（擷取格式疑經重組，未作引文）；與本邊 start 2008-06 不一致，未改，待核（2026-10-03，V4）。",
     "education": null
   },
   {
@@ -1966,13 +1966,21 @@
         "source_url": "https://news.pts.org.tw/article/636160",
         "source_name": "公視新聞網",
         "source_type": "news",
-        "published_date": null,
-        "quote": null,
-        "retrieved_date": "2026-10-01"
+        "published_date": "2023-05-10",
+        "quote": "NCC在同年11月18日召開委員會議，會中7名委員以7比0全數否決換照",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://technews.tw/2020/11/18/ctitv-change-license-fail/",
+        "source_name": "TechNews 科技新報",
+        "source_type": "news",
+        "published_date": "2020-11-18",
+        "quote": "7位委員一致決議不予換照",
+        "retrieved_date": "2026-10-03"
       }
     ],
     "review_status": "draft",
-    "notes": "7比0駁回中天新聞台換照 licence renewal refused 7–0",
+    "notes": "7比0駁回中天新聞台換照 licence renewal refused 7–0。NCC 新聞稿原頁未取得（2026-10-03，V4）。",
     "education": null
   },
   {
