@@ -1895,5 +1895,66 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-03"
+  },
+  {
+    "id": "tsai-tung-jung",
+    "wikidata_qid": null,
+    "name_zh": "蔡同榮",
+    "name_en": "Tsai Tung-jung",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "dpp",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "民視董事長",
+        "title_en": "FTV Chair",
+        "org_id": "ftv",
+        "start": null,
+        "end": "2003"
+      },
+      {
+        "title_zh": "立法委員",
+        "title_en": "Legislator",
+        "org_id": "legislative-yuan",
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "lin-kun-hai",
+    "wikidata_qid": null,
+    "name_zh": "林崑海",
+    "name_en": "Lin Kun-hai",
+    "aliases": [
+      "海董"
+    ],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [],
+    "roles": [
+      {
+        "title_zh": "三立電視董事長",
+        "title_en": "SET Chair",
+        "org_id": "set-tv",
+        "start": null,
+        "end": "2022-02-14"
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
   }
 ]

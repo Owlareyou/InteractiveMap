@@ -72,15 +72,6 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Neutrality gap
 
-- [ ] **N4c · Media mirror, part 3: political ties** (split from N4b).
-  For 三立, 民視, TVBS, 東森 and 鏡電視, to the same standard as 旺旺:
-  founders', owners' and chairs' party roles and offices (e.g. 民視's
-  founder 蔡同榮, former chair 郭倍宏), and allegations of editorial
-  direction or political interference as T4 only (e.g. the 2022
-  鏡電視-licence recording; Mirror's 2019 「陳文琦…挺韓惹議」). Also look
-  for the NCC record of the TVBS transfer. *Done when:* each of the five
-  outlets has a political-ties verdict in the log, including "nothing at
-  T2 or above".
 - [ ] **N5 · KMT side of the 兩岸經貿文化論壇** (promoted from Inbox at
   the #5 re-rank). The `cross-strait-forum-kmt-ccp` node, added in N1b, has
   only DPP attendees (許榮淑, 范振宗). Link the KMT delegation leads for each
@@ -200,6 +191,11 @@ They're re-ranked every 5 iterations.
 - 王雪紅 and 陳文琦: Mirror 2019 calls him her husband (夫婿). It's a
   `spouse` candidate for E3, with one source so far.
   `2026-10-03-media-ownership.md` §1.
+- 王令麟: KMT member and former three-term legislator (鏡週刊 2017, one
+  source), and 東森's founder. Needs a second source to qualify as a node.
+  His 力霸/東森 conviction fits E1. `2026-10-03-media-political-ties.md`.
+- 民間投資's 49.7% of 民視 (search summary) would upgrade
+  `minjian-investment-owns-ftv` to T2 if read. Same log.
 - The 統編 for 民間全民電視 and 聯利媒體 would allow registry checks via
   findbiz or LawPlayer. Same log.
 - 謝長廷 reportedly dined with two PLA General Political Department major
@@ -224,6 +220,12 @@ Decisions the loop can't make. Park the item and carry on with the next.
   public statements (e.g. 柯文哲's 「兩岸一家親」)? Today only the negative
   `criticizes` and `opposes` exist. The default is to keep statements out of
   the graph.
+- **Domestic media allegations:** `reported_editorial_direction` maps to
+  the cross_strait layer. Should there be a domestic counterpart (e.g. in
+  governance), or should domestic bias allegations stay out of the graph?
+  Every outlet has some (`2026-10-03-media-political-ties.md`). Also: model
+  party factions (湧言會, 新潮流, …) as nodes? And is PRC *monitoring* of an
+  outlet (東森, 2024) a tie?
 - **旺旺 donations** (from the README): the Control Yuan platform may need a
   manual lookup. See E2.
 
@@ -263,3 +265,8 @@ their log.)
   about 95%; NCC approval 2018-01-31), 鏡電視 (NCC approval 2022-01-19;
   founding chair 裴偉; shareholders not found). Political ties are in N4c.
   [Log](2026-10-03-media-ownership-2.md)
+- [x] **N4c · Media mirror, part 3: political ties** (2026-10-03, #8).
+  蔡同榮 (DPP legislator) chaired 民視, and 林崑海 (DPP faction 湧言會) chaired
+  三立. 王令麟 (KMT) has one source only. Domestic allegations are logged for
+  all five outlets but not recorded (schema gap).
+  [Log](2026-10-03-media-political-ties.md)

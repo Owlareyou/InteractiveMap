@@ -136,3 +136,16 @@ Not found: 鏡電視's shareholders; whether the 茂德 deal closed (Investment 
 Ready to promote: ebc-ncc-2018, mirror-tv-ncc-2022, pei-wei-chairs-mirror-tv, maode-owns-ebc (its ETtoday quote is the part before an ellipsis in the fetch output, so check it when promoting).
 Schema gaps: none.
 Next: N4c (political ties and T4 allegations for all five outlets, to the 旺旺 standard), then N5.
+
+### 2026-10-03 · #8 · N4c Media mirror, part 3: political ties
+Coverage: people DPP 9 → 10, none 9 → 10; evidence without URL 50 → 50
+Log: docs/research/2026-10-03-media-political-ties.md
+Added: 2 nodes (tsai-tung-jung, lin-kun-hai), 2 edges (tsai-tung-jung-chairs-ftv, lin-kun-hai-chairs-set). Changed: none
+Found:
+- 民視's founding chair was DPP legislator 蔡同榮 (stepped down 2003). 三立's late founder 林崑海 was the 「精神領袖」 of the DPP faction 湧言會.
+- 東森's founder 王令麟 is a former three-term KMT legislator (one read source, so T3, not added).
+- Domestic bias or interference allegations exist for all five outlets (TVBS and 韓國瑜; 東森 and 侯友宜; 三立 favouring the DPP; 民視 and 郭倍宏; 鏡電視's licence). None are recorded (see Schema gaps).
+Not found: party office for 王雪紅, 陳文琦, 裴偉 or later chairs; 林崑海's party membership; 王令麟's personal 東森 stake on a read page.
+Ready to promote: tsai-tung-jung-chairs-ftv, lin-kun-hai-chairs-set.
+Schema gaps: (1) `reported_editorial_direction` maps to the cross_strait layer, so it can't hold domestic allegations without mislabelling them. (2) There's no entity type for party factions (湧言會/海派, 新潮流, …). (3) PRC *monitoring* of an outlet (the 2024 東森 case) isn't *direction*. All three parked in Needs Jing.
+Next: N5 (KMT side of the 兩岸經貿文化論壇).

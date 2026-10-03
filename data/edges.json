@@ -3782,5 +3782,73 @@
     "review_status": "draft",
     "notes": "首任董事長；2021-08-18 辭職，由陳建平接任（2022-03-04 陳建平遭撤換，李永豐接任）。裴偉亦為鏡傳媒董事長（未建節點）。持股比例未查到。",
     "education": null
+  },
+  {
+    "id": "tsai-tung-jung-chairs-ftv",
+    "source_id": "tsai-tung-jung",
+    "target_id": "ftv",
+    "relation_type": "board_member",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": "2003",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.tvbs.com.tw/life/412223",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2003-06-09",
+        "quote": "被黨內同志羅文嘉點名，身兼民視董事長的立委蔡同榮心裡很不是滋味",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.businesstoday.com.tw/article/category/80392/post/200309040033/",
+        "source_name": "今周刊",
+        "source_type": "news",
+        "published_date": "2003-09-04",
+        "quote": "蔡同榮在陳水扁定出的「九五大限」之前，宣布辭去民視董事長職務。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "民視創台董事長，民進黨籍立委（TVBS「黨內同志」）；2003 年依黨政軍退出媒體之「九五大限」前請辭。起始日期未查。",
+    "education": null
+  },
+  {
+    "id": "lin-kun-hai-chairs-set",
+    "source_id": "lin-kun-hai",
+    "target_id": "set-tv",
+    "relation_type": "board_member",
+    "temporal_scope": "state",
+    "valence": "neutral",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": null,
+    "end": "2022-02-14",
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/1716305",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2022-02-15",
+        "quote": "三立電視董事長林崑海辭世",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.peoplenews.tw/?p=4473",
+        "source_name": "民報",
+        "source_type": "news",
+        "published_date": "2025-08-19",
+        "quote": "今年69歲的張榮華，是已故三立電視創辦人林崑海的妻弟，3年前林崑海逝世，原總經理張榮華便接下董事長一職。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "創辦人、董事長，2022-02-14 辭世。TVBS 稱民進黨「湧言會」奉其為精神領袖（派系無節點類型，見 log）；黨籍未查證，故 party_affiliations 留空。",
+    "education": null
   }
 ]
