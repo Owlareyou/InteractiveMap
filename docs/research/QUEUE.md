@@ -72,14 +72,6 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Neutrality gap
 
-- [ ] **N2b · Twin-city forum, rest** (split from N2). (a) The
-  Taipei-hosted rounds in 柯文哲's term, when Shanghai officials came to
-  Taipei: which years, and who came. (b) The rounds under 蔣萬安 (KMT): add a
-  蔣萬安 node only with a T1 or T2 edge. (c) 柯文哲's 「兩岸一家親」
-  remarks: a statement, not a tie. Record the sources in the log, and add an
-  edge only if a relation type fits (otherwise it's a schema gap). (d) The
-  MOI party-register record for the TPP (T1). *Done when:* every round from
-  2015 on has a verdict in the log.
 - [ ] **N3 · Cross-strait edges for the current government.** MAC chair
   邱垂正, premier 卓榮泰, and SEF (海基會) leadership. Look for
   `position_held`, `appointed_by`, and any `met_officially_with` across
@@ -190,6 +182,12 @@ They're re-ranked every 5 iterations.
   俞正聲. KMT and independent side. Same log, §4.
 - 陳菊's 2013 trip also went to Shenzhen, Xiamen and Fuzhou. Counterparts
   unchecked. Same log, §1.
+- Twin-city forum 2020–22: were rounds held, or held online, and who took
+  part? Not searched. `2026-10-03-twin-city-forum.md`.
+- Why the 2025 forum slipped from September to December: udn 9020523 says
+  「賴政府技術性卡關」. Unread. Fits N3 (MAC approvals). Same log.
+- 柯文哲's 2015-03-30 「一五新觀點」 interview (新華社, CCTV, 中評社) and
+  the TAO's 03-31 response. From a search summary only. Same log.
 - 謝長廷 reportedly dined with two PLA General Political Department major
   generals in October 2012 (search summary only). Source: same log, §1.
 - People with no node who appear in N1 edges' `notes`: 戴秉國, 陳雲林
@@ -204,6 +202,14 @@ Decisions the loop can't make. Park the item and carry on with the next.
   log keep the original? The current default is convert-and-note.
 - **Who promotes to `reviewed`?** The current default: only Jing. Claude
   lists the edges that are ready.
+- **TPP in the MOI party register:** the search form at party.moi.gov.tw
+  can't be queried from here. Look up 「台灣民眾黨」 and paste the record's
+  URL and registration date, which makes `ko-member-of-tpp` T1. See
+  `2026-10-03-twin-city-forum.md`.
+- **Statement edges:** is a schema change worth it for positive or neutral
+  public statements (e.g. 柯文哲's 「兩岸一家親」)? Today only the negative
+  `criticizes` and `opposes` exist. The default is to keep statements out of
+  the graph.
 - **旺旺 donations** (from the README): the Control Yuan platform may need a
   manual lookup. See E2.
 
@@ -226,3 +232,7 @@ their log.)
   node, 柯文哲 and 黃國昌 (membership and chair), 柯文哲's Shanghai forum
   rounds in 2015, 2017 and 2019, and the 2017 柯張會. All 4 cross-strait
   edges predate the TPP. The rest is in N2b. [Log](2026-10-03-tpp-ko-wen-je.md)
+- [x] **N2b · Twin-city forum, rest** (2026-10-03, #4). Added the
+  Taipei-hosted rounds of 2016 and 2018 (柯文哲) and the 2023, 2024 and 2025
+  rounds (蔣萬安, new KMT node). 「兩岸一家親」 isn't an edge (schema gap).
+  The MOI record went to Needs Jing. [Log](2026-10-03-twin-city-forum.md)

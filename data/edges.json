@@ -3084,5 +3084,175 @@
     "review_status": "draft",
     "notes": "台北上海雙城論壇，上海舉行；前一晚應勇宴請，上海市台辦主任李文輝在場。時任無黨籍台北市長（民眾黨 2019-08-06 成立前）。",
     "education": null
+  },
+  {
+    "id": "ko-shanghai-delegation-2016",
+    "source_id": "ko-wen-je",
+    "target_id": "shanghai-municipal-government",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2016-08-23",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.cna.com.tw/news/firstnews/201608235006.aspx",
+        "source_name": "中央社",
+        "source_type": "news",
+        "published_date": "2016-08-23",
+        "quote": "過去8年，兩岸堅持九二共識，兩岸和平發展；當前由於『眾所周知的原因』，而出現中國大陸不願看到的局面。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.storm.mg/article/157729",
+        "source_name": "風傳媒",
+        "source_type": "news",
+        "published_date": "2016-08-23",
+        "quote": null,
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2016 台北上海城市論壇，台北主辦。上海團由上海市委常委、統戰部長沙海林（以上海市長代表身分）率領，非市府首長；柯文哲與沙海林互贈禮品（風傳媒，引文經擷取工具刪節，故 quote 留空）。中央社引文為沙海林致詞。柯文哲時任無黨籍台北市長（民眾黨成立前）。",
+    "education": null
+  },
+  {
+    "id": "ko-shanghai-delegation-2018",
+    "source_id": "ko-wen-je",
+    "target_id": "shanghai-municipal-government",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2018-12-19",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.ettoday.net/news/20181219/1334789.htm",
+        "source_name": "ETtoday新聞雲",
+        "source_type": "news",
+        "published_date": "2018-12-19",
+        "quote": "2018台北上海雙城論壇20日正式登場，由上海副市長周波領軍的上海團19日早上搭乘飛機抵台、晚間七點選在台北歷史悠久的圓山飯店舉辦晚宴，周波與台北市長柯文哲現場會致詞並互贈禮品",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/416757",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2018-12-19",
+        "quote": "上海副市長周波上午率領參訪團抵達台北。上午陸委會主委陳明通呼籲，雙城論壇少點政治，多辦正事。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2018 台北上海雙城論壇，台北主辦（論壇 12-20）；上海副市長周波率團。柯文哲時任無黨籍台北市長（民眾黨成立前）。",
+    "education": null
+  },
+  {
+    "id": "chiang-shanghai-forum-2023",
+    "source_id": "chiang-wan-an",
+    "target_id": "shanghai-municipal-government",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2023-08-30",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.mirrormedia.mg/story/20230904inv012",
+        "source_name": "鏡週刊",
+        "source_type": "news",
+        "published_date": "2023-09-06",
+        "quote": "蔣萬安8月29日率領市府團隊前往上海參加雙城論壇",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/654000",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2023-08-30",
+        "quote": "雙城好，兩岸好，兩岸關係恰如江河行舟，當然不應該是過盡千帆皆不是，但是也不應該一廂情願的認為輕舟已過萬重山。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2023 台北上海雙城論壇，上海舉行（訪團 08-29～31）；會見上海市長龔正。公視引文為蔣萬安致詞。",
+    "education": null
+  },
+  {
+    "id": "chiang-shanghai-delegation-2024",
+    "source_id": "chiang-wan-an",
+    "target_id": "shanghai-municipal-government",
+    "relation_type": "met_officially_with",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2024-12-17",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://news.pts.org.tw/article/729200",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2024-12-17",
+        "quote": "上海市副市長華源宣布利台政策，上海陸客團恢復赴台旅遊；在北市與上海市副秘書長進行市政交流專題演講後，市長蔣萬安壓軸出席見證「推動智慧醫療」、「小貓熊物種交流及保育」2項MOU簽署",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.tvbs.com.tw/politics/2720663",
+        "source_name": "TVBS新聞網",
+        "source_type": "news",
+        "published_date": "2024-12-17",
+        "quote": "上海方面將積極推動上海居民赴台團隊旅遊路線，一定會包含台北市",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2024 台北上海雙城論壇，台北主辦（蔣萬安任內首次）；上海副市長華源率團。TVBS 引文為華源致詞。",
+    "education": null
+  },
+  {
+    "id": "chiang-shanghai-forum-2025",
+    "source_id": "chiang-wan-an",
+    "target_id": "shanghai-municipal-government",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2025-12-28",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://udn.com/news/story/7331/9230328",
+        "source_name": "聯合新聞網",
+        "source_type": "news",
+        "published_date": "2025-12-28",
+        "quote": "2025年台北上海雙城論壇主論壇28日在上海『世界會客廳』登場，在主論壇開始前，上海市長龔正先會見台北市長蔣萬安及台北市代表團",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.pts.org.tw/article/787967",
+        "source_name": "公視新聞網",
+        "source_type": "news",
+        "published_date": "2025-12-28",
+        "quote": "雙方互贈禮物，分別為紀念錫盤及藝術瓷瓶，台北市長蔣萬安與上海市長龔正握手寒暄",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "2025 台北上海雙城論壇，上海舉行；原定 09-25～27（公視 770340），延至 12 月；因 12-19 台北無差別攻擊事件縮短為當日往返（鏡週刊 20251223inv004）。",
+    "education": null
   }
 ]

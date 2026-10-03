@@ -1468,5 +1468,34 @@
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-03"
+  },
+  {
+    "id": "chiang-wan-an",
+    "wikidata_qid": null,
+    "name_zh": "蔣萬安",
+    "name_en": "Chiang Wan-an",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "臺北市長",
+        "title_en": "Mayor of Taipei",
+        "org_id": null,
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
   }
 ]

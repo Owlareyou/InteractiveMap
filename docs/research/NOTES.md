@@ -84,3 +84,16 @@ Not found: the MOI party-register record (T1) for the TPP; 黃國昌's join date
 Ready to promote: ko-member-of-tpp, ko-tpp-chair, huang-member-of-tpp, huang-tpp-chair, ko-shanghai-forum-2015, ko-shanghai-forum-2017, ko-shanghai-forum-2019. Not ko-zhang-zhijun-2017: its 鏡週刊 evidence has quote null, though its other two sources are quoted.
 Schema gaps: none new. The 「兩岸一家親」 remarks are statements, not ties, and will need a call in N2b (likely no edge).
 Next: N2b (the rest of N2), then N3. Iteration #5 is due to re-rank Now.
+
+### 2026-10-03 · #4 · N2b Twin-city forum, remaining rounds
+Coverage: people KMT 15 → 16; cross-strait edges KMT 27 / DPP 8 / TPP 4 → KMT 30 / DPP 8 / TPP 6; evidence without URL 50 → 50
+Log: docs/research/2026-10-03-twin-city-forum.md
+Added: 1 node (chiang-wan-an), 5 edges (ko-shanghai-delegation-2016, ko-shanghai-delegation-2018, chiang-shanghai-forum-2023, chiang-shanghai-delegation-2024, chiang-shanghai-forum-2025). Changed: none
+Found:
+- Every round from 2015 to 2025 except 2020–22 now has a verdict. Taipei hosted in 2016 (Shanghai's United Front head 沙海林 led) and 2018 (deputy mayor 周波).
+- 蔣萬安 went to Shanghai in 2023 and 2025 and hosted in Taipei in 2024. The 2025 round slipped from September to December.
+- 柯文哲's 「兩岸一家親」 is documented (2019 quote read), but it's a statement, and no relation type fits it.
+Not found: the 2020–22 rounds (not searched); the TPP's MOI party-register record (the search form can't be fetched, so it needs Jing's manual lookup, see the log); 蔣萬安's KMT membership source.
+Ready to promote: ko-shanghai-delegation-2018, chiang-shanghai-forum-2023, chiang-shanghai-delegation-2024, chiang-shanghai-forum-2025. Not ko-shanghai-delegation-2016: its 風傳媒 quote is null.
+Schema gaps: no relation type for a public statement endorsing or adopting a formula (e.g. 「兩岸一家親」). `criticizes` and `opposes` are negative only.
+Next: N3 (current government's cross-strait structure, including 邱垂正 from N1). Iteration #5: re-rank Now first.
