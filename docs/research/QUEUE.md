@@ -72,11 +72,14 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Neutrality gap
 
-- [ ] **N5 · KMT side of the 兩岸經貿文化論壇** (promoted from Inbox at
-  the #5 re-rank). The `cross-strait-forum-kmt-ccp` node, added in N1b, has
-  only DPP attendees (許榮淑, 范振宗). Link the KMT delegation leads for each
-  round (e.g. 吳伯雄 in 2009) to it, under the same T2 rule. *Done when:*
-  every round from 2006 on has a verdict in the log.
+- [ ] **N5b · 兩岸經貿文化論壇, remaining rounds** (split from N5). Find
+  KMT delegation leads at T2 for: the 1st (2006, Beijing, 連戰), 2nd (2006,
+  is it a round?), 3rd (2007), 4th (2008, Shanghai, 吳伯雄), 5th (2009,
+  Changsha: MJIB is one source, needs a second), 7th (2011, Chengdu), 8th
+  (2012, Harbin), and anything after 2017 (postponed under 吳敦義; check for
+  a revival, e.g. around 鄭麗文's April 2026 visit). The China Daily mirror
+  404s, so try www.chinadaily.com.cn, 人民網 or 中央社. *Done when:* every
+  round has a verdict in the log.
 
 ### Make existing data trustworthy
 
@@ -270,3 +273,6 @@ their log.)
   三立. 王令麟 (KMT) has one source only. Domestic allegations are logged for
   all five outlets but not recorded (schema gap).
   [Log](2026-10-03-media-political-ties.md)
+- [x] **N5 · KMT side of the 兩岸經貿文化論壇, part 1** (2026-10-03, #9).
+  Linked 吳伯雄 (2010, 2013), 朱立倫 (2015) and 洪秀柱 (2016, renamed
+  forum), all T2. The rest is in N5b. [Log](2026-10-03-kmt-ccp-forum.md)

@@ -3850,5 +3850,141 @@
     "review_status": "draft",
     "notes": "創辦人、董事長，2022-02-14 辭世。TVBS 稱民進黨「湧言會」奉其為精神領袖（派系無節點類型，見 log）；黨籍未查證，故 party_affiliations 留空。",
     "education": null
+  },
+  {
+    "id": "wu-poh-hsiung-kmt-ccp-forum-2010",
+    "source_id": "wu-poh-hsiung",
+    "target_id": "cross-strait-forum-kmt-ccp",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2010-07-10",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://newtalk.tw/news/view/2010-07-10/6444",
+        "source_name": "新頭殼 Newtalk",
+        "source_type": "news",
+        "published_date": "2010-07-10",
+        "quote": "由國民黨與共產黨主辦的第6屆兩岸經貿文化論壇，上午9點在廣州白雲國際會議中心登場，國民黨榮譽主席吳伯雄和中共中央政治局常委、政協主席賈慶林以及數百名產業及學者專家與會。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://news.cnyes.com/news/id/3183044",
+        "source_name": "鉅亨網",
+        "source_type": "news",
+        "published_date": "2010-07-11",
+        "quote": "第六屆兩岸經貿文化論壇11日下午舉行閉幕式，中國國民黨榮譽主席吳伯雄出席閉幕式并發表講話。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第6屆，廣州；以國民黨榮譽主席身分率團。",
+    "education": null
+  },
+  {
+    "id": "wu-poh-hsiung-kmt-ccp-forum-2013",
+    "source_id": "wu-poh-hsiung",
+    "target_id": "cross-strait-forum-kmt-ccp",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2013-10-26",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://cpc.people.com.cn/BIG5/n/2013/1026/c64094-23335778.html",
+        "source_name": "人民網",
+        "source_type": "news",
+        "published_date": "2013-10-26",
+        "quote": "中共中央政治局常委、全國政協主席俞正聲和中國國民黨榮譽主席吳伯雄出席開幕式並發表演講。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://n.yam.com/Article/20131022835733",
+        "source_name": "中央社（蕃薯藤轉載）",
+        "source_type": "news",
+        "published_date": "2013-10-22",
+        "quote": "吳伯雄下週率團出席第9屆兩岸經貿文化論壇，團員涵蓋政、產、官、學界，包括新黨主席郁慕明、人民最大黨主席許榮淑及鴻海集團董事長郭台銘等200餘人。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第9屆，南寧；率團逾 200 人，團員含已遭民進黨開除之許榮淑（時任人民最大黨主席，未另建邊）。",
+    "education": null
+  },
+  {
+    "id": "eric-chu-kmt-ccp-forum-2015",
+    "source_id": "eric-chu",
+    "target_id": "cross-strait-forum-kmt-ccp",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2015-05-03",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://cpc.people.com.cn/BIG5/n/2015/0504/c64094-26941469.html",
+        "source_name": "人民網－人民日報",
+        "source_type": "news",
+        "published_date": "2015-05-04",
+        "quote": "5月3日，由中共中央台辦海峽兩岸關系研究中心和中國國民黨國政研究基金會共同舉辦的第十屆兩岸經貿文化論壇在上海浦東隆重舉行。中共中央政治局常委、全國政協主席俞正聲和中國國民黨主席朱立倫出席論壇開幕式並致辭。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.storm.mg/article/45946",
+        "source_name": "風傳媒",
+        "source_type": "news",
+        "published_date": "2015-04-09",
+        "quote": "延宕多時的第10屆國共論壇，確定於5月2、3日在上海舉行，國民黨主席朱立倫將親自出席開幕儀式",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "第10屆，上海；以黨主席身分出席開幕（同行程有朱習會，見 chu-xi-2015）。2014 年停辦。",
+    "education": null
+  },
+  {
+    "id": "hung-hsiu-chu-kmt-ccp-forum-2016",
+    "source_id": "hung-hsiu-chu",
+    "target_id": "cross-strait-forum-kmt-ccp",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2016-11-02",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.cna.com.tw/news/acn/201611020020.aspx",
+        "source_name": "中央社",
+        "source_type": "news",
+        "published_date": "2016-11-02",
+        "quote": "洪秀柱下午將赴國共論壇，出席聆聽『經濟組』與『青年組』分組討論。",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.storm.mg/article/182247",
+        "source_name": "風傳媒",
+        "source_type": "news",
+        "published_date": "2016-10-26",
+        "quote": "國民黨主席洪秀柱30日將率團前往北京，出席兩岸和平發展論壇，並與中共總書記習近平進行「洪習會」",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "更名為「兩岸和平發展論壇」，北京；洪秀柱未出席開閉幕（由副主席詹啟賢出席開幕，依搜尋摘要），僅出席分組討論。中央社引文為會前當日報導。",
+    "education": null
   }
 ]

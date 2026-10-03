@@ -149,3 +149,15 @@ Not found: party office for 王雪紅, 陳文琦, 裴偉 or later chairs; 林崑
 Ready to promote: tsai-tung-jung-chairs-ftv, lin-kun-hai-chairs-set.
 Schema gaps: (1) `reported_editorial_direction` maps to the cross_strait layer, so it can't hold domestic allegations without mislabelling them. (2) There's no entity type for party factions (湧言會/海派, 新潮流, …). (3) PRC *monitoring* of an outlet (the 2024 東森 case) isn't *direction*. All three parked in Needs Jing.
 Next: N5 (KMT side of the 兩岸經貿文化論壇).
+
+### 2026-10-03 · #9 · N5 KMT side of the 兩岸經貿文化論壇 (part 1)
+Coverage: cross-strait edges KMT 30 → 34 (DPP 8, TPP 6, none 2 unchanged); people with ≤1 edge loses wu-poh-hsiung and eric-chu; evidence without URL 50 → 50
+Log: docs/research/2026-10-03-kmt-ccp-forum.md
+Added: 0 nodes, 4 edges (wu-poh-hsiung-kmt-ccp-forum-2010, wu-poh-hsiung-kmt-ccp-forum-2013, eric-chu-kmt-ccp-forum-2015, hung-hsiu-chu-kmt-ccp-forum-2016). Changed: cross-strait-forum-kmt-ccp (alias 兩岸和平發展論壇)
+Found:
+- 吳伯雄 led the 6th (2010, Guangzhou) and 9th (2013, Nanning) rounds as honorary chair. 朱立倫 opened the 10th (2015, Shanghai). 洪秀柱 attended only the group sessions of the renamed 2016 兩岸和平發展論壇 in Beijing.
+- No round in 2014. Postponed from 2017 (summary).
+Not found: a second source for 2009 (MJIB only); any fetched source for 2006, 2008 (China Daily mirror 404s); 2007, 2011, 2012 and post-2017 not yet searched.
+Ready to promote: all 4 new edges.
+Schema gaps: none.
+Next: N5b (remaining forum rounds), then V1. Iteration #10 is due to re-rank.
