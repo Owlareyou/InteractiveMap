@@ -280,3 +280,17 @@ Not found: whether 黃取榮 appealed; 林岳龍's indictment; the outcome for �
 Ready to promote: lin-yueh-lung-investigated-2025, chen-wei-jen-investigated-2020. Not chen-wei-jen-ruled-2022 (T3).
 Schema gaps: none. Attribution note: aides have no party, so coverage counts them as "none".
 Next: E2 (political donations).
+
+### 2026-10-03 · #20 · Re-rank (no change), then E2 Political donations
+Re-rank (every 5 iterations): Now is E2, E3, E4. All three fill never-used relation types. Order kept.
+Coverage: unchanged (no data edits)
+Log: docs/research/2026-10-03-e2-donations.md (+ CSV extract of 1,131 rows)
+Added: 0 nodes, 0 edges. Changed: none
+Found:
+- The Control Yuan platform has a usable JSON API (/api/v1/search). Parameters are documented in the log.
+- 旺旺: no donation from 旺旺-group entities in itemised records. 中時, 中天, 中視 and 旺旺友聯 appear only as payees (ads, subscriptions, insurance). Large-party (KMT/DPP) accounts aren't itemised through this API.
+- 2024 presidential corporate donations: 賴 NT$166.7m (580 records), 侯 NT$54.3m (148), 柯 NT$17.3m (643). Many donors hit NT$1m (91, 36 and 6), so "top 5" is arbitrary. 3 companies gave the maximum to both 賴 and 侯.
+Not found: the large-party donor lists; whether NT$1m is the statutory cap (not checked against the law text).
+Ready to promote: none (no edges).
+Schema gaps: none.
+Next: E3 (family and spouse ties).

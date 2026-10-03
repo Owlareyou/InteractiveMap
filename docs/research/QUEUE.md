@@ -78,11 +78,6 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Empty layers and relation types
 
-- [ ] **E2 · Political donations (`donor_to`).** Use the 監察院
-  政治獻金公開查閱平台. Start with 旺旺 (the README has this as an open
-  question), then the 5 largest corporate donors to each of the KMT, DPP
-  and TPP in the most recent presidential cycle. If the platform can't be
-  queried from here, write down exactly what Jing needs to look up by hand.
 - [ ] **E3 · Family and spouse ties.** Only where both people are already
   nodes or qualify on their own: 連戰–連勝文 (`relative_of`); 傅崐萁–
   徐榛蔚 (`spouse`, Hualien magistrate); 朱立倫–高思博. Find the
@@ -236,8 +231,13 @@ Decisions the loop can't make. Park the item and carry on with the next.
   LawPlayer are tables with nothing sentence-like to quote. Is URL plus
   `quote: null` enough to promote such edges, or should a field value (e.g.
   「第 11 屆／中國國民黨／花蓮縣選舉區」) go in `quote`?
-- **旺旺 donations** (from the README): the Control Yuan platform may need a
-  manual lookup. See E2.
+- **旺旺 donations** (from the README): candidate and small-party records
+  show none (E2). KMT and DPP party accounts aren't itemised through the
+  API, so their annual reports need a manual download.
+- **`donor_to` edges** (E2): which ones to add? Options: (a) the 3
+  companies that gave the NT$1m maximum to both 賴清德 and 侯友宜; (b) all
+  14 multi-camp donors; (c) none, and leave donations as aggregate
+  context. The CSV has the record ids.
 
 ## Done
 
@@ -314,4 +314,9 @@ their log.)
   KMT-linked: 林岳龍 (investigated 2025) and 陳惟仁 (final 2022). TPP:
   searched, none found. 柯文哲's appeal confirmed (second instance opened
   2026-09-08). [Log](2026-10-03-e1b-espionage-balance.md)
+- [x] **E2 · Political donations** (2026-10-03, #20). The Control Yuan API
+  is now usable (parameters in the log). No 旺旺-group donations in itemised
+  records. 2024 presidential corporate donations extracted (CSV). No edges:
+  the NT$1m cap makes "top 5" arbitrary, so the choice is with Jing.
+  [Log](2026-10-03-e2-donations.md)
   [Logs](2026-10-03-v4-batch3.md)
