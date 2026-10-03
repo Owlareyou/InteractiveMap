@@ -188,3 +188,15 @@ Not found: the 2017 總統府 appointment order for 賴清德 (gazette issue not
 Ready to promote: ma-xi-2015-singapore, ma-xi-2024-beijing, hsia-prc-visits-2023, hung-xi-2016 (its KMT-release entry still has no URL).
 Schema gaps: none. Two calls for Jing: lai-opposes-xi (the speech doesn't name Xi) and ma-opposes-tsai (too vague to source).
 Next: N5b (remaining KMT–CPC forum rounds), then V3.
+
+### 2026-10-03 · #12 · N5b KMT–CPC forum, remaining rounds
+Coverage: cross-strait edges KMT 34 → 35; evidence without URL 43 → 43
+Log: docs/research/2026-10-03-kmt-ccp-forum.md (Part 2)
+Added: 1 node (hsiao-hsu-tsen), 1 edge (hsiao-hsu-tsen-kmt-ccp-forum-2026). Changed: cross-strait-forum-kmt-ccp (alias 兩岸交流合作前瞻論壇)
+Found:
+- The KMT–CCP forum was revived as a think-tank format, 「兩岸交流合作前瞻論壇」, in Beijing on 2026-02-02 to 04, led by vice chair 蕭旭岑.
+- The 2011 (Chengdu) and 2012 (Harbin) rounds are confirmed, but read sources don't name the KMT lead.
+Not found: fetchable sources for the 2006, 2007, 2008 and 2009 (second source) rounds. China Daily is consistently 404 on the covid-19 mirror. Whether a separate 2nd round existed in 2006 is unresolved.
+Ready to promote: hsiao-hsu-tsen-kmt-ccp-forum-2026.
+Schema gaps: none. One judgement call: the 2026 forum is folded into the same node (see log).
+Next: V3 (education edges with low or medium confidence).

@@ -4018,5 +4018,39 @@
     "review_status": "draft",
     "notes": "更名為「兩岸和平發展論壇」，北京；洪秀柱未出席開閉幕（由副主席詹啟賢出席開幕，依搜尋摘要），僅出席分組討論。中央社引文為會前當日報導。",
     "education": null
+  },
+  {
+    "id": "hsiao-hsu-tsen-kmt-ccp-forum-2026",
+    "source_id": "hsiao-hsu-tsen",
+    "target_id": "cross-strait-forum-kmt-ccp",
+    "relation_type": "attended_forum",
+    "temporal_scope": "event",
+    "valence": "positive",
+    "evidence_tier": "T2",
+    "directed": true,
+    "start": "2026-02-03",
+    "end": null,
+    "status": "historical",
+    "evidence": [
+      {
+        "source_url": "https://www.worldjournal.com/wj/amp/story/121475/9309860",
+        "source_name": "世界新聞網",
+        "source_type": "news",
+        "published_date": "2026-02-04",
+        "quote": "國民黨副主席蕭旭岑和國民黨智庫副董事長李鴻源以及40名專家學者，於2月2日至4日前往北京參加「兩岸交流合作前瞻論壇」。論壇3日落幕",
+        "retrieved_date": "2026-10-03"
+      },
+      {
+        "source_url": "https://www.businesstoday.com.tw/article/category/183025/post/202602050031/",
+        "source_name": "今周刊",
+        "source_type": "news",
+        "published_date": "2026-02-05",
+        "quote": "國民黨副主席蕭旭岑於活動致詞提到，去（2025）年台灣民眾赴陸489萬人次，將近500萬人次，幾乎回到疫情前高峰區間。",
+        "retrieved_date": "2026-10-03"
+      }
+    ],
+    "review_status": "draft",
+    "notes": "國共兩黨智庫論壇，名為「兩岸交流合作前瞻論壇」，北京；停辦約 9–10 年後恢復（2016 後首次）。原訂 1-27～29，延至 2-2～4（Newtalk 2026-01-26）。是否屬同一論壇系列係依媒體稱「國共論壇」歸併，見 log。",
+    "education": null
   }
 ]

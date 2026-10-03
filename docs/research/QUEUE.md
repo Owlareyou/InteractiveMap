@@ -76,14 +76,6 @@ Each item reads: question, why it matters, where to look, done when.
 
 ### Make existing data trustworthy
 
-- [ ] **N5b · 兩岸經貿文化論壇, remaining rounds** (split from N5). Find
-  KMT delegation leads at T2 for: the 1st (2006, Beijing, 連戰), 2nd (2006,
-  is it a round?), 3rd (2007), 4th (2008, Shanghai, 吳伯雄), 5th (2009,
-  Changsha: MJIB is one source, needs a second), 7th (2011, Chengdu), 8th
-  (2012, Harbin), and anything after 2017 (postponed under 吳敦義; check for
-  a revival, e.g. around 鄭麗文's April 2026 visit). The China Daily mirror
-  404s, so try www.chinadaily.com.cn, 人民網 or 中央社. *Done when:* every
-  round has a verdict in the log.
 - [ ] **V3 · Education edges with low or medium confidence:**
   `hsia-edu-georgetown`, `hung-edu-truman`, `hung-edu-pccu`,
   `hsia-edu-nccu`. *Where:* 立法院 legislator profiles, 總統府 and 行政院
@@ -190,6 +182,10 @@ They're re-ranked every 5 iterations.
   `2026-10-03-media-ownership.md` §1.
 - 夏立言 spoke **by video** at the 2022 (14th) Straits Forum (公視 590010).
   A possible separate edge. `2026-10-03-v1-flagged-edges.md` §6.
+- KMT–CPC forum rounds 2006–09 and 2011–12: confirmed held, but no
+  fetchable T2 naming the KMT lead. Try www.chinadaily.com.cn (not the
+  covid-19 mirror), 新華網, or the 國民黨 news archive.
+  `2026-10-03-kmt-ccp-forum.md` Part 2.
 - 王令麟: KMT member and former three-term legislator (鏡週刊 2017, one
   source), and 東森's founder. Needs a second source to qualify as a node.
   His 力霸/東森 conviction fits E1. `2026-10-03-media-political-ties.md`.
@@ -290,3 +286,7 @@ their log.)
   quotes for the three leader meetings and Lai's inaugural speech. Reuters
   replaced by TVBS for 夏立言 2023. The 2017 appointment order wasn't found.
   `ma-opposes-tsai` went to Needs Jing. [Log](2026-10-03-v2-anchor-edges.md)
+- [x] **N5b · KMT–CPC forum, remaining rounds** (2026-10-03, #12). The
+  2026-02 revival (蕭旭岑, 「兩岸交流合作前瞻論壇」) was added at T2. The
+  2006–09 and 2011–12 rounds have verdicts but no T2 KMT lead (China Daily
+  404s). [Log](2026-10-03-kmt-ccp-forum.md)

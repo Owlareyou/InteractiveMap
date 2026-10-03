@@ -62,3 +62,37 @@ N1b). One source, so **no edge**. Coverage would also count it as DPP
 **Effect on balance:** these four edges raise the KMT cross-strait count
 (30 → 34). That's expected: the forum is co-hosted by the KMT and the CCP,
 and N1b had linked only the DPP dissenters to it.
+
+---
+
+## Part 2 (N5b), 2026-10-03
+
+**Queries run:**
+- 人民網 兩岸經貿論壇 2006年4月14日 北京 開幕 連戰 賈慶林 致詞
+- 第三屆兩岸經貿文化論壇 2007年4月 北京 連戰 吳伯雄 開幕
+- 第七屆兩岸經貿文化論壇 成都 2011 吳伯雄 開幕 第八屆 哈爾濱 2012 吳伯雄
+- 第四屆兩岸經貿文化論壇 上海 2008年12月20日 吳伯雄 中央社 OR 人民網
+- 吳伯雄 率團 成都 兩岸經貿文化論壇 2011年5月7日 開幕 賈慶林 / 吳伯雄 哈爾濱 第八屆兩岸經貿文化論壇 2012年7月28日 開幕 致詞
+- 國共論壇 恢復 舉辦 2023 2024 2025 2026 兩岸論壇 國民黨 鄭麗文 朱立倫 停辦後
+
+### Round verdicts, continued from the table above
+
+| Round | Found | Verdict |
+|---|---|---|
+| 1st, 2006-04-14 to 15, Beijing (連戰) | China Daily pages only (all on the 404 mirror) | **Not taken.** No fetchable source |
+| 2nd, 2006 | Nothing found to confirm whether a separate 2nd round existed (some lists count a 2006-10 agriculture forum) | **Not taken.** Unresolved |
+| 3rd, 2007-04-28 to 29, Beijing | A summary says 胡錦濤 met the delegates. KMT lead not named in a read source | **Not taken** |
+| 4th, 2008-12-20 to 21, Shanghai (吳伯雄, chair, with 連戰) | A summary only | **Not taken** |
+| 5th, 2009 (吳伯雄) | Still one source (MJIB) | **Not taken** |
+| 7th, 2011-05-06 to 08, Chengdu | [Newtalk 14180](https://newtalk.tw/news/view/2011-05-08/14180) **(read)**: confirms the round, but **doesn't name** the KMT lead. 中新網 3023910 turned out to be about another event | **Not taken** |
+| 8th, 2012-07-28 to 29, Harbin | [鉅亨網 3013761](https://news.cnyes.com/news/id/3013761) **(read)**: the TAO's 2012-06-27 briefing confirms the round. The KMT lead isn't named for this forum | **Not taken** |
+| 9th, 2013 (extra source) | [鉅亨網 1842171, 2013-09-25](https://news.cnyes.com/news/id/1842171) **(read)**: 「中國國民黨榮譽主席吳伯雄屆時將率團出席。」 | Already T2. Not added (enough sources) |
+| **Revival, 2026-02-02 to 04, Beijing** | [世界新聞網 9309860, 2026-02-04](https://www.worldjournal.com/wj/amp/story/121475/9309860) **(read)**: 「國民黨副主席蕭旭岑和國民黨智庫副董事長李鴻源以及40名專家學者，於2月2日至4日前往北京參加「兩岸交流合作前瞻論壇」。論壇3日落幕」; [今周刊, 2026-02-05](https://www.businesstoday.com.tw/article/category/183025/post/202602050031/) **(read)**: 「國民黨副主席蕭旭岑於活動致詞提到…」; [Newtalk 1016793, 2026-01-26](https://newtalk.tw/news/view/2026-01-26/1016793) **(read)**: originally set for 01-27 to 29 | **Taken, T2**: `hsiao-hsu-tsen-kmt-ccp-forum-2026`. New node `hsiao-hsu-tsen` (KMT vice chair). Added as an alias on the forum node |
+
+**Judgement call:** I've treated the 2026 「兩岸交流合作前瞻論壇」, a
+think-tank format, as the same series as the 兩岸經貿文化論壇, because media
+call it the revived 國共論壇. If Jing prefers a separate node, split it
+out.
+
+**Other 2026 attendee, not added:** 李鴻源 (KMT think-tank vice chair). He
+also appears in the 2026 鄭習會 lineup (2026-10-01 log). He has no node.

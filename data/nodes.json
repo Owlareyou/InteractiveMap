@@ -1375,7 +1375,8 @@
     "aliases": [
       "國共論壇",
       "兩岸論壇",
-      "兩岸和平發展論壇"
+      "兩岸和平發展論壇",
+      "兩岸交流合作前瞻論壇"
     ],
     "entity_type": "association",
     "country": "CN",
@@ -1954,6 +1955,37 @@
       }
     ],
     "tags": [],
+    "bio_short_zh": null,
+    "bio_short_en": null,
+    "last_updated": "2026-10-03"
+  },
+  {
+    "id": "hsiao-hsu-tsen",
+    "wikidata_qid": null,
+    "name_zh": "蕭旭岑",
+    "name_en": "Hsiao Hsu-tsen",
+    "aliases": [],
+    "entity_type": "person",
+    "country": "TW",
+    "party_affiliations": [
+      {
+        "party_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "roles": [
+      {
+        "title_zh": "中國國民黨副主席",
+        "title_en": "KMT Vice Chair",
+        "org_id": "kmt",
+        "start": null,
+        "end": null
+      }
+    ],
+    "tags": [
+      "party_vice_chair"
+    ],
     "bio_short_zh": null,
     "bio_short_en": null,
     "last_updated": "2026-10-03"
